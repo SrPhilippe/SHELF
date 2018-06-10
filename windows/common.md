@@ -6,7 +6,7 @@ The name must be `autorun.inf`
 [AutoRun]
 icon=exemplo.exe
 ```
-[Go back](../readme.md#menu)
+[Go back](readme.md#menu)
 ___
 
 #### Get full ownership on windows
