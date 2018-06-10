@@ -6,7 +6,7 @@ The name must be `autorun.inf`
 [AutoRun]
 icon=exemplo.exe
 ```
-
+[Go back](./../readme.md#menu)
 ___
 
 #### Get full ownership on windows
@@ -30,7 +30,7 @@ ___
 
 ___
 
-#### issue hard disk windows 100% ##
+#### issue with hard disk windows in 100% ##
 ##### Option 1
 
 1. Open up the command line as administrator
@@ -83,4 +83,4 @@ ___
 shutdown -s -t (time)
 ```
 
-*time in secounds*
+*time in seconds*
