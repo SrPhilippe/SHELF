@@ -12,3 +12,5 @@ path/exiftool.exe path/image.png
 ```batch
 path/exiftool.exe -all= path/image.png
 ```
+
+[Go back](readme.md#menu)

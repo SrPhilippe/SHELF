@@ -19,3 +19,5 @@ mkdir folder-name folders-name
 ```batch
 cls
 ```
+
+[Go back](readme.md#menu)
