@@ -3,7 +3,7 @@
 * [Node commands](#node-commands)
 * [NPM commands](#npm-commands)
 
-[◀◀ Return](./)
+[◀◀ Return](../)
 
 ___
 
