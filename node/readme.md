@@ -1,11 +1,11 @@
-## Menu
-* ##### [Node commands](#node-commands)
-* ##### [NPM commands](#npm-commands)
-* ##### [My favorite gulp-plugins](#gulp-plugins)
+# Menu
+* [Node commands](#node-commands)
+* [NPM commands](#npm-commands)
+* [My favorite gulp plugins](#gulp-plugins)
 
 ___
 
-#### gulp-plugins
+## gulp-plugins
 - [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)
 - [browser-sync](https://www.npmjs.com/package/browser-sync)
 - [vinyl-ftp](https://www.npmjs.com/package/vinyl-ftp)
@@ -18,7 +18,7 @@ ___
 
 ___
 
-#### node-commands
+## Node commands
 - to execute an application with node
 ```node
 node foo/bar/example.js
@@ -26,7 +26,7 @@ node foo/bar/example.js
 
 ___
 
-#### npm-commands
+## NPM commands
 
 ### 1. Packages
 - Init **package.json** file
