@@ -1,7 +1,5 @@
 ## Git commands
 
-[◀◀ Return](./my-stuff)
-
 ## `git init`
 > inits a new repository
 

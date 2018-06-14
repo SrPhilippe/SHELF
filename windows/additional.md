@@ -13,4 +13,4 @@ path/exiftool.exe path/image.png
 path/exiftool.exe -all= path/image.png
 ```
 
-[Go back](readme.md#menu)
+[◀◀ Return](readme.md#menu)

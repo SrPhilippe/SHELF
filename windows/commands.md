@@ -20,4 +20,4 @@ mkdir folder-name folders-name
 cls
 ```
 
-[Go back](readme.md#menu)
+[◀◀ Return](readme.md#menu)
