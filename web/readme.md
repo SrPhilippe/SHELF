@@ -1,10 +1,10 @@
 # Menu
-- [MDN Useful]()
-- [Javascript]()
-- [Mysql]()
-- [.htacess]()
+- [Javascript](#javascript-useful)
+- [MDN Useful](#mozilla-developer-network-links)
+- [.htacess](#my-default-htacess-file)
+- [Mysql](#mysql)
 
-___
+---
 
 ## Javascript useful
 - ##### select by query
@@ -58,10 +58,12 @@ $("#contato form input").each((i, el) => {
 - ##### Script to remove watermark from 000webhost
 ```javascript
 // Script para ocultar marca d'agua 000webhost
-$("div[style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;display:block !important;']").css("display", "none");
+$("div[style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;display:block !important;']").css("display", "none")
 ```
 
-___
+[◀◀ Return](readme.md#menu)
+
+---
 
 ## Mozilla Developer Network links
 - [HTTP Headers status](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)
@@ -73,6 +75,23 @@ ___
 
 [◀◀ Return](readme.md#menu)
 
-___
+---
 
 ## My default `.htacess` file
+
+```apache
+# This function bellow redirect the user to the following link if the user try to access a directory or file that doesn't exist.
+ErrorDocument 404 https://(link here)/
+
+# This whole block of code removes the .html to the link
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+# sets the max_filesize and post_max_size
+php_value upload_max_filesize 500M
+php_value post_max_size 500M
+```
+
+[◀◀ Return](readme.md#menu)

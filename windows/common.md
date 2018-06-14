@@ -6,15 +6,19 @@ The name must be `autorun.inf`
 [AutoRun]
 icon=exemplo.exe
 ```
+
 [◀◀ Return](readme.md#menu)
-___
+
+---
 
 #### Get full ownership on windows
 ```batch
 takeown /F C: /R
 ```
+
 [◀◀ Return](readme.md#menu)
-___
+
+---
 
 #### Activating memory cache L2 and L3
 
@@ -30,7 +34,7 @@ ___
 
 [◀◀ Return](readme.md#menu)
 
-___
+---
 
 #### issue with hard disk windows in 100% ##
 ##### Option 1
@@ -66,7 +70,7 @@ Dism /Online /Cleanup-Image /RestoreHealth
 
 [◀◀ Return](readme.md#menu)
 
-___
+---
 
 #### Delete temporary files
 1. Locate the folders below by pressing <kbd>windows</kbd>**+**<kbd>R</kbd>
@@ -81,7 +85,7 @@ then hit <kbd>ENTER</kbd>
 
 [◀◀ Return](readme.md#menu)
 
-___
+---
 
 #### ShutDown windows
 

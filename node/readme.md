@@ -3,7 +3,7 @@
 * [Node commands](#node-commands)
 * [NPM commands](#npm-commands)
 
-___
+---
 
 ## Gulp plugins
 - [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)
@@ -16,7 +16,7 @@ ___
 
 [◀◀ Return](readme.md#menu)
 
-___
+---
 
 ## Node commands
 - to execute an application with node
@@ -26,7 +26,7 @@ node foo/bar/example.js
 
 [◀◀ Return](readme.md#menu)
 
-___
+---
 
 ## NPM commands
 
