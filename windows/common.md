@@ -6,14 +6,14 @@ The name must be `autorun.inf`
 [AutoRun]
 icon=exemplo.exe
 ```
-[Go back](readme.md#menu)
+[◀◀ Return](readme.md#menu)
 ___
 
 #### Get full ownership on windows
 ```batch
 takeown /F C: /R
 ```
-[Go back](readme.md#menu)
+[◀◀ Return](readme.md#menu)
 ___
 
 #### Activating memory cache L2 and L3
@@ -28,7 +28,7 @@ ___
 
 5. To activate the **memory cache L3** it needs to create a **DWORD 32** with the name `ThirdLevelDataCache`
 
-[Go back](readme.md#menu)
+[◀◀ Return](readme.md#menu)
 
 ___
 
@@ -64,7 +64,7 @@ Dism /Online /Cleanup-Image /RestoreHealth
 
 5. In **startup type** select the **disabled** option
 
-[Go back](readme.md#menu)
+[◀◀ Return](readme.md#menu)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 then hit <kbd>ENTER</kbd>
 
-[Go back](readme.md#menu)
+[◀◀ Return](readme.md#menu)
 
 ___
 
@@ -91,4 +91,4 @@ shutdown -s -t (time)
 
 *time in seconds*
 
-[Go back](readme.md#menu)
+[◀◀ Return](readme.md#menu)

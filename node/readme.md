@@ -1,11 +1,11 @@
 # Menu
+* [My favorite gulp plugins](#gulp-plugins)
 * [Node commands](#node-commands)
 * [NPM commands](#npm-commands)
-* [My favorite gulp plugins](#gulp-plugins)
 
 ___
 
-## gulp-plugins
+## Gulp plugins
 - [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)
 - [browser-sync](https://www.npmjs.com/package/browser-sync)
 - [vinyl-ftp](https://www.npmjs.com/package/vinyl-ftp)
@@ -14,7 +14,7 @@ ___
 - [p5.js](https://www.npmjs.com/package/p5)
 - [speed-test](https://www.npmjs.com/package/speed-test)
 
-[Go back](readme.md#menu)
+[◀◀ Return](readme.md#menu)
 
 ___
 
@@ -23,6 +23,8 @@ ___
 ```node
 node foo/bar/example.js
 ```
+
+[◀◀ Return](readme.md#menu)
 
 ___
 
@@ -51,3 +53,5 @@ npm install -g <package>
 ```node
 npm uninstall -g <package>
 ```
+
+[◀◀ Return](readme.md#menu)
