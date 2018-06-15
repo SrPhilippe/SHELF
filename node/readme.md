@@ -11,6 +11,8 @@
 - [vinyl-ftp](https://www.npmjs.com/package/vinyl-ftp)
 - [gulp-sass](https://www.npmjs.com/package/gulp-sass)
 - [gulp-csso](https://www.npmjs.com/package/gulp-csso)
+- [gulp-util](https://www.npmjs.com/package/gulp-util)
+    - > Deprecated https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
 - [p5.js](https://www.npmjs.com/package/p5)
 - [speed-test](https://www.npmjs.com/package/speed-test)
 
