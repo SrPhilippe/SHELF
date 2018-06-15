@@ -81,7 +81,7 @@ $("div[style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width
 
 ## My default `.htacess` file
 
-```ASCII
+```apache
 # This function bellow redirect the user to the following link if the user try to access a directory or file that doesn't exist.
 ErrorDocument 404 https://(link here)/
 
