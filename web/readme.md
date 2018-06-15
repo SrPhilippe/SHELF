@@ -72,6 +72,8 @@ $("div[style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width
 - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 - [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 - [FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader)
+- [URL API](https://developer.mozilla.org/en-US/docs/Web/API/URL/URL)
+- [Streams API](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API)
 
 [◀◀ Return](readme.md#menu)
 
