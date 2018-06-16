@@ -74,6 +74,7 @@ $("div[style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width
 - [FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader)
 - [URL API](https://developer.mozilla.org/en-US/docs/Web/API/URL/URL)
 - [Streams API](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API)
+- [MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
 
 [◀◀ Return](readme.md#menu)
 
