@@ -75,6 +75,7 @@ $("div[style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width
 - [URL API](https://developer.mozilla.org/en-US/docs/Web/API/URL/URL)
 - [Streams API](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API)
 - [MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
+- [Classes](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Classes)
 
 [◀◀ Return](readme.md#menu)
 
