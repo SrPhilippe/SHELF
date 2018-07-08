@@ -1,4 +1,5 @@
 ## Menu
+- [VS code](#VS-code)
 - [Atom](#Atom)
 - [Sublime]()
 
@@ -60,4 +61,102 @@
 'atom-workspace':
     'ctrl-alt-s': 'atom-live-server:stopServer',
     'alt-shift-a': 'editor:toggle-soft-wrap'
+```
+
+----------
+
+## VS code
+
+```typescript
+{
+    "workbench.colorTheme": "One Dark Pro Vivid",
+    "window.menuBarVisibility": "toggle",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#17191b"
+    },
+    "materialTheme.accentPrevious": "Teal",
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "materialTheme.fixIconsRunning": false,
+    "explorer.openEditors.visible": 0,
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "liveServer.settings.root": "/docs",
+    "git.confirmSync": false,
+    "[css]": {},
+    "beautify.config": {
+        "html": {
+            "unformatted": [
+                "a",
+                "abbr",
+                "area",
+                "audio",
+                "b",
+                "bdi",
+                "bdo",
+                "br",
+                "button",
+                "canvas",
+                "cite",
+                "code",
+                "data",
+                "datalist",
+                "del",
+                "dfn",
+                "em",
+                "embed",
+                "i",
+                "iframe",
+                "img",
+                "input",
+                "ins",
+                "kbd",
+                "keygen",
+                "label",
+                "map",
+                "mark",
+                "math",
+                "meter",
+                "noscript",
+                "object",
+                "output",
+                "progress",
+                "q",
+                "ruby",
+                "s",
+                "samp",
+                "select",
+                "small",
+                "span",
+                "strong",
+                "sub",
+                "sup",
+                "svg",
+                "template",
+                "textarea",
+                "time",
+                "u",
+                "var",
+                "video",
+                "wbr",
+                "text",
+                "acronym",
+                "address",
+                "big",
+                "dt",
+                "ins",
+                "strike",
+                "tt"
+            ]
+        }
+    }
+}
 ```
