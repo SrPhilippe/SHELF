@@ -83,7 +83,8 @@ $("div[style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width
 -   [Streams API](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API)
 -   [MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
 -   [Classes](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Classes)
-- [calc()](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)
+-   [calc()](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)
+-   [Manifest](https://developer.mozilla.org/pt-BR/docs/Web/Manifest)
 
 [◀◀ Return](readme.md#menu)
 

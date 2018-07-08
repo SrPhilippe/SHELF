@@ -1,9 +1,9 @@
 ## Menu
-- [VS code](#VS-code)
+- [VS code](#vs-code)
 - [Atom](#Atom)
 - [Sublime]()
 
----
+----------
 
 ## Atom
 <kbd>alt + ctrl + .</kbd> *Close the current XML/HTML tag*
