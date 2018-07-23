@@ -13,6 +13,19 @@
     let element = document.querySelector("selector")
 ```
 
+* * *
+
+- ##### count object keys
+```javascript
+    let obj = {
+      name: "João",
+      age: 25,
+      sons: 1
+    }
+
+    Object.keys(obj).length // this will return 3
+```
+
 -   ##### scroll animation to the anchor
 
 ```javascript
@@ -44,17 +57,35 @@ let timer = () => {
 ```
 
 -   ##### Logic to beauty animation contact form on keyup
-
+```html
+<form class="contact-form">
+    <div class="item">
+        <p>Nome</p>
+        <input type="text">
+    </div>
+    <div class="item">
+        <p>Sobrenome</p>
+        <input type="text">
+    </div>
+    <div class="item">
+        <p>E-mail</p>
+        <input type=F"mail">
+    </div>
+    <div class="item">
+        <p>Mensagem</p>
+        <textarea cols="30" rows="5"></textarea>
+    </div>
+    <input type="submit" value="Enviar">
+</form>
+```
 ```javascript
-$("#contato form input").each((i, el) => {
-  $(el).on("keyup", () => {
-    let keyL = $(el).val().length
-    if (keyL > 0) {
-      $(el).addClass("active")
-      $(el).prev("p.info-input").addClass("active")
+$('.contact-form .item input, .contact-form .item textarea').each((index, el) => {
+  $(el).keyup(e => {
+    let letters = $(e.currentTarget).val().length
+    if (letters > 0) {
+      $(el).prevAll('p').addClass('active')
     } else {
-      $(el).removeClass("active")
-      $(el).prev("p.info-input").removeClass("active")
+      $(el).prevAll('p').removeClass('active')
     }
   })
 })
@@ -73,13 +104,13 @@ $("div[style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width
 
 ## Mozilla Developer Network links
 
--   [HTTP Headers status](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)
+ -   [HTTP Headers status](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)
 -   [Event interface](https://developer.mozilla.org/en-US/docs/Web/API/Event)
 -   [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 -   [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 -   [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 -   [FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader)
--   [URL API](https://developer.mozilla.org/en-US/docs/Web/API/URL/URL)
+-   [Location API](https://developer.mozilla.org/en-US/docs/Web/API/Location)
 -   [Streams API](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API)
 -   [MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
 -   [Classes](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Classes)
