@@ -69,12 +69,11 @@
 
 ```typescript
 {
-    "workbench.colorTheme": "One Dark Pro Vivid",
     "window.menuBarVisibility": "toggle",
     "editor.fontLigatures": true,
     "editor.fontSize": 15,
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
-    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.iconTheme": "eq-material-theme-icons-light",
     "workbench.colorCustomizations": {
         "statusBar.background": "#17191b"
     },
@@ -89,7 +88,6 @@
     "explorer.openEditors.visible": 0,
     "window.zoomLevel": 0,
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "liveServer.settings.root": "/docs",
     "git.confirmSync": false,
     "[css]": {},
     "beautify.config": {
@@ -157,6 +155,11 @@
                 "tt"
             ]
         }
-    }
+    },
+    "editor.smoothScrolling": true,
+    "editor.mouseWheelZoom": true,
+    "workbench.colorTheme": "City Lights",
+    "editor.formatOnPaste": true,
+    "[javascript]": {}
 }
 ```

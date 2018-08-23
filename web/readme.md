@@ -47,9 +47,9 @@ $(".scroll").click(function(e) {
 -   ##### Easy way to reset timer js
 
 ```javascript
-let second = 5
-let timer = () => {
-    interval = setInterval(nextSlider, seconds * 5)
+let secs = 5,
+    timer = function() {
+        interval = setInterval(nextSlider, secs * 5)
 
     timer() // starts the timer
     clearInterval(interval)
