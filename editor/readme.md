@@ -69,27 +69,28 @@
 
 ```typescript
 {
-    "window.menuBarVisibility": "toggle",
+    "window.menuBarVisibility": "default",
+    "window.zoomLevel": 0,
+    "editor.mouseWheelZoom": true,
+    "editor.smoothScrolling": true,
+    "editor.formatOnPaste": true,
     "editor.fontLigatures": true,
     "editor.fontSize": 15,
+    "editor.minimap.enabled": false,
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
-    "workbench.iconTheme": "eq-material-theme-icons-light",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
     "workbench.colorCustomizations": {
         "statusBar.background": "#17191b"
     },
-    "materialTheme.accentPrevious": "Teal",
+    "workbench.colorTheme": "City Lights",
     "explorer.confirmDelete": false,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.minimap.enabled": false,
     "explorer.confirmDragAndDrop": false,
-    "liveServer.settings.donotVerifyTags": true,
-    "materialTheme.fixIconsRunning": false,
     "explorer.openEditors.visible": 0,
-    "window.zoomLevel": 0,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "git.confirmSync": false,
-    "[css]": {},
     "beautify.config": {
         "html": {
             "unformatted": [
@@ -156,10 +157,7 @@
             ]
         }
     },
-    "editor.smoothScrolling": true,
-    "editor.mouseWheelZoom": true,
-    "workbench.colorTheme": "City Lights",
-    "editor.formatOnPaste": true,
-    "[javascript]": {}
+    "window.titleBarStyle": "custom",
+
 }
 ```
