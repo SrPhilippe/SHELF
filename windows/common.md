@@ -96,3 +96,17 @@ shutdown -s -t (time)
 *time in seconds*
 
 [◀◀ Return](readme.md#menu)
+
+---
+
+#### How to turn off windows defender in windows 10
+
+1. Disable **real time protection** on windows update > windows defender firewall.
+
+2. press <kbd>window</kbd>**+**<kbd>R</kbd> and type `gpedit.msc`, then hit enter or OK.
+
+3. Go to `Computer configuration\Administrative Templates\Windows Components\Windows Defender Antivirus`
+
+4. Double click on **Turn off Windows Defender Antivirus** and hit OK.
+
+[◀◀ Return](readme.md#menu)
