@@ -1,6 +1,6 @@
 ## Additional
 
-> Perl library to remove completely all the metadata from a file
+> Perl library to completely remove all the metadata within a file
 
 *official website
  https://www.sno.phy.queensu.ca/~phil/exiftool/*
