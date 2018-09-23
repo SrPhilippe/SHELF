@@ -15,5 +15,7 @@
 
 - **`git --global user.name "username here"`**
 - **`git --global user.email "user email here"`**
-- **`git --global editor.core "<editor-here>" -w`
+- **`git --global editor.core "<editor-here>" -w`**
     - > An example to set this up is `git --global editor.core "code" -w`
+
+[◀◀ Return](../readme.md#menu)
