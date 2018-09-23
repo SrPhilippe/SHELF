@@ -1,9 +1,9 @@
 ## Git commands
 
-## `git init`
-> inits a new repository
+* **`git init`**
+inits a new repository
 
-* ## `git add`
+* **`git add`**
 * > adds a file to the commits files
     - ### `git add .`
     - adds all the files directory to the commits files
