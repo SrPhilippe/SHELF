@@ -3,7 +3,7 @@
 - `git init`
 
 - `git add <file-to.add>`
-You can use a dot "." as a argument to indicate that you want to add all the files*
+You can use a dot "." as a argument to indicate that you want to add all the files
 
 - `git status`
 shows the repository status.
