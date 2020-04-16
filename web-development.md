@@ -1,11 +1,10 @@
-# Menu
+# Javascript
 
--   [Javascript](#javascript-useful)
+## Menu
 -   [MDN Useful](#mozilla-developer-network-links)
 -   [.htacess](#my-default-htacess-file)
--   [Mysql](#mysql)
 
-* * *
+---
 
 -   ##### select by query
 
@@ -13,7 +12,7 @@
     let element = document.querySelector("selector")
 ```
 
-* * *
+---
 
 - ##### count object keys
 ```javascript
@@ -100,7 +99,7 @@ $("div[style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width
 
 [◀◀ Return](readme.md#menu)
 
-* * *
+---
 
 ## Mozilla Developer Network links
 
@@ -117,9 +116,9 @@ $("div[style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width
 -   [calc()](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)
 -   [Manifest](https://developer.mozilla.org/pt-BR/docs/Web/Manifest)
 
-[◀◀ Return](readme.md#menu)
+[↑ TOP](#Menu)
 
-* * *
+---
 
 ## My default `.htacess` file
 
@@ -137,5 +136,5 @@ RewriteRule ^(.*)$ $1.html [NC,L]
 php_value upload_max_filesize 500M
 php_value post_max_size 500M
 ```
-
-[◀◀ Return](readme.md#menu)
+[↑ TOP](#Menu)
+[◀◀ Return](readme.md)

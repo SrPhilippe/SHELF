@@ -1,26 +1,22 @@
-## Common
+# Windows solutions
 
-#### Autorun file
+### Autorun file
 The name must be `autorun.inf`
 ```batch
 [AutoRun]
 icon=exemplo.exe
 ```
 
-[◀◀ Return](readme.md#menu)
-
 ---
 
-#### Get full ownership on windows
+### Get full ownership on windows
 ```batch
 takeown /F C: /R
 ```
 
-[◀◀ Return](readme.md#menu)
-
 ---
 
-#### Activating memory cache L2 and L3
+### Activating memory cache L2 and L3
 
 1. Open CPU-Z and check in the cache tab if you have these 2 sort of memory available
 
@@ -36,8 +32,8 @@ takeown /F C: /R
 
 ---
 
-#### issue with hard disk windows in 100% ##
-##### Option 1
+### issue with hard disk windows in 100%
+#### Option 1
 
 1. Open up the command line as administrator
 
@@ -55,7 +51,7 @@ Dism /Online /Cleanup-Image /RestoreHealth
 
 4. When it's done, restart your computer
 
-##### Option 2
+#### Option 2
 > Disabling the superfetch
 
 1. Press <kbd>windows</kbd>**+**<kbd>R</kbd> and type `services.msc`
@@ -68,11 +64,9 @@ Dism /Online /Cleanup-Image /RestoreHealth
 
 5. In **startup type** select the **disabled** option
 
-[◀◀ Return](readme.md#menu)
-
 ---
 
-#### Delete temporary files
+### Delete temporary files
 1. Locate the folders below by pressing <kbd>windows</kbd>**+**<kbd>R</kbd>
 
 *Do with each one*
@@ -83,11 +77,9 @@ Dism /Online /Cleanup-Image /RestoreHealth
 
 then hit <kbd>ENTER</kbd>
 
-[◀◀ Return](readme.md#menu)
-
 ---
 
-#### ShutDown windows
+### ShutDown windows
 
 ```batch
 shutdown -s -t (time)
@@ -95,11 +87,9 @@ shutdown -s -t (time)
 
 *time in seconds*
 
-[◀◀ Return](readme.md#menu)
-
 ---
 
-#### How to turn off windows defender in windows 10
+### How to turn off windows defender in windows 10
 
 1. Disable **real time protection** on windows update > windows defender firewall.
 
@@ -109,4 +99,4 @@ shutdown -s -t (time)
 
 4. Double click on **Turn off Windows Defender Antivirus** and hit OK.
 
-[◀◀ Return](readme.md#menu)
+[◀◀ Return](readme.md)
