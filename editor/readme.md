@@ -1,64 +1,51 @@
-## VS code
+## Visual Studio Code
 
-### Today's
+### Basics
 
 ```typescript
 
 {
-    "extensions.ignoreRecommendations": false,
-    // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
-    "editor.mouseWheelZoom": true,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "workbench.colorTheme": "City Lights",
+    "workbench.iconTheme": "material-icon-theme",
+    "extensions.ignoreRecommendations": false,
+    "editor.mouseWheelZoom": true,
     "editor.fontLigatures": true,
     "explorer.openEditors.visible": 0,
-    "workbench.iconTheme": "material-icon-theme",
+    "window.menuBarVisibility": "toggle",
     "window.zoomLevel": 0,
-    "prettier.tabWidth": 4,
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     "explorer.confirmDelete": false,
     "editor.wordWrap": "on",
-    "liveServer.settings.donotShowInfoMsg": true,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 300,
-    "prettier.semi": false,
-    "workbench.colorTheme": "City Lights",
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
     "git.confirmSync": false
 }
 
 ```
 
+### Extensions
+Configs for extensions
+```typescript
 
+{
+    "liveServer.settings.donotShowInfoMsg": true,
+    "prettier.semi": false,
+    "prettier.tabWidth": 4,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
 
+```
+
+### Beautify
+Configure those elements that won't have the beautify applied to them
 ```typescript
 {
-    "window.menuBarVisibility": "default",
-    "window.zoomLevel": 0,
-    "editor.mouseWheelZoom": true,
-    "editor.smoothScrolling": true,
-    "editor.formatOnPaste": true,
-    "editor.fontLigatures": true,
-    "editor.fontSize": 15,
-    "editor.minimap.enabled": false,
-    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#17191b"
-    },
-    "workbench.colorTheme": "City Lights",
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.openEditors.visible": 0,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.donotVerifyTags": true,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "git.confirmSync": false,
     "beautify.config": {
         "html": {
             "unformatted": [
@@ -124,8 +111,6 @@
                 "tt"
             ]
         }
-    },
-    "window.titleBarStyle": "custom",
-
+    }
 }
 ```

@@ -13,6 +13,13 @@
 - **`git remote add`**
 - **`git remote remove`**
 
+
+> corret way to tell git who you are
+> - `git config --global user.email`
+> - `git config --global user.name`
+
+
+
 - **`git --global user.name "username here"`**
 - **`git --global user.email "user email here"`**
 - **`git --global editor.core "<editor-here>" -w`**
