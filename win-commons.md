@@ -84,6 +84,7 @@ then hit <kbd>ENTER</kbd>
 ```batch
 shutdown -s -t (time)
 ```
+> Obs.: Use `-r` instead of `-s` to restart
 
 *time in seconds*
 
