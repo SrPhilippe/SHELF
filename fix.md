@@ -23,3 +23,5 @@ UserSystemStylus 0
 
 1. Press <kbd>ctrl</kbd>+<kbd>K</kbd> and go to the performance tab
 2. Enable the option **_Real-time Drawing and Editing_**
+
+[◀◀ Return](readme.md)

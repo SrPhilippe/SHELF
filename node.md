@@ -1,7 +1,10 @@
 # Menu
-* [My favorite gulp plugins](#gulp-plugins)
-* [Node commands](#node-commands)
-* [NPM commands](#npm-commands)
+- [Menu](#menu)
+  - [Gulp plugins](#gulp-plugins)
+  - [Node commands](#node-commands)
+  - [NPM commands](#npm-commands)
+    - [1. Packages](#1-packages)
+    - [2. Global](#2-global)
 
 ---
 
@@ -16,7 +19,7 @@
 - [p5.js](https://www.npmjs.com/package/p5)
 - [speed-test](https://www.npmjs.com/package/speed-test)
 
-[◀◀ Return](readme.md#menu)
+[◀◀ Return](readme.md)
 
 ---
 
@@ -26,7 +29,7 @@
 node foo/bar/example.js
 ```
 
-[◀◀ Return](readme.md#menu)
+[◀◀ Return](readme.md)
 
 ---
 
@@ -56,4 +59,4 @@ npm install -g <package>
 npm uninstall -g <package>
 ```
 
-[◀◀ Return](readme.md#menu)
+[◀◀ Return](readme.md)
