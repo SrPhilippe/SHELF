@@ -9,6 +9,13 @@ icon=exemplo.exe
 
 ---
 
+### Disable windows defender
+
+1. Run `gpedit.msc` command in **_run window_**
+2. Go to **_administrative templates > Windows Components > Windows Defender Antivirus_**
+3. Go to folder **_Real-time Protection_** and enable **_Turn off real-time protection_**
+---
+
 ### Get full ownership on windows
 ```batch
 takeown /F C: /R
