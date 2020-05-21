@@ -107,4 +107,24 @@ shutdown -s -t (time)
 
 4. Double click on **Turn off Windows Defender Antivirus** and hit OK.
 
+---
+
+### Enabling Ultimate performance in power mode
+
+Just run this command on CMD
+
+```bash
+powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
+```
+
+---
+
+### Deactivate hibernate file
+
+_Only for those who owns an ssd_
+```bash
+powercfg.exe /hibernate off
+```
+_It will delete the user file_
+
 [◀◀ Return](readme.md)
