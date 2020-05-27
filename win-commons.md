@@ -23,17 +23,17 @@ takeown /F C: /R
 
 ---
 
-### Activating memory cache L2 and L3
+### ~~Activating memory cache L2 and L3~~
 
-1. Open CPU-Z and check in the cache tab if you have these 2 sort of memory available
+~~. Open CPU-Z and check in the cache tab if you have these 2 sort of memory available~~
 
-2. open the **regedit** <kbd>windows</kbd>**+**<kbd>R</kbd> and type `regedit`
+~~2. open the **regedit** <kbd>windows</kbd>**+**<kbd>R</kbd> and type `regedit`~~
 
-3. locate `Computador\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management`
+~~3. locate `Computador\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management`~~
 
-4. There is a file `SecondLevelDataCache` which by default is disabled. You Can enable it putting your **memory cache L2** value of bytes on it.
+~~4. There is a file `SecondLevelDataCache` which by default is disabled. You Can enable it putting your **memory cache L2** value of bytes on it.~~
 
-5. To activate the **memory cache L3** it needs to create a **DWORD 32** with the name `ThirdLevelDataCache`
+~~5. To activate the **memory cache L3** it needs to create a **DWORD 32** with the name `ThirdLevelDataCache`~~
 
 [◀◀ Return](readme.md#menu)
 
