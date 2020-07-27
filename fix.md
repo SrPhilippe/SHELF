@@ -14,7 +14,7 @@
 3. Create a file named `PSUserConfig.txt`
 4. Now you must open the file you've created and type the following in the first line of the document:
 ```txt
-UserSystemStylus 0
+UseSystemStylus 0
 ```
 
 5. Save the document and open photoshop again.
