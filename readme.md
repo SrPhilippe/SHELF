@@ -7,5 +7,6 @@
 5. [editor](editor.md)
 6. [Fixing issues ](fix.md)
 7. [others](others.md)
+8. [Black Desert](black-desert.md)
 
 ##### [go back to the repository](https://github.com/SrPhilippe/shelf)
