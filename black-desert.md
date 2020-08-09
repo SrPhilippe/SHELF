@@ -62,13 +62,6 @@
     * [Horse List](http://imgur.com/a/DaeiQ)
     * [Horse training xp breakdown](https://www.reddit.com/r/blackdesertonline/comments/4hue9z/horse_training_xp_breakdown_wagon_solo/)
 
-- ## Derpy Characters (proceed with caution):
-https://forum.greenheartgames.com/uploads/default/original/2X/8/8798bff382bc1cc3dce0789ad98eaef4e06f31e4.jpg
-
-http://i.imgur.com/nGsbOpX.jpg
-
-[Male ranger]
-
 # General Tips
 
 1. <kbd>ESC</kbd>
