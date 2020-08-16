@@ -5,9 +5,10 @@
 ```typescript
 
 {
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
     "workbench.colorTheme": "City Lights",
+    "editor.suggestSelection": "first",
     "workbench.iconTheme": "material-icon-theme",
     "extensions.ignoreRecommendations": false,
     "editor.mouseWheelZoom": true,
