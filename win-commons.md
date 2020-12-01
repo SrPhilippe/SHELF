@@ -6,6 +6,18 @@ The name must be `autorun.inf`
 [AutoRun]
 icon=exemplo.exe
 ```
+---
+# (OEM) Original Equipment Manufacturer check
+
+## Checking
+```batch
+wmic path softwarelicensingservice get OA3xOriginalProductKey
+```
+### Activation
+```batch
+SLUI 3
+```
+
 
 ---
 

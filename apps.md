@@ -1,14 +1,42 @@
 # Essentials
 
-- NVIDIA RTX Voice
-- CPU-Z
-- AIDA 64
+- Adobe Acrobat
+- Adobe Premiere Pro
+- Adobe Photoshop
+- Adobe Illustrator
+- Microsoft Office
+- Blender
+- Steam
+- Edge
 
-# Other
+- ### **Tools**
+  - Git
+  - IVCam
+  - Malwarebytes
+  - NVIDIA RTX Voice
+  - Realtek Audio Console
+  - **hardware**
+    - CPU-Z
+    - AIDA 64
+    - HWiNFO64
+    - Xtreme Tuner
+    - Ryzen Master
+- ### **Windows store**
+  - Nvidia Control Panel
+  - Quick look
+  - TranslucentTB
+  - SpeedTest
+  - Spotify
+- ### **Subscription**
+  - Action
+  - Afinity Photo
 
-## uTorrent
+---
+
+# uTorrent
 
 ### Hide ad
+
 To hide ads on utorrent just disable that
 
 - gui.show_plus_upsell
@@ -16,4 +44,5 @@ To hide ads on utorrent just disable that
 - offers.left_rail_offer_enabled
 
 ### Largura de banda
+
 Número máximo global de conexões = 400

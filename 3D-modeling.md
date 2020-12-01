@@ -1,33 +1,38 @@
 # Blender
 
 ## User Perspective
+
 - Viewport Shading
-    - MatCap
-        - Color **Material**
-        - Shadow **0.4**
-        - Cavity **True** / **Both**
-        - World Space
-            - Rigdge **1**
-            - Valey **1**
-        - Screen space
-            - Ridge **1.5**
-            - Valey **1**
+  - MatCap
+    - Color **Material**
+    - Shadow **0.4**
+    - Cavity **True** / **Both**
+    - World Space
+      - Rigdge **1**
+      - Valey **1**
+    - Screen space
+      - Ridge **1.5**
+      - Valey **1**
 
 ## Tools
+
 - blender
-    - Bool Tool
-    - FBX Format
+  - Bool Tool
+  - FBX Format
+  - Loop Tools
 - External
-    - Shortcut VUr
+  - Shortcut VUr
+
 ## Settings
+
 - Interface
-    - Resolution scale **1.2**
+  - Resolution scale **1.2**
 - ViewPort
-    - Anisotropic filter **2x**
+  - Anisotropic filter **2x**
 - Navigation
-    - View Navigation **Walk**
+  - View Navigation **Walk**
 - Keymap
-    - Spacebar action **Search**
+  - Spacebar action **Search**
 - System
-    - Cicle Render devices **CUDA**
-    - Undo Steps **256**
+  - Cicle Render devices **CUDA**
+  - Undo Steps **256**
