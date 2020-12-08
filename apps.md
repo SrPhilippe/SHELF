@@ -1,4 +1,4 @@
-# Essentials
+# Windows Programs
 
 - Adobe Acrobat
 - Adobe Premiere Pro
@@ -8,8 +8,7 @@
 - Blender
 - Steam
 - Edge
-
-- ### **Tools**
+- **Tools**
   - Git
   - IVCam
   - Malwarebytes
@@ -21,21 +20,19 @@
     - HWiNFO64
     - Xtreme Tuner
     - Ryzen Master
-- ### **Windows store**
+- **Windows store**
   - Nvidia Control Panel
   - Quick look
   - TranslucentTB
   - SpeedTest
   - Spotify
-- ### **Subscription**
+- **Subscription**
   - Action
   - Afinity Photo
 
----
+## uTorrent
 
-# uTorrent
-
-### Hide ad
+Hide ad
 
 To hide ads on utorrent just disable that
 
