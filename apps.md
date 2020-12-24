@@ -20,6 +20,7 @@
     - HWiNFO64
     - Xtreme Tuner
     - Ryzen Master
+    - Ventoy
 - **Windows store**
   - Nvidia Control Panel
   - Quick look
