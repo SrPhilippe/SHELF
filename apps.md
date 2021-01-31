@@ -21,6 +21,7 @@
     - Xtreme Tuner
     - Ryzen Master
     - Ventoy
+    - CristalDiskMark
 - **Windows store**
   - Nvidia Control Panel
   - Quick look
