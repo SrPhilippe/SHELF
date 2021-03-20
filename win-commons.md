@@ -18,6 +18,17 @@ wmic path softwarelicensingservice get OA3xOriginalProductKey
 SLUI 3
 ```
 
+# Check and uninstall Windows Product key
+
+## Checking
+```batch
+slmgr /dlv
+```
+
+## Uninstalling
+```batch
+slmgr /upk
+```
 
 ---
 
