@@ -142,6 +142,20 @@ powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
 
 ---
 
+### Missing open/close laptop lid in power options
+
+Add lid close action
+```bash
+powercfg -attributes SUB_BUTTONS 5ca83367-6e45-459f-a27b-476b1d01c936 -ATTRIB_HIDE
+```
+
+Add lid open action
+```bash
+powercfg -attributes SUB_BUTTONS 99ff10e7-23b1-4c07-a9d1-5c3206d741b4 -ATTRIB_HIDE
+```
+
+Otherwise, if you want to remove it you can change the parameter at the end of the code to ``+ ATTRIB_HIDE``
+
 ### Deactivate hibernate file
 
 _Only for those who owns an ssd_
