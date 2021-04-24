@@ -8,9 +8,11 @@
 - Blender
 - Steam
 - Edge
+- Stremio
 - **Tools**
   - Git
   - IVCam
+  - Snapcamera
   - Malwarebytes
   - NVIDIA RTX Voice
   - Realtek Audio Console
@@ -18,8 +20,6 @@
     - CPU-Z
     - AIDA 64
     - HWiNFO64
-    - Xtreme Tuner
-    - Ryzen Master
     - Ventoy
     - CristalDiskMark
 - **Windows store**
@@ -28,11 +28,18 @@
   - TranslucentTB
   - SpeedTest
   - Spotify
+  - Sketchable
+  - Modern Flyouts
 - **Subscription**
   - Action
   - Afinity Photo
+- **Current computer**
+  - Nitro Sense
+  - Intel graphics (WStore)
 
-## uTorrent
+---
+
+# uTorrent
 
 Hide ad
 
