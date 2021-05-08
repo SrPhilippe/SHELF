@@ -16,6 +16,7 @@
   - Malwarebytes
   - NVIDIA RTX Voice
   - Realtek Audio Console
+  - Wondershare MobileTrans
   - **hardware**
     - CPU-Z
     - AIDA 64
