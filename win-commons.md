@@ -183,6 +183,6 @@ Separatos | Value
 Prolog    |`<C3><B=0,-8>\b`
 Group name|`\t`
 Group data|Separator that you want
-Epilog    |`<S=100><C4>%Time% <S=200><C><FR>FPS`
+Epilog    |`\n<S=100><C4>%Time%     <S=200><FR>FPS`
 
 [◀◀ Return](readme.md)
