@@ -170,4 +170,19 @@ powercfg.exe /hibernate off
 
 It will delete the user file
 
+## MSI AFTERBURNER CONFIG
+
+Colors Library | R | G | B
+---------------|:-:|:-:|:-:
+Color 1        |185|231|0
+Color 2        |224|0  |49
+Color 3        |17 |175|242
+
+Separatos | Value
+----------|:-----
+Prolog    |`<C3><B=0,-8>\b`
+Group name|`\t`
+Group data|Separator that you want
+Epilog    |`<S=100><C4>%Time% <S=200><C><FR>FPS`
+
 [◀◀ Return](readme.md)
