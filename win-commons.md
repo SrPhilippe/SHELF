@@ -1,4 +1,4 @@
-v# Windows solutions
+# Windows solutions
 
 ## Autorun file
 
