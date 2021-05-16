@@ -1,4 +1,4 @@
-# Windows solutions
+v# Windows solutions
 
 ## Autorun file
 
@@ -177,12 +177,20 @@ Colors Library | R | G | B
 Color 1        |185|231|0
 Color 2        |224|0  |49
 Color 3        |17 |175|242
+Color 4        |255|255|255
+System Color   |255|255|255
 
 Separatos | Value
 ----------|:-----
-Prolog    |`<C3><B=0,-8>\b`
+Prolog    |`<C3><B=0,0>\b`
+Text      |`\n\n`
 Group name|`\t`
-Group data|Separator that you want
+Group data|Separator that you want - In my case **space**
 Epilog    |`\n<S=100><C4>%Time%     <S=200><FR>FPS`
+
+Group Separator | Value
+----------------|:-----
+Framerate       |`\n`
+CPU usage       |`\n`
 
 [◀◀ Return](readme.md)
