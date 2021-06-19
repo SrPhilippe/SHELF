@@ -15,6 +15,7 @@
   - Malwarebytes
   - NVIDIA RTX Voice
   - Realtek Audio Console
+  - Voicemeter
   - **hardware**
     - CPU-Z
     - AIDA 64
