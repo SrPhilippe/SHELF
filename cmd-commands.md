@@ -1,21 +1,30 @@
-    ****## Commands
+# Commands bash
 
-#### Create a file
+## Create a file
+
 ```batch
-type nul > your_file.txt
+touch yourfile.ext
 ```
 
-#### Delete a file
+## Delete a file
+
 ```batch
-del filename.txt
+rm filename.ext
 ```
 
-#### Create folder/s
+> Use <kbd>-f</kbd> argument to forcefully delete a file.
+> Use <kbd>-r</kbd> argument to recursively delete along with its content.
+
+## Create folder/s
+
 ```batch
-mkdir folder-name folders-name
+mkdir foldername
 ```
 
-#### clear console
+> Use <kbd>-p</kbd> argument to create nested directories.
+
+## clear console
+
 ```batch
 cls
 ```

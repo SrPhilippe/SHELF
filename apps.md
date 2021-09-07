@@ -1,4 +1,4 @@
-## Windows Programs
+# Windows Programs
 
 - Adobe Acrobat
 - Adobe Premiere Pro

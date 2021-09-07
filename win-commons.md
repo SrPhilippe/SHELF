@@ -174,16 +174,16 @@ It will delete the user file
 
 Colors Library | R | G | B
 ---------------|:-:|:-:|:-:
-Color 1        |185|231|0
-Color 2        |224|0  |49
-Color 3        |17 |175|242
-Color 4        |255|255|255
+Color 0        |185|231|0
+Color 1        |224|0  |49
+Color 2        |17 |175|242
+Color 3        |255|255|255
 System Color   |255|255|255
 
 Separatos | Value
 ----------|:-----
 Prolog    |`<C3><B=0,0>\b`
-Text      |`\n\n`
+Text      |`\n`
 Group name|`\t`
 Group data|Separator that you want - In my case **space**
 Epilog    |`\n<S=100><C4>%Time%     <S=200><FR>FPS`

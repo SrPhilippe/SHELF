@@ -14,13 +14,13 @@ shows the repository status.
 - `git remote add`
 - `git remote remove`
 
-
 corret way to tell git who you are
+
 - `git config --global user.email`
 - `git config --global user.name`
 
-
 - `git --global editor.core "<editor-here>" -w`
+
 > An example to set this up is `git --global editor.core "code" -w`
 
 [◀◀ Return](readme.md)
