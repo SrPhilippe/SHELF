@@ -33,9 +33,13 @@
 - **Subscription**
   - Action
   - Afinity Photo
+  - IVCam (Android)
+  - Simulados Detran by Aplicativo Legais (Android, iOS)
 - **Current computer**
   - Nitro Sense
   - Intel graphics (WStore)
+- **None of your business**
+  - _FER BC RC CREOW_
 
 ---
 
