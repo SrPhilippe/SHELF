@@ -33,6 +33,7 @@
 - **Subscription**
   - Action
   - Afinity Photo
+  - StartIsBack
   - IVCam (Android)
   - Simulados Detran by Aplicativo Legais (Android, iOS)
 - **Current computer**
