@@ -13,6 +13,7 @@
   - Git
   - Snapcamera
   - Malwarebytes
+  - [Deemix](https://deemix.app/gui)
   - NVIDIA RTX Voice
   - Realtek Audio Console
   - Voicemeter
