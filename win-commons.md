@@ -197,7 +197,7 @@ CPU usage       |`\n`
 
 ### Solve issue with discord overlay
 
-There is an issue where MSI Afterburner don't let the discord overlay show up in the game. To solve this, you'll need to put the code bellow under the line `InjectionDelay=15000`.
+There is an issue where MSI Afterburner don't let the discord overlay show up in the game. To solve this, you'll need to put the code bellow under the line `InjectionDelay=15000` inside `GLOBAL` file at `C:\Program Files (x86)\RivaTuner Statistics Server\Profiles`
 
 ```bash
 
