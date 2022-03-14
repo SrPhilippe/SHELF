@@ -195,6 +195,16 @@ CPU usage       |`\n`
 
 ---
 
+### Solve issue with discord overlay
+
+There is an issue where MSI Afterburner don't let the discord overlay show up in the game. To solve this, you'll need to put the code bellow under the line `InjectionDelay=15000`.
+
+```bash
+
+InjectionDelayTriggers=IGO64.dll,IGO32.dll,d3dcompiler_47.dll,DiscordHook.dll,DiscordHook64.dll,GameOverlayRenderer.dll,GameOverlayRenderer64.dll,steam_api64.dll,steam_api.dll,d3d9.dll,dxgi.dll,d3d9_smaa.dll,d3d11.dll,DiscordOverlay.dll,DiscordOverlay64.dll
+
+```
+
 ## Changing Windows boot logo
 
 1. Download this [BGRTInjector](https://github.com/Jamesits/BGRTInjector/releases)
