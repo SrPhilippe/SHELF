@@ -57,7 +57,9 @@ ___
 
 ## Cyber hunter config
 
-`config`file inside folder's directory
+This is a part of code from the `config` file inside folder's directory.
+Better graphics and high FPS.
+
 ```ini
 [graphic_setting]
 graphic_quality = 4
@@ -66,5 +68,3 @@ fps_level_pc = 4
 graphic_quality_show = 4
 graphic_hdr = -1
 ```
-
-Better graphics and high FPS
