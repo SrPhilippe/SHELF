@@ -52,3 +52,19 @@ It's important to remember that when we talk about stuff related to a external i
 In order to reduce the delay we should find the lowest bufferSize value until the sound start to strike.
 
 my buffersize inside voicemeter ASIO Driver: 224
+
+___
+
+## Cyber hunter config
+
+`config`file inside folder's directory
+```ini
+[graphic_setting]
+graphic_quality = 4
+display_mode_pc = 1
+fps_level_pc = 4
+graphic_quality_show = 4
+graphic_hdr = -1
+```
+
+Better graphics and high FPS

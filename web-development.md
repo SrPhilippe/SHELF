@@ -1,20 +1,30 @@
 # Javascript
 
-## Menu
+## Mozilla Developer Network links
 
-- [MDN Useful](#mozilla-developer-network-links)
-
-- [.htacess](#my-default-htacess-file)
+- [HTTP Headers status](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)
+- [Event interface](https://developer.mozilla.org/en-US/docs/Web/API/Event)
+- [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+- [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+- [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
+- [FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader)
+- [Location API](https://developer.mozilla.org/en-US/docs/Web/API/Location)
+- [Streams API](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API)
+- [MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
+- [Classes](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Classes)
+- [calc()](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)
+- [Manifest](https://developer.mozilla.org/pt-BR/docs/Web/Manifest)
 
 ---
 
-### select by query
+## select by query
 
 ```javascript
-    let element = document.querySelector("selector")
+    document.querySelector('selector')
+    document.querySelectorAll('seletor')
 ```
 
-#### count object keys
+## count object keys
 
 ```javascript
     let obj = {
@@ -26,7 +36,7 @@
     Object.keys(obj).length // this will return 3
 ```
 
-#### scroll animation to the anchor
+## scroll animation to the anchor
 
 ```javascript
 let $doc = $("html, body")
@@ -38,7 +48,7 @@ $(".scroll").click(function(e) {
 })
 ```
 
-### Shorhand if else
+## Shorhand if else
 
 ```javascript
 (condition) ? true : false;
@@ -56,7 +66,7 @@ let secs = 5,
 }
 ```
 
-### Logic to beauty animation contact form on keyup
+## Logic to beauty animation contact form on keyup
 
 ```html
 <form class="contact-form">
@@ -93,27 +103,6 @@ $('.contact-form .item input, .contact-form .item textarea').each((index, el) =>
 })
 ```
 
-[◀◀ Return](readme.md#menu)
-
----
-
-## Mozilla Developer Network links
-
-- [HTTP Headers status](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)
-- [Event interface](https://developer.mozilla.org/en-US/docs/Web/API/Event)
-- [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
-- [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-- [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
-- [FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader)
-- [Location API](https://developer.mozilla.org/en-US/docs/Web/API/Location)
-- [Streams API](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API)
-- [MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
-- [Classes](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Classes)
-- [calc()](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)
-- [Manifest](https://developer.mozilla.org/pt-BR/docs/Web/Manifest)
-
-[↑ TOP](#Menu)
-
 ---
 
 ## My default `.htacess` file
@@ -131,6 +120,27 @@ RewriteRule ^(.*)$ $1.html [NC,L]
 # sets the max_filesize and post_max_size
 php_value upload_max_filesize 500M
 php_value post_max_size 500M
+```
+
+---
+
+## Removing 000webhost wattermark
+
+```javascript
+
+// Select all Div childs inside body element
+const $bodyDivs = document.querySelectorAll('body > div')
+
+ $bodyDivs.forEach((el) => { // Finding webhost div
+  let unknownEl = el.firstChild
+  if (
+   unknownEl.nodeName === 'A' &&
+   unknownEl.querySelector('img').getAttribute('alt') ===
+    'www.000webhost.com'
+  ) {
+   el.remove() // Removes the webhost element from the DOM
+  }
+ })
 ```
 
 [↑ TOP](#Menu)
