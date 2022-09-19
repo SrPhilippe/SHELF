@@ -207,14 +207,15 @@ InjectionDelayTriggers=IGO64.dll,IGO32.dll,d3dcompiler_47.dll,DiscordHook.dll,Di
 
 ## Changing Windows boot logo
 
-1. Download this [BGRTInjector](https://github.com/Jamesits/BGRTInjector/releases)
+1. Download this [HackerBGRT](https://github.com/Metabolix/HackBGRT)
 2. Create an image with 250x250 resolution and BMP format with a full black background color
+   - The image must be 24-bit format named `boot_image.bpm`
 3. Execute the `setup` file and press `I` to install
 4. A txt file will pop-up, let it open
 5. Execute paint with administrator priviledges
 6. Open the `.bmp` image you created
 7. Click `File > Save as > Select A:/EFI/HackBGRT/`
 8. Overwrite the `splash.bmp` image in this folder
-9. Close paint and then the cmd terminal
+9.  Close paint and then the cmd terminal
 
 [◀◀ Return](readme.md)
