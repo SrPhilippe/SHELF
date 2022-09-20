@@ -143,5 +143,39 @@ const $bodyDivs = document.querySelectorAll('body > div')
  })
 ```
 
+## Ternary operator
+
+```js
+let a = 1
+let b = 2
+let c,d = null
+
+a === b ? c = true : c = false
+
+// You can separate the true/false lines
+
+(a === b)
+? c = true
+: c = false
+
+// Allowing more than one task
+
+a === b
+? (c = true, d = false)
+: (c = false, d = true)
+
+// The elseif
+
+a !== b
+? d = false
+  : (a === b) // elseif
+  ? c = true
+: console.log('do nothing') // false value for a !== b
+
+```
+
+
+matches function
+
 [↑ TOP](#Menu)
 [◀◀ Return](readme.md)
