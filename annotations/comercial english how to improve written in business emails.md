@@ -76,31 +76,31 @@ The opening line of the message. It depends on wheather you know the people you 
 > It's highly recommended that you addresss the person by name.
 
 - You should determine what title your recipient prefers to use. E.g.
-  - *Mr., Ms., Doctor...*
+  - Mr., Ms., Doctor..
 - For formal e-mail: `Dear`. E.g.:
-  - *"Dear Mr. Jones"*
-  - *"Dear Ms. `(Last Name for a woman)`"*
-  - *"Dear Dr. `(Last Name for anyone with doctorate)`"*
+  - *"Dear Mr. Jones,"*
+  - *"Dear Ms. `(Last Name for a woman)`,"*
+  - *"Dear Dr. `(Last Name for anyone with doctorate)`,"*
 
-> If you are not sure of the person's gender you should refer as *"Dear `(First Name Last Name)`"*
+> If you are not sure of the person's gender you should refer as *"Dear `(First Name Last Name)`,"*
 
 ...
 
-> As well as if you don't know the recipient's name you can refer as *"Dear `J(ob Title)`"*
+> As well as if you don't know the recipient's name you can refer as *"Dear `J(ob Title)`,"*
 
 ## A group of team you don't know
 
 When you're writting to a group of people you don't know, you can use:
 
-- *"Dear All"*
-- *"Dear `(Team Name)`"*
+- *"Dear All,"*
+- *"Dear `(Team Name)`,"*
 
 
 ### Less formal greetings
 
-- *"Hi `(First Name)`"*
-- *"Good Morning `(First Name)`"*
-- *"Hello `(First Name)`"*
+- *"Hi `(First Name)`,"*
+- *"Good Morning `(First Name)`,"*
+- *"Hello `(First Name)`,"*
 
 ### Rules
 

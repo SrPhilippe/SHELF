@@ -2,31 +2,18 @@
 
 ## Mozilla Developer Network links
 
-- [HTTP Headers status](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)
-- [Event interface](https://developer.mozilla.org/en-US/docs/Web/API/Event)
-- [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
-- [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-- [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
-- [FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader)
-- [Location API](https://developer.mozilla.org/en-US/docs/Web/API/Location)
-- [Streams API](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API)
-- [MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
-- [Classes](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Classes)
-- [calc()](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)
-- [Manifest](https://developer.mozilla.org/pt-BR/docs/Web/Manifest)
-
 ---
 
 ## select by query
 
-```javascript
+```js
     document.querySelector('selector')
     document.querySelectorAll('seletor')
 ```
 
 ## count object keys
 
-```javascript
+```js
     let obj = {
       name: "João",
       age: 25,
@@ -36,27 +23,9 @@
     Object.keys(obj).length // this will return 3
 ```
 
-## scroll animation to the anchor
-
-```javascript
-let $doc = $("html, body")
-$(".scroll").click(function(e) {
-  $doc.animate({
-      scrollTop: $( $.attr(this, "href") ).offset().top
-  }, 500)
-  // e.preventDefault() // Just prevent the default action if you want to hide the anchor URL
-})
-```
-
-## Shorhand if else
-
-```javascript
-(condition) ? true : false;
-```
-
 ### Easy way to reset timer js
 
-```javascript
+```js
 let secs = 5,
     timer = function() {
         interval = setInterval(nextSlider, secs * 5)
@@ -90,7 +59,7 @@ let secs = 5,
 </form>
 ```
 
-```javascript
+```js
 $('.contact-form .item input, .contact-form .item textarea').each((index, el) => {
   $(el).keyup(e => {
     let letters = $(e.currentTarget).val().length
@@ -126,7 +95,7 @@ php_value post_max_size 500M
 
 ## Removing 000webhost wattermark
 
-```javascript
+```js
 
 // Select all Div childs inside body element
 const $bodyDivs = document.querySelectorAll('body > div')
@@ -174,8 +143,10 @@ a !== b
 
 ```
 
+## Regular expressions matches email
 
-matches function
+```regexp
+^[^ ]+@[^ ]+\.[a-z]{2,3}$
+```
 
-[↑ TOP](#Menu)
 [◀◀ Return](readme.md)
