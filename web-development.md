@@ -9,6 +9,12 @@
 ```js
     document.querySelector('selector')
     document.querySelectorAll('seletor')
+
+    // verify if an element matches, similar to css has(selector)
+    document.querySelector('seletor').matches('foo')
+
+    // tests if the element has a class
+    element.classList.contains('class')
 ```
 
 ## count object keys
@@ -49,7 +55,7 @@ let secs = 5,
     </div>
     <div class="item">
         <p>E-mail</p>
-        <input type=F"mail">
+        <input type="mail">
     </div>
     <div class="item">
         <p>Mensagem</p>
@@ -60,14 +66,16 @@ let secs = 5,
 ```
 
 ```js
-$('.contact-form .item input, .contact-form .item textarea').each((index, el) => {
-  $(el).keyup(e => {
-    let letters = $(e.currentTarget).val().length
-    if (letters > 0) {
-      $(el).prevAll('p').addClass('active')
-    } else {
-      $(el).prevAll('p').removeClass('active')
-    }
+
+// Selecting textareas and inputs that don't match [hidden] and [submit] types
+const inputs = document.querySelector('textarea, input:not([type="hidden"], [type="submit"])')
+
+inputs.forEach(el => {
+  el.addEventListener('input', () => {
+    const target = el.currentTarget
+    (target.value > 0)
+      ? target.previousSibling.classList.add('active')
+      : target.previousSibling.classList.remove('active')
   })
 })
 ```
@@ -143,10 +151,10 @@ a !== b
 
 ```
 
-## Regular expressions matches email
+## Regular expression to match an email pattern
 
 ```regexp
-^[^ ]+@[^ ]+\.[a-z]{2,3}$
+/^[^ ]+@[^ ]+\.[a-z]{2,3}$/
 ```
 
 [◀◀ Return](readme.md)
