@@ -1,23 +1,28 @@
-# Javascript
+# My web development memory book
 
-## Mozilla Developer Network links
+Important patterns, codes, exemples I find useful or important to use in my projects.
 
----
+- [Javascript](#javascript)
+- [CSS](#css)
+- [HTML](#html)
+- [Apache](#apache)
 
-## select by query
+## Javascript
+
+### select by query
 
 ```js
     document.querySelector('selector')
     document.querySelectorAll('selector')
 
-    // verify if an element matches, similar to css has(selector)
-    document.querySelector('seletor').matches('foo')
+    // Tests wheather the current element matches the 'foo' selector or not
+    document.querySelector('element').matches('selector')
 
-    // tests if the element has a class
+    // Tests wheather the element has a class or not
     element.classList.contains('class')
 ```
 
-## count object keys
+### count object keys
 
 ```js
     let obj = {
@@ -41,7 +46,7 @@ let secs = 5,
 }
 ```
 
-## Logic to beauty animation contact form on keyup
+### Logic to beauty animation contact form on keyup
 
 ```html
 <form class="contact-form">
@@ -80,31 +85,9 @@ inputs.forEach(el => {
 })
 ```
 
----
-
-## My default `.htacess` file
-
-```apache
-# This function bellow redirect the user to the following link if the user try to access a directory or file that doesn't exist.
-ErrorDocument 404 https://(link here)/
-
-# This whole block of code removes the .html to the link
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html [NC,L]
-
-# sets the max_filesize and post_max_size
-php_value upload_max_filesize 500M
-php_value post_max_size 500M
-```
-
----
-
-## Removing 000webhost wattermark
+### Removing 000webhost wattermark
 
 ```js
-
 // Select all Div childs inside body element
 const $bodyDivs = document.querySelectorAll('body > div')
 
@@ -120,7 +103,7 @@ const $bodyDivs = document.querySelectorAll('body > div')
  })
 ```
 
-## Ternary operator
+### Ternary operator
 
 ```js
 let a = 1
@@ -169,4 +152,95 @@ export default function addGlobalEventListener(type, selector, callback) {
 }
 ```
 
+[◀◀ Go top](#my-web-development-memory-book)
+[◀◀ Return](readme.md)
+
+---
+
+## CSS
+
+## My custom css reset file
+
+I usually name it `varnreset.css` because it's also where I set the :root variables
+
+```css
+:root {
+
+}
+
+::-webkit-scrollbar {
+    background-color: initial;
+    width: initial;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: initial;
+    border-radius: initial;
+}
+
+::selection {
+    background-color: initial;
+    color: initial;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+a {
+  display: inline-block;
+}
+
+.container {
+  max-width: 1124px;
+  margin-block: auto;
+  width: 100%;
+}
+```
+
+### About variables
+
+[◀◀ Go top](#my-web-development-memory-book)
+[◀◀ Return](readme.md)
+
+---
+
+# HTML
+
+[◀◀ Go top](#my-web-development-memory-book)
+[◀◀ Return](readme.md)
+
+---
+
+## Apache
+
+### My default `.htacess` file
+
+```apache
+# This function bellow redirect the user to the following link if the user try to access a directory or file that doesn't exist.
+ErrorDocument 404 https://(link here)/
+
+# This whole block of code removes the .html to the link
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+# sets the max_filesize and post_max_size
+php_value upload_max_filesize 500M
+php_value post_max_size 500M
+```
+
+[◀◀ Go top](#my-web-development-memory-book)
 [◀◀ Return](readme.md)
