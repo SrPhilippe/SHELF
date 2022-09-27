@@ -161,7 +161,7 @@ export default function addGlobalEventListener(type, selector, callback) {
 
 ## My custom css reset file
 
-I usually name it `varnreset.css` because it's also where I set the :root variables inside the project.
+I usually name it `varnreset.css` because it's also where I set the **_:root_** variables inside the project.
 
 ```css
 :root {
