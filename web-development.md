@@ -161,7 +161,7 @@ export default function addGlobalEventListener(type, selector, callback) {
 
 ## My custom css reset file
 
-I usually name it `varnreset.css` because it's also where I set the :root variables
+I usually name it `varnreset.css` because it's also where I set the :root variables inside the project.
 
 ```css
 :root {
@@ -209,7 +209,41 @@ a {
 }
 ```
 
+### Commented sections
+
+```css
+/* -------------------------------------------------- */
+
+/* =HEADER  |---------------------------------------- */
+
+/* =MENU    |---------------------------------------- */
+
+/* =SUB     |---------------------------------------- */
+
+/* =MAIN    |---------------------------------------- */
+
+/* =FOOTER  |---------------------------------------- */
+
+/* =QUERIES |---------------------------------------- */
+```
+
 ### About variables
+
+Set the variables in the **_:root_** using the usual method `--name-of-the-var`. But when it comes to variables that are avaiable only in specific scopes, it's better to differentiate using **underline** <kbd>_</kbd>.
+
+- E.g. `--_name-of-the-var`
+
+```css
+:root {
+  /* Variable in the root scope */
+  --z-index-tooltip: 10;
+}
+
+.wrapper {
+  /* This variable is avaiable only inside the .wrapper scope */
+  --_size: 3rem;
+}
+```
 
 [🠝 go top](#my-web-development-memory-book)<br>
 [🠜 go back](readme.md)
