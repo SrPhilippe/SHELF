@@ -250,7 +250,7 @@ Set the variables in the **_:root_** using the usual method `--name-of-the-var`.
 
 ---
 
-# HTML
+## HTML
 
 [🠝 go top](#my-web-development-memory-book)<br>
 [🠜 go back](readme.md)
