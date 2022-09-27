@@ -8,7 +8,7 @@
 
 ```js
     document.querySelector('selector')
-    document.querySelectorAll('seletor')
+    document.querySelectorAll('selector')
 
     // verify if an element matches, similar to css has(selector)
     document.querySelector('seletor').matches('foo')
@@ -155,6 +155,18 @@ a !== b
 
 ```regexp
 /^[^ ]+@[^ ]+\.[a-z]{2,3}$/
+```
+
+## Util functions
+
+```js
+export default function addGlobalEventListener(type, selector, callback) {
+  document.addEventListener(type, e => {
+    if (e.target.matches(selector)) {
+      callback(e)
+    }
+  })
+}
 ```
 
 [◀◀ Return](readme.md)
