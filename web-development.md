@@ -152,8 +152,8 @@ export default function addGlobalEventListener(type, selector, callback) {
 }
 ```
 
-- [▲](#my-web-development-memory-book)
-- [◄](readme.md)
+[🠝 go top](#my-web-development-memory-book)<br>
+[🠜 go back](readme.md)
 
 ---
 
@@ -211,15 +211,15 @@ a {
 
 ### About variables
 
-- [▲](#my-web-development-memory-book)
-- [◄](readme.md)
+[🠝 go top](#my-web-development-memory-book)<br>
+[🠜 go back](readme.md)
 
 ---
 
 # HTML
 
-- [▲](#my-web-development-memory-book)
-- [◄](readme.md)
+[🠝 go top](#my-web-development-memory-book)<br>
+[🠜 go back](readme.md)
 
 ---
 
@@ -242,5 +242,5 @@ php_value upload_max_filesize 500M
 php_value post_max_size 500M
 ```
 
-- [▲](#my-web-development-memory-book)
-- [◄](readme.md)
+[🠝 go top](#my-web-development-memory-book)<br>
+[🠜 go back](readme.md)
