@@ -1,5 +1,5 @@
 # Games configs and more
-[Go to games](../games/)
+[Go to games](../web-development/)
 ## Rocksmith 2014 Edition
 
 I got problems when I launched the game. The sound was chopping and the game window was always minimized, even when I tried to maximize it.
