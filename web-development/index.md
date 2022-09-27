@@ -7,6 +7,8 @@ Important patterns, codes, exemples I find useful or important to use in my proj
 - [HTML](#html)
 - [Apache](#apache)
 
+[🠜 go back](../readme.md)
+
 ## Javascript
 
 ### select by query
@@ -153,7 +155,7 @@ export default function addGlobalEventListener(type, selector, callback) {
 ```
 
 [🠝 go top](#my-web-development-memory-book)<br>
-[🠜 go back](readme.md)
+[🠜 go back](../readme.md)
 
 ---
 
@@ -246,14 +248,14 @@ Set the variables in the **_:root_** using the usual method `--name-of-the-var`.
 ```
 
 [🠝 go top](#my-web-development-memory-book)<br>
-[🠜 go back](readme.md)
+[🠜 go back](../readme.md)
 
 ---
 
 ## HTML
 
 [🠝 go top](#my-web-development-memory-book)<br>
-[🠜 go back](readme.md)
+[🠜 go back](../readme.md)
 
 ---
 
@@ -277,4 +279,4 @@ php_value post_max_size 500M
 ```
 
 [🠝 go top](#my-web-development-memory-book)<br>
-[🠜 go back](readme.md)
+[🠜 go back](../readme.md)
