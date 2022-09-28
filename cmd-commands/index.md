@@ -1,4 +1,12 @@
-# Commands bash
+# Commands 
+
+### Opens this file
+```bash
+explorer index.html
+```
+
+
+## Commands bash
 
 ## Create a file
 

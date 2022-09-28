@@ -28,7 +28,7 @@ Segue abaixo os mais comuns.
 
  #### C cedilha
 
-<kbd>"'</kbd> <sub>*(localizado ao lado da tecla enter)*</sub> **+** <kbd>Letra</kbd>
+<kbd>"'</kbd> <sub>*(localizado ao lado da tecla enter)*</sub> **+** <kbd>C</kbd>
 
 ---
 
