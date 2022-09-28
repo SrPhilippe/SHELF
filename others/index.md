@@ -1,4 +1,4 @@
-# Other things
+# Uncategorized
 
 ## Using US keyboard layout being a Brazilian 😬
 
@@ -26,7 +26,7 @@ Segue abaixo os mais comuns.
 
 <kbd>Fn</kbd> **+** <kbd>Shift</kbd> **+** <kbd>Esc</kbd>
 
- #### C cedilha
+#### C cedilha
 
 <kbd>"'</kbd> <sub>*(localizado ao lado da tecla enter)*</sub> **+** <kbd>C</kbd>
 
@@ -34,24 +34,21 @@ Segue abaixo os mais comuns.
 
 ## Library in Perl to deal with metadata
 
-With this library you can remove completely all the metadatas within any file
+With this library you competely remove the metadatas within any file
 
-*official website
- <https://www.sno.phy.queensu.ca/~phil/exiftool/>*
+- [official website](https://www.sno.phy.queensu.ca/~phil/exiftool/)
 
-## How to check all the metadata from a file
+### How to check all the metadata in a specific file
 
 ```batch
 path/exiftool.exe path/image.png
 ```
 
-## Deleting all metadata from a file
+### Deleting all metadata from a file
 
 ```batch
 path/exiftool.exe -all= path/image.png
 ```
 
----
-
-[🠝 go top](#other-things)<br>
+[🠝 go top](#uncategorized)<br>
 [🠜 go back](../readme.md)
