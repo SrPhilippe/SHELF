@@ -35,6 +35,9 @@
 - Sketchable
 - Modern Flyouts
 
+[🠝 go top](#windows-programs)<br>
+[🠜 go back](../readme.md)
+
 ## Subscription
 
 - Action
@@ -42,6 +45,9 @@
 - StartIsBack
 - IVCam (Android)
 - Simulados Detran by Aplicativo Legais (Android, iOS)
+
+[🠝 go top](#windows-programs)<br>
+[🠜 go back](../readme.md)
 
 ## Other tools
 
@@ -51,6 +57,9 @@
 - Realtek Audio Console
 - Voicemeter
 
+[🠝 go top](#windows-programs)<br>
+[🠜 go back](../readme.md)
+
 ## Hardware
 
 - CPU-Z
@@ -58,6 +67,9 @@
 - HWiNFO64
 - Ventoy
 - CristalDiskMark
+
+[🠝 go top](#windows-programs)<br>
+[🠜 go back](../readme.md)
 
 ## Current computer custom softwares
 
