@@ -14,3 +14,18 @@
 
 1. Press <kbd>ctrl</kbd>+<kbd>K</kbd> and go to the performance tab
 2. Enable the option **_Real-time Drawing and Editing_**
+
+## uTorrent
+
+Hide ad
+
+in order to hide ads on utorrent make sure to disable these options
+
+- `gui.show_plus_upsell`
+- `offers.sponsored_torrent_offer_enabled`
+- `offers.left_rail_offer_enabled`
+
+### Melhorar download
+
+1. Navegue até **Largura de Banda**
+2. Sete a opção: **Número máximo global de conexões** em `400`
