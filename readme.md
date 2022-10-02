@@ -6,7 +6,7 @@ THIS IS A REPOSITORY FOR PERSONAL USE PURPOSES.
 ## Directories list
 
 - [Web development](web-development/)
-- [Most used commands](git-commands/)
+- [Git and Bash commands](git-commands/)
 - [Windows issues](windows-issues/)
 - [Programs issues](programs-issues/)
 - [Applications](apps/)
