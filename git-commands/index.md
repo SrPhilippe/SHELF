@@ -1,6 +1,7 @@
 # Git commands
 
-[🠜 go back](../readme.md)
+| [🠜 go back](../readme.md) |
+| -------------------------- |
 
 - `git init`: Initiates a git repository
 
@@ -11,13 +12,16 @@
 
 - `git commit -m "commit message"`: make a commit with a custom message for all the staged files
 
-- `git push`: Pushes all the commits to the HEAD branch
+- `git push`: Pushes all the commits to the [HEAD](#head) branch
 
 - `git branch`: Creates a new branch
 
   - > Tip: When creating a branch _e.g._ `git branch development`, you can publish this branch with the following command: `git push --set-upstream origin development`
 
+- `git marge`: Unifies two or more histories together
+  - > The [HEAD](#head) should be pointing to the ramification who will receive the merged files. So if you want to merge the development branch into the main, you should do `git checkout main` and then `git merge development`
 
+---
 
 <details>
 <summary>I don't know what to do with these guys for know</summary>
@@ -28,12 +32,17 @@
 
 ## Understanding the names
 
-<details>
+<details id="head">
+<summary>What is <b>HEAD</b></summary>
+You can think of the arrow in a git graph. The arrow will point to the current selected branch, thus HEAD means where we are in the project at the moment.
+</details>
+
+<details id="origin">
 <summary>What is <b>origin</b></summary>
 Origin is an alias for the remote repository that the project was originally cloned from.
 </details>
 
-<details>
+<details id="upstream">
 <summary>What is <b>upstream</b></summary>
 Upstream refers to the original repo or a branch. For example, when you clone from Github, the remote Github repo is upstream for the cloned local copy.
 </details>
@@ -60,5 +69,6 @@ git --global editor.core <editor-here> -w
 git --global editor.core "code" -w
 ```
 
-[🠝 go top](#git-commands)<br>
-[🠜 go back](../readme.md)
+| [🠝 go top](#git-commands) |
+| -------------------------- |
+| [🠜 go back](../readme.md) |
