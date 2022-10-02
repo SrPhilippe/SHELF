@@ -50,5 +50,6 @@ path/exiftool.exe path/image.png
 path/exiftool.exe -all= path/image.png
 ```
 
-[🠝 go top](#uncategorized)<br>
-[🠜 go back](../readme.md)
+| [🠝 go top](#uncategorized) |
+| --------------------------- |
+| [🠜 go back](../readme.md)  |
