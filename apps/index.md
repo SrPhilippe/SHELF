@@ -1,14 +1,14 @@
 # Windows Programs
 
-| Item | Menu                                                                    |
-| :--: | ----------------------------------------------------------------------- |
-| 1.   | [Standard](#standard)                                                   |
-| 2.   | [Windows store](#windows-store)                                         |
-| 3.   | [Subscription](#subscription)                                           |
-| 4.   | [Other tools](#other-tools)                                             |
-| 6.   | [Hardware](#hardware)                                                   |
-| 7.   | [Current computer custom softwares](#current-computer-custom-softwares) |
-| 8.   | [None of your business](#none-of-your-business)                         |
+| Item | Menu                                            |
+| :--: | ----------------------------------------------- |
+| 1.   | [Standard](#standard)                           |
+| 2.   | [Windows store](#windows-store)                 |
+| 3.   | [Subscription](#subscription)                   |
+| 4.   | [Other tools](#other-tools)                     |
+| 6.   | [Hardware](#hardware)                           |
+| 7.   | [Current PC](#current-computer)                 |
+| 8.   | [None of your business](#none-of-your-business) |
 
 [🠜 go back](../readme.md)
 
@@ -71,7 +71,7 @@
 [🠝 go top](#windows-programs)<br>
 [🠜 go back](../readme.md)
 
-## Current computer custom softwares
+## Current Computer
 
 - Nitro Sense
 - Intel graphics (WStore)
