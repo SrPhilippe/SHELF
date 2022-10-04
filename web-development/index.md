@@ -9,6 +9,8 @@ Important patterns, codes, exemples I find useful or important to use in my proj
 | [HTML](#html)             |
 | [Apache](#apache)         |
 
+---
+
 | [🠜 go back](../readme.md) |
 | -------------------------- |
 

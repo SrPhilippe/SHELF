@@ -10,6 +10,8 @@
 | [Current PC](#current-computer)                 |
 | [None of your business](#none-of-your-business) |
 
+---
+
 | [🠜 go back](../readme.md) |
 | -------------------------- |
 
