@@ -2,7 +2,6 @@
 
 Important patterns, codes, exemples I find useful or important to use in my projects.
 
-
 | Menu                      |
 | ------------------------- |
 | [Javascript](#javascript) |
