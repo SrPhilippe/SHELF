@@ -12,8 +12,9 @@
 
 ---
 
-| [🠜 go back](../readme.md) |
+| Navigation                 |
 | -------------------------- |
+| [🠜 go back](../readme.md) |
 
 ## Standard
 
@@ -38,8 +39,9 @@
 - Sketchable
 - Modern Flyouts
 
-| [🠝 go top](#windows-programs) |
+| Navigation                     |
 | ------------------------------ |
+| [🠝 go top](#windows-programs) |
 | [🠜 go back](../readme.md)     |
 
 ## Subscription
@@ -50,8 +52,9 @@
 - IVCam (Android)
 - Simulados Detran by Aplicativo Legais (Android, iOS)
 
-| [🠝 go top](#windows-programs) |
+| Navigation                     |
 | ------------------------------ |
+| [🠝 go top](#windows-programs) |
 | [🠜 go back](../readme.md)     |
 
 ## Other tools
@@ -62,8 +65,9 @@
 - Realtek Audio Console
 - Voicemeter
 
-| [🠝 go top](#windows-programs) |
+| Navigation                     |
 | ------------------------------ |
+| [🠝 go top](#windows-programs) |
 | [🠜 go back](../readme.md)     |
 
 ## Hardware
@@ -74,8 +78,9 @@
 - Ventoy
 - CristalDiskMark
 
-| [🠝 go top](#windows-programs) |
+| Navigation                     |
 | ------------------------------ |
+| [🠝 go top](#windows-programs) |
 | [🠜 go back](../readme.md)     |
 
 ## Current Computer
@@ -89,6 +94,7 @@
 
 > _FER BC RC CREOW_
 
-| [🠝 go top](#windows-programs) |
+| Navigation                     |
 | ------------------------------ |
+| [🠝 go top](#windows-programs) |
 | [🠜 go back](../readme.md)     |
