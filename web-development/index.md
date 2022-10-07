@@ -216,6 +216,7 @@ a {
 
 textarea {
     font-family: var(--font-family);
+    resize: none;
 }
 
 .container {
