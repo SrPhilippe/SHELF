@@ -173,7 +173,7 @@ I usually name it `varnreset.css` because it's also where I set the **_:root_** 
 
 ```css
 :root {
-
+    --font-family: sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -206,8 +206,16 @@ img {
   max-width: 100%;
 }
 
+ul, ol {
+  list-style: none;
+}
+
 a {
   display: inline-block;
+}
+
+textarea {
+    font-family: var(--font-family);
 }
 
 .container {
