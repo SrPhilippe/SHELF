@@ -1,7 +1,8 @@
 # Git commands
 
-| [🠜 go back](../readme.md) |
+| Navigation                 |
 | -------------------------- |
+| [🠜 go back](../readme.md) |
 
 - `git init`: Initiates a git repository
 
