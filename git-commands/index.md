@@ -69,6 +69,7 @@ git --global editor.core <editor-here> -w
 git --global editor.core "code" -w
 ```
 
-| [🠝 go top](#git-commands) |
+| Navigation                 |
 | -------------------------- |
+| [🠝 go top](#git-commands) |
 | [🠜 go back](../readme.md) |
