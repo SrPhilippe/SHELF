@@ -174,6 +174,7 @@ I usually name it `varnreset.css` because it's also where I set the **_:root_** 
 ```css
 :root {
     --font-family: sans-serif;
+    --tran-fade-normal: opacity .4s ease;
 }
 
 ::-webkit-scrollbar {
