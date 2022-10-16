@@ -146,7 +146,7 @@ a !== b
 /^[^ ]+@[^ ]+\.[a-z]{2,3}$/
 ```
 
-### Better one
+### Better **one**
 
 ```regexp
 /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/
@@ -154,14 +154,67 @@ a !== b
 
 ## Util functions
 
+### Global Event Listener
+
 ```js
-export default function addGlobalEventListener(type, selector, callback) {
-  document.addEventListener(type, e => {
-    if (e.target.matches(selector)) {
-      callback(e)
-    }
-  })
+export function addGlobalEventListener(
+  type,
+  selector,
+  callback,
+  options,
+  parent = document
+) {
+  parent.addEventListener(type, e => {
+    if (e.target.matches(selector)) callback(e)
+  },
+    options
+  )
 }
+```
+
+### Handling css classes
+
+```js
+export const addClass = (element, classes = 'active') => {
+  element.classList.add(classes)
+}
+
+export const rmClass = (element, classes = 'active') => {
+  element.classList.remove(classes)
+}
+
+export const toggClass = (element, classes = 'active') => {
+  element.classList.toggle(classes)
+}
+```
+
+### Query Selector
+
+```js
+export function qs(selector, parent = document) {
+  return parent.querySelector(selector)
+}
+```
+
+## Fixed menu anchor correction
+
+When we use a fixed menu in our website. We end up messing with the anchor offset, in a way that makes the menu always hidding the initial part of the section.
+
+Nowadays, there's a very simple solution using the css property `scroll-margin-top`.
+
+I personally prefer to set the property through javascript.
+
+```js
+//
+const sections = document.querySelector('.sections')
+const menu = document.querySelector('.menu') // Menu with 75px height
+const  menuHeight  = menu.offsetHeight // Gets the height from the menu
+
+sections.forEach(section => {
+  section.style.scrollMarginTop =
+    `${menuHeight}px` // output => scroll-margin-top: 75px
+})
+
 ```
 
 | Navigation                                   |
