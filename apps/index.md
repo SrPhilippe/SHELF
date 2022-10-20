@@ -28,6 +28,7 @@
 - Blender
 - Steam
 - Stremio
+- Notion
 
 ## Windows store
 
