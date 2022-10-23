@@ -63,9 +63,9 @@ Upstream refers to the original repo or a branch. For example, when you clone fr
 
 After installing git in our computer and before we can make any commits, we must tell git who we are passing some global or local informations.
 
-- `git config --global user.email` this command sets a global user email
+- `git config --global user.email <email>` this command sets a global user email
 
-- `git config --global user.name` this command sets a global user name
+- `git config --global user.name <username>` this command sets a global user name
 
 After this, if you try to publish a repository with vscode, an authentication window will pop in order to check the credentials to start the push.
 
