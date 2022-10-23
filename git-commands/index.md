@@ -22,6 +22,11 @@
 - `git marge`: Unifies two or more histories together
   - > The [HEAD](#head) should be pointing to the ramification who will receive the merged files. So if you want to merge the development branch into the main, you should do `git checkout main` and then `git merge development`
 
+- `git remote`: List of the [remote](#remote) connections you have to other repositories
+  - `git remote -v`: Same as the above command, but include the URL of each connection
+  - `git remote add <name> <url>`: Create a new connection to a remote repository
+  - `git remote rm <name>`: Remove the connection to the remote repository called ＜name＞
+
 ---
 
 <details>
@@ -41,6 +46,12 @@ You can think of the arrow in a git graph. The arrow will point to the current s
 <details id="origin">
 <summary>What is <b>origin</b></summary>
 Origin is an alias for the remote repository that the project was originally cloned from.
+</details>
+
+<details id="remote">
+<summary>What is <b>Remote</b></summary>
+The git remote command lets you create, view, and delete connections to other repositories. Remote connections are more like bookmarks rather than direct links into other repositories. Instead of providing real-time access to another repository, they serve as convenient names that can be used to reference a not-so-convenient URL.
+See more <a href="https://www.atlassian.com/git/tutorials/syncing" rel="noopener" target="_blank">in Bitbucket</a>.
 </details>
 
 <details id="upstream">
