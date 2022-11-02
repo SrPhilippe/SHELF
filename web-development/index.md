@@ -2,12 +2,13 @@
 
 Important patterns, codes, exemples I find useful or important to use in my projects.
 
-| Menu                       |
-| -------------------------- |
-| [Javascript](#javascript)  |
-| [CSS](#css)                |
-| [HTML](#html)              |
-| [Apache](#apache)          |
+| Menu                      |
+| ------------------------- |
+| [Javascript](#javascript) |
+| [CSS](#css)               |
+| [HTML](#html)             |
+| [Apache](#apache)         |
+| [Vs Code](#vs-code)       |
 
 | Navigation                 |
 | -------------------------- |
@@ -217,6 +218,16 @@ sections.forEach(section => {
 
 ```
 
+### Associate value in more than one variable
+
+```js
+let token = false
+let lastTimestamp = false
+
+token = localStorage.token = 3
+lastTimestamp = localStorage.lastTimestamp = currentSec()
+```
+
 | Navigation                                   |
 | -------------------------------------------- |
 | [🠝 go top](#my-web-development-memory-book) |
@@ -234,6 +245,8 @@ I usually name it `varnreset.css` because it's also where I set the **_:root_** 
 :root {
     --font-family: sans-serif;
     --tran-fade-normal: opacity .4s ease;
+
+    --margin-icon-link: 0.3rem; // Margin used between text links and the icon in it
 }
 
 ::-webkit-scrollbar {
@@ -355,6 +368,36 @@ RewriteRule ^(.*)$ $1.html [NC,L]
 # sets the max_filesize and post_max_size
 php_value upload_max_filesize 500M
 php_value post_max_size 500M
+```
+
+| Navigation                                   |
+| -------------------------------------------- |
+| [🠝 go top](#my-web-development-memory-book) |
+| [🠜 go back](../readme.md)                   |
+
+## Vs code
+
+Vs code configs not in use
+
+```jsonc
+  // Power mode !DISABLED
+  "powermode.enabled": false,
+  "powermode.presets": "flames",
+  "powermode.explosions.size": 8,
+  "powermode.shake.enabled": false,
+  "powermode.explosions.duration": 150,
+  "powermode.combo.timerEnabled": "hide",
+  "powermode.combo.location": "statusbar",
+  "powermode.combo.counterEnabled": "hide",
+
+  "editor.fontLigatures": "'ss01', 'ss03', 'ss05', 'cv01', 'cv02', 'cv06', 'cv27', 'cv29', 'cv30'", // Ligatures for 'Fira Code'
+  "editor.fontLigatures": "'calt', 'ss01'", // Ligatures for 'Cascadia Code'
+
+  // Ruler code wrap
+  "editor.rulers": [90],
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#2185ba"
+  }
 ```
 
 | Navigation                                   |
