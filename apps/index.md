@@ -89,16 +89,16 @@
 - Nitro Sense
 - Intel graphics (WStore)
 
-| Type        | Brand        | Model        | Aditional infos                                       | Support |
-| ----------- | :----------: | :----------: | ----------------------------------------------------- | ------- |
-| Motherboard | Gigabyte     | GA B550M     | Aorus Elite                                           |         |
-| Processor   | AMD          | Ryzen 5 3600 | 3.6MHz (turbo 4.2MHz)                                 |         |
-| Video Card  | Sheli 51RISC | RTX 3060Ti   | 8GB                                                   |         |
-| Source      | NZXT         | C550 - 550W  | 80 Plus Bronze - PFC Ativo, Semi Modular, PA-5B1BB-US |         |
-| Memory      | Asgard       | Valkyrie V5  | 8GBx2 3600Mhz DDR4                                    |         |
-| Storage     | Reletech     | 1TB 2280     | controlador phison independente - ssd m.2 pcie        |         |
-| Cover       | Montech      | x3 MESH      | Mid Tower, White, ATX,  x6 Fans RGB                   |         |
-| Monitor     | LG           | 26WQ500-B    | 26" IPS Full HD UltraWide™ - 21:9 com AMD FreeSync™   |         |
+| Type         | Brand        | Model        | Additional infos                                      | Support |
+| ------------ | :----------: | :----------: | ----------------------------------------------------- | ------- |
+| Motherboard  | Gigabyte     | GA B550M     | Aorus Elite                                           |         |
+| Processor    | AMD          | Ryzen 5 3600 | 3.6MHz (turbo 4.2MHz)                                 |         |
+| Video Card   | Sheli 51RISC | RTX 3060Ti   | 8GB                                                   |         |
+| Power Supply | NZXT         | C550 - 550W  | 80 Plus Bronze - PFC Ativo, Semi Modular, PA-5B1BB-US |         |
+| Memory       | Asgard       | Valkyrie V5  | 8GBx2 3600Mhz DDR4                                    |         |
+| Storage      | Reletech     | 1TB 2280     | controlador phison independente - ssd m.2 pcie        |         |
+| Case         | Montech      | x3 MESH      | Mid Tower, White, ATX,  x6 Fans RGB                   |         |
+| Monitor      | LG           | 26WQ500-B    | 26" IPS Full HD UltraWide™ - 21:9 com AMD FreeSync™   |         |
 
 ---
 
