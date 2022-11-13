@@ -78,6 +78,7 @@
 - HWiNFO64
 - Ventoy
 - CristalDiskMark
+- Drive booster
 
 | Navigation                     |
 | ------------------------------ |
@@ -99,6 +100,14 @@
 | Storage      | Reletech     | 1TB 2280     | controlador phison independente - ssd m.2 pcie        |         |
 | Case         | Montech      | x3 MESH      | Mid Tower, White, ATX,  x6 Fans RGB                   |         |
 | Monitor      | LG           | 26WQ500-B    | 26" IPS Full HD UltraWide™ - 21:9 com AMD FreeSync™   |         |
+
+### Downloads
+
+[Ryzen Master download](https://www.amd.com/en/technologies/ryzen-master)
+[CPU Support](https://www.amd.com/en/support/cpu/amd-ryzen-processors/amd-ryzen-5-desktop-processors/amd-ryzen-5-3600)
+[Gigabyte download](https://www.gigabyte.com/Motherboard/B550M-AORUS-ELITE-rev-1x/support#support-dl-driver)
+[Chipset AMD B550](https://www.amd.com/en/support/chipsets/amd-socket-am4/b550)
+[Nvidia drivers](https://www.nvidia.com/download/index.aspx)
 
 ---
 
