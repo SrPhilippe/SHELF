@@ -30,6 +30,17 @@ Segue abaixo os mais comuns.
 
 <kbd>"'</kbd> <sub>*(localizado ao lado da tecla enter)*</sub> **+** <kbd>C</kbd>
 
+### Habbo Hotel special section
+
+| Name   | Key                             |
+| ------ | ------------------------------- |
+| Locker | <kbd>alt</kbd> + <kbd>F9</kbd>  |
+| Heart  | <kbd>sift</kbd> + <kbd>\\</kbd> |
+|        |                                 |
+
+
+
+
 ---
 
 ## Library in Perl to deal with metadata

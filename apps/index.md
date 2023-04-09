@@ -88,9 +88,6 @@
 
 ## Current Computer
 
-- Nitro Sense
-- Intel graphics (WStore)
-
 | Type         | Brand        | Model        | Additional infos                                      | Support |
 | ------------ | :----------: | :----------: | ----------------------------------------------------- | ------- |
 | Motherboard  | Gigabyte     | GA B550M     | Aorus Elite                                           |         |
@@ -98,7 +95,8 @@
 | Video Card   | Sheli 51RISC | RTX 3060Ti   | 8GB                                                   |         |
 | Power Supply | NZXT         | C550 - 550W  | 80 Plus Bronze - PFC Ativo, Semi Modular, PA-5B1BB-US |         |
 | Memory       | Asgard       | Valkyrie V5  | 8GBx2 3600Mhz DDR4                                    |         |
-| Storage      | Reletech     | 1TB 2280     | controlador phison independente - ssd m.2 pcie        |         |
+| Storage 1    | Reletech     | 1TB Mod:2280 | controlador phison independente - ssd m.2 pcie        |         |
+| Storage 2    | Z-suit       | 1TB Mod:2280 | 1600MBs/2000MBs                                       |         |
 | Case         | Montech      | x3 MESH      | Mid Tower, White, ATX,  x6 Fans RGB                   |         |
 | Monitor      | LG           | 26WQ500-B    | 26" IPS Full HD UltraWide™ - 21:9 com AMD FreeSync™   |         |
 
@@ -112,9 +110,12 @@
 
 ---
 
-## None of your business
+<details>
+<summary>Hello  World</summary>
+<i>Fem Er Rep Bicy Clerk Recy Can Dign Reli Enlis Oxy Wild</i>
+</details>
 
-> _FER BC RC CREOW_
+---
 
 | Navigation                     |
 | ------------------------------ |

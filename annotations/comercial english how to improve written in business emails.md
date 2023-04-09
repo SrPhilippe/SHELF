@@ -95,7 +95,6 @@ When you're writting to a group of people you don't know, you can use:
 - *"Dear All,"*
 - *"Dear `(Team Name)`,"*
 
-
 ### Less formal greetings
 
 - *"Hi `(First Name)`,"*

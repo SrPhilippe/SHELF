@@ -41,14 +41,6 @@ slmgr /upk
 
 ---
 
-## Disable windows defender
-
-1. Run `gpedit.msc` command in **_run window_**
-2. Go to **_administrative templates > Windows Components > Windows Defender Antivirus_**
-3. Go to folder **_Real-time Protection_** and enable **_Turn off real-time protection_**
-
----
-
 ## Get full ownership on windows
 
 ```batch
@@ -128,9 +120,11 @@ time in seconds
 
 2. press <kbd>window</kbd>**+**<kbd>R</kbd> and type `gpedit.msc`, then hit enter or OK.
 
-3. Go to `Computer configuration\Administrative Templates\Windows Components\Windows Defender Antivirus`
+3. Go to `Administrative Templates\Windows Components\Microsoft Defender  Antivirus`
 
-4. Double click on **Turn off Windows Defender Antivirus** and hit OK.
+4. Double click on **Turn off Microsoft Defender Antivirus** and hit OK.
+
+5. Now inside the current folder, open the folder **real time protection** and repeat the step 4 but instead, disable **turn  off real-time protection**.
 
 ---
 
@@ -197,7 +191,7 @@ CPU usage       |`\n`
 
 ### Solve issue with discord overlay
 
-There is an issue where MSI Afterburner don't let the discord overlay show up in the game. To solve this, you'll need to put the code bellow under the line `InjectionDelay=15000` inside `GLOBAL` file at `C:\Program Files (x86)\RivaTuner Statistics Server\Profiles`
+There is an issue where MSI Afterburner don't let the discord overlay show up in the game. To solve this, you'll need to put the code bellow under the line `InjectionDelay=15000` inside `GLOBAL` file at `C:\Program Files (x86)\RivaTuner Statistics Server\ProfileTemplates`
 
 ```bash
 
@@ -218,4 +212,7 @@ InjectionDelayTriggers=IGO64.dll,IGO32.dll,d3dcompiler_47.dll,DiscordHook.dll,Di
 8. Overwrite the `splash.bmp` image in this folder
 9.  Close paint and then the cmd terminal
 
-[◀◀ Return](readme.md)
+| Navigation                 |
+| -------------------------- |
+| [🠝 go top](#windows-solutions) |
+| [🠜 go back](../readme.md) |

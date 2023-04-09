@@ -35,30 +35,30 @@ ___
 0.366 [INFO]    Voicemeeter Virtual ASIO
 ```
 
-In my case I'm using voicemeeter to control my audio interface, so I'm using Voicemeeter Virtual ASIO
+In my case, I'm using Voicemeeter to control my audio interface, so I'm using Voicemeeter Virtual ASIO.
 
-**Important:** you should copy the text related to your asio driver in this block of text.
+**Important:** you should copy the text related to your Asio driver in this block of text.
 
-6 - Open `RS_ASIO.ini` file inside the game directory and paste your asio driver name right after `Driver=` line.
+6 - Open `RS_ASIO.ini` file inside the game directory and paste your Asio driver name right after `Driver=` line.
 
-**Important:** You have to assign the input and output driver in this text file.
+**Important:** You have to assign the input and output drivers in this text file.
 
-In my case I used `[Asio.output]` assigned to `Voicemeeter Virtual ASIO` and `[Asio.input.0]` assigned to `Voicemeeter Virtual ASIO`
+In my case, I used `[Asio.output]` assigned to `Voicemeeter Virtual ASIO` and `[Asio.input.0]` assigned to `Voicemeeter Virtual ASIO`
 
-Now you're most done.
+Now you're almost done.
 
-It's important to remember that when we talk about stuff related to a external instrument connected to your computer, the sound will always have some delay.The most bufferSize you have setted to your device the longest time it will take the sound to come out of the speakers.
+It's important to remember that when we talk about stuff related to an external instrument connected to your computer, the sound will always have some delay. The most bufferSize you have settled to your device the longest time it will take the sound to come out of the speakers.
 
-In order to reduce the delay we should find the lowest bufferSize value until the sound start to strike.
+To reduce the delay we should find the lowest bufferSize value until the sound start to strike.
 
-my buffersize inside voicemeter ASIO Driver: 224
+my buffer size inside Voicemeter ASIO Driver: 224
 
 ___
 
 ## Cyber hunter config
 
-This is a part of code from the `config` file inside folder's directory.
-Better graphics and high FPS.
+This is a piece of code from the `config` file inside the folder's directory.
+It will give us better graphics and a higher FPS.
 
 ```ini
 [graphic_setting]
@@ -68,6 +68,34 @@ fps_level_pc = 4
 graphic_quality_show = 4
 graphic_hdr = -1
 ```
+
+___
+
+## Minecraft
+
+Some of the config files are located inside [this folder](./minecraft/)
+
+### Mods
+
+- Optifine
+- Forge Library
+- Journey map
+- Just Enough Items
+
+### Resource pack
+
+- [Faithfull](https://faithfulpack.net/downloads)
+- Stay True
+- [Legendary](https://legendaryrttextures.com/download/)
+- [Redstone Utilities V2](https://www.curseforge.com/minecraft/texture-packs/redstone-utilities)
+- [Another Restone Utilities](https://faithfulpack.net/addons/redstone-utilities)
+
+### Shaders pack
+
+- BSL Shaders V8.2.01
+- SEUS PTGI E12
+
+___
 
 ## Best ASCII arts
 
