@@ -60,12 +60,13 @@
 
 ## Other tools
 
-- Snapcamera
+- Snap Camera
 - [Deemix](https://deemix.app/gui)
 - NVIDIA RTX Voice
 - Realtek Audio Console
 - Grammarly
 - Voicemeter
+- X-mouse
 
 | Navigation                     |
 | ------------------------------ |

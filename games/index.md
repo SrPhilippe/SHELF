@@ -79,6 +79,7 @@ Some of the config files are located inside [this folder](./minecraft/)
 
 - Optifine
 - Forge Library
+- Rubidium
 - Journey map
 - Just Enough Items
 

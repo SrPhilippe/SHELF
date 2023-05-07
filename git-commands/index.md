@@ -29,18 +29,11 @@
 
 ---
 
-<details>
-<summary>I don't know what to do with these guys for know</summary>
-`git remote -v`<br>
-`git remote add`<br>
-`git remote remove`
-</details>
-
 ## Understanding the names
 
 <details id="head">
 <summary>What is <b>HEAD</b></summary>
-You can think of the arrow in a git graph. The arrow will point to the current selected branch, thus HEAD means where we are in the project at the moment.
+You can imagine the HEAD as an arrow in a git graph, something like a pointer when you are programming in a low-level language like assembly. The arrow will point to the currently selected branch, thus HEAD means where we are in the project at the moment.
 </details>
 
 <details id="origin">
@@ -50,7 +43,7 @@ Origin is an alias for the remote repository that the project was originally clo
 
 <details id="remote">
 <summary>What is <b>Remote</b></summary>
-The git remote command lets you create, view, and delete connections to other repositories. Remote connections are more like bookmarks rather than direct links into other repositories. Instead of providing real-time access to another repository, they serve as convenient names that can be used to reference a not-so-convenient URL.
+The git remote command lets you create, view, and delete connections to other repositories. Remote connections are more like bookmarks rather than direct links inside other repositories. Instead of providing real-time access to another repository, they serve as convenient names that can be used to reference a not-so-convenient URL.
 See more <a href="https://www.atlassian.com/git/tutorials/syncing" rel="noopener" target="_blank">in Bitbucket</a>.
 </details>
 
@@ -61,13 +54,13 @@ Upstream refers to the original repo or a branch. For example, when you clone fr
 
 ## How to tell git who you are?
 
-After installing git in our computer and before we can make any commits, we must tell git who we are passing some global or local informations.
+After installing git in our computer and before we can make any commits, we must tell git who we are, passing some global or local information.
 
-- `git config --global user.email <email>` this command sets a global user email
+- `git config --global user.email <email>` This command sets a global user email
 
-- `git config --global user.name <username>` this command sets a global user name
+- `git config --global user.name <username>` This command sets a global username
 
-After this, if you try to publish a repository with vscode, an authentication window will pop in order to check the credentials to start the push.
+After this, if you try to publish a repository with vscode, an authentication window will pop up to check the credentials to start the push.
 
 ## How to set the default editor to open with git
 
