@@ -19,6 +19,9 @@
 
   - > Tip: When creating a branch _e.g._ `git branch development`, you can publish this branch with the following command: `git push --set-upstream origin development`
 
+- `git checkout`: The git checkout command switches branches or restores working tree files. It operates on files, commits, and branches. The git checkout command allows switching between multiple features in just a single repository.
+  - > `git checkout -b` creates a branch and directly switch to it.
+
 - `git marge`: Unifies two or more histories together
   - > The [HEAD](#head) should be pointing to the ramification who will receive the merged files. So if you want to merge the development branch into the main, you should do `git checkout main` and then `git merge development`
 

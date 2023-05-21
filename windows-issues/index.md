@@ -114,7 +114,7 @@ time in seconds
 
 ---
 
-### How to turn off windows defender in windows 10
+### How to turn off windows defender in windows 10/11
 
 1. Disable **real time protection** on windows update > windows defender firewall.
 
@@ -125,6 +125,10 @@ time in seconds
 4. Double click on **Turn off Microsoft Defender Antivirus** and hit OK.
 
 5. Now inside the current folder, open the folder **real time protection** and repeat the step 4 but instead, disable **turn  off real-time protection**.
+
+`HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender`
+
+create a DWORD 32 bits `DisableAntiSpyware` value `1` or `0`
 
 ---
 

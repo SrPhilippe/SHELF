@@ -1,9 +1,9 @@
 # My web development memory book
 
-Important patterns, codes, exemples I find useful or important to use in my projects.
+ Patterns, codes and examples I find useful or important to use on my projects.
 
 | Menu                      |
-| ------------------------- |
+| :-----------------------: |
 | [Javascript](#javascript) |
 | [CSS](#css)               |
 | [HTML](#html)             |
