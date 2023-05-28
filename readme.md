@@ -12,4 +12,5 @@ THIS IS A REPOSITORY FOR PERSONAL USE PURPOSES.
 - [Applications](apps/)
 - [Games](games/)
 - [3D Modeling](3D-modeling/)
+- [3D Printer](3D-printer/)
 - [Others](others/)
