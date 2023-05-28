@@ -4,15 +4,11 @@
 
 ### Close and open explorer
 
-- Opening
-
 ```batch
+:: Opening
  start explorer.exe
-```
 
-- Closing (kill)
-
-```batch
+:: Closing (kill)
  taskkill /f /im explorer.exe
 ```
 
@@ -22,20 +18,54 @@
 
 ### Open file
 
-```bash
+```batch
 explorer index.html
+```
+
+### Move directory
+
+```batch
+mv ./other-images/ ./images
+
+:: You don't necessarily need to specify the relative folder
+mv other-images images
+
+:: Moving 'hello.txt' to the folder '/awesome/'
+mv /example/hello.txt /awesome/
+```
+
+### Rename
+
+To rename you can use the same command to [move a directory](#move-directory). You need to supply the same path to the directory but with a different name.
+
+```batch
+:: Renaming file
+mv main.js index.js
+
+:: Renaming folder
+mv awesome superawersome
+```
+
+### Copy
+
+```batch
+:: Copying file or folder into another folder
+cp -r awesome superawesome
+
+:: Copying file content into another file
+cp hello.txt hi.txt
 ```
 
 ### Create file
 
 ```batch
-touch yourfile.ext
+touch to-do-list.txt
 ```
 
 ### Delete file
 
 ```batch
-rm filename.ext
+rm to-do-list.txt
 ```
 
 > Use <kbd>-f</kbd> argument to forcefully delete a file.

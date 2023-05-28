@@ -2,14 +2,17 @@
 
 ## Things to know before the purchase
 
-- Glass bed: Durable, easy to use, clean, and sleek.
-
+- Glass bed: Durable, easy to use, clean, and sleek
+- The top of the z-axis (threaded rod) is meant to be free-floating, so don't make any upgrades to make it steady
+- Good to use silicon spacers for the bed
+- Buy good Bed clips
+- Fusion 360
 
 ## Scott Yu-Jan  printer settings
 
 | Name                                   | Value               |
 | -------------------------------------- | :-----------------: |
-| Generate Support                       | [x]                 |
+| Generate Support                       | TRUE                |
 | Support Structure                      | Tree                |
 | Tree Support Branch Angle              | 40                  |
 | Tree Support Branch Distance           | 0.6mm               |
