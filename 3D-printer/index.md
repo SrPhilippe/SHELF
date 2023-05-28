@@ -9,7 +9,7 @@
 
 | Name                                   | Value               |
 | -------------------------------------- | :-----------------: |
-| Generate Support                       | TRUE                |
+| Generate Support                       | [x]                 |
 | Support Structure                      | Tree                |
 | Tree Support Branch Angle              | 40                  |
 | Tree Support Branch Distance           | 0.6mm               |
