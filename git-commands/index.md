@@ -46,26 +46,28 @@ git push
 ### branch
 
 ```batch
-git branch
-:: Creates a new branch
+git branch development
+:: Creates a new branch named developed
 ```
 
 > Tip: When creating a branch _e.g._ `git branch development`, you can publish this branch with the following command: `git push --set-upstream origin development`
 
 ```batch
 git checkout
-:: The git checkout command switches branches or restores working tree files. It operates on files, commits, and branches. The git checkout command allows switching between multiple features in just a single repository
+:: The git checkout command switches branches or restores working tree files.
 ```
 
+> It operates on files, commits, and branches. The git checkout command allows switching between multiple features in just a single repository
+
 ```batch
-git checkout -b
-:: Creates a branch and directly switch to it
+git checkout development -b
+:: Creates a branch and directly switches to it
 ```
 
 ### merge
 
 ```batch
-git marge
+git marge development
 :: Unifies two or more histories together
 ```
 
@@ -118,25 +120,31 @@ See more <a href="https://www.atlassian.com/git/tutorials/syncing" rel="noopener
 Upstream refers to the original repo or a branch. For example, when you clone from Github, the remote Github repo is upstream for the cloned local copy.
 </details>
 
-## How to tell git who you are?
+## Telling git who you are
 
-After installing git in our computer and before we can make any commits, we must tell git who we are, passing some global or local information.
+Before making commits, git might prompt a window or information that it doesn't know who is committing the staged files. So the user must provide those data:
 
-- `git config --global user.email <email>` This command sets a global user email
+```batch
+git config --global user.email <email>
+:: This command sets a global user email
+```
 
-- `git config --global user.name <username>` This command sets a global username
+```batch
+git config --global user.name <username>
+:: This command sets a global username
+```
 
-After this, if you try to publish a repository with vscode, an authentication window will pop up to check the credentials to start the push.
+After this, if you try to publish a repository with Vscode, an authentication window will appear so that the user can log in.
 
 ## How to set the default editor to open with git
 
-```git
+```batch
 git --global editor.core <editor-here> -w
 ```
 
 - _E.g._ Setting vscode as the default editor
 
-```git
+```batch
 git --global editor.core "code" -w
 ```
 
