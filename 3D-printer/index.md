@@ -7,6 +7,9 @@
 - Good to use silicon spacers for the bed
 - Buy good Bed clips
 - Fusion 360
+- Reducing the outer shell wall speed in low-cost printers
+- Replace the nozzle when it gets worn out
+- Add a belt tensioner if it doesn't come stock with them
 
 ## Scott Yu-Jan  printer settings
 
