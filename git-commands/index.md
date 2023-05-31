@@ -7,15 +7,24 @@
 ```batch
 git init
 :: Initiates a repository
-``` 
-add
+```
 
-- `git add filename.ext`: Stages the `filename.ext` for commit
-  - If you use a dot <kbd>.</kbd> instead of the file name, all the changes will be staged
+```batch
+git add filename.ext
+:: Stages the `filename.ext` for commit
+```
 
-- `git status`: Show the current branch status
+> If you use a dot <kbd>.</kbd> instead of the file name, all the changes will be staged
 
-- `git commit -m "commit message"`: make a commit with a custom message for all the staged files
+```batch
+git status
+:: Show the current branch status
+```
+
+``` batch
+git commit -m "message to commit"
+:: makes a commit with a custom message for all the staged files
+```
 
 - `git push`: Pushes all the commits to the [HEAD](#head) branch
 
