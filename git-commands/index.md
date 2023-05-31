@@ -1,13 +1,19 @@
-# Git commands
+# Git
 
 | Navigation                 |
 | -------------------------- |
 | [🠜 go back](../readme.md) |
 
+## Commands
+
+### init
+
 ```batch
 git init
 :: Initiates a repository
 ```
+
+### add
 
 ```batch
 git add filename.ext
@@ -16,32 +22,76 @@ git add filename.ext
 
 > If you use a dot <kbd>.</kbd> instead of the file name, all the changes will be staged
 
+### status
+
 ```batch
 git status
 :: Show the current branch status
 ```
+
+### commit
 
 ``` batch
 git commit -m "message to commit"
 :: makes a commit with a custom message for all the staged files
 ```
 
-- `git push`: Pushes all the commits to the [HEAD](#head) branch
+### push
 
-- `git branch`: Creates a new branch
+```batch
+git push
+:: Pushes all the commits to the [HEAD](#head) branch
+```
 
-  - > Tip: When creating a branch _e.g._ `git branch development`, you can publish this branch with the following command: `git push --set-upstream origin development`
+### branch
 
-- `git checkout`: The git checkout command switches branches or restores working tree files. It operates on files, commits, and branches. The git checkout command allows switching between multiple features in just a single repository.
-  - > `git checkout -b` creates a branch and directly switch to it.
+```batch
+git branch
+:: Creates a new branch
+```
 
-- `git marge`: Unifies two or more histories together
-  - > The [HEAD](#head) should be pointing to the ramification who will receive the merged files. So if you want to merge the development branch into the main, you should do `git checkout main` and then `git merge development`
+> Tip: When creating a branch _e.g._ `git branch development`, you can publish this branch with the following command: `git push --set-upstream origin development`
 
-- `git remote`: List of the [remote](#remote) connections you have to other repositories
-  - `git remote -v`: Same as the above command, but include the URL of each connection
-  - `git remote add <name> <url>`: Create a new connection to a remote repository
-  - `git remote rm <name>`: Remove the connection to the remote repository called ＜name＞
+```batch
+git checkout
+:: The git checkout command switches branches or restores working tree files. It operates on files, commits, and branches. The git checkout command allows switching between multiple features in just a single repository
+```
+
+```batch
+git checkout -b
+:: Creates a branch and directly switch to it
+```
+
+### merge
+
+```batch
+git marge
+:: Unifies two or more histories together
+```
+
+> The [HEAD](#head) should be pointing to the ramification who will receive the merged files. So if you want to merge the development branch into the main, you should do `git checkout main` and then `git merge development`
+
+### remote
+
+```batch
+git remote
+:: List of the [remote](#remote) connections you have to other repositories
+```
+
+```batch
+git remote -v
+:: Same as the command above, but include the URL of each connection
+```
+
+```batch
+git remote add <name> <url>
+:: Create a new connection to a remote repository
+```
+
+```batch
+git remote rm <name>
+:: Remove the connection to the remote repository called ＜name＞
+```
 
 ---
 
