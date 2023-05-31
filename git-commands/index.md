@@ -4,7 +4,11 @@
 | -------------------------- |
 | [🠜 go back](../readme.md) |
 
-- `git init`: Initiates a git repository
+```batch
+git init
+:: Initiates a repository
+``` 
+add
 
 - `git add filename.ext`: Stages the `filename.ext` for commit
   - If you use a dot <kbd>.</kbd> instead of the file name, all the changes will be staged
