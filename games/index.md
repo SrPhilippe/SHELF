@@ -75,11 +75,17 @@ ___
 
 Some of the config files are located inside [this folder](./minecraft/)
 
+In order to have a better performance in this game, I recommend using Fabric Loader with a rendering API called SODIUM, which improves your FPS on a HUGE scale.
+
 ### Mods
 
-- Optifine
-- Forge Library
-- Rubidium
+All of the mods are available to download on [Modrinth](https://modrinth.com/).
+
+- ~~Forge Library~~ *USE FABRIC LOADER INSTEAD*
+- ~~Optifine~~ *USE IRIS SHADERS INSTEAD*
+- Fabric Loader
+- Iris Shaders
+- Sodium
 - Journey map
 - Just Enough Items
 
