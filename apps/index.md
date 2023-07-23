@@ -8,7 +8,6 @@
 | [Other tools](#other-tools)                     |
 | [Hardware](#hardware)                           |
 | [Current PC](#current-computer)                 |
-| [None of your business](#none-of-your-business) |
 
 ---
 
@@ -19,26 +18,30 @@
 ## Standard
 
 - Adobe Acrobat
-- Adobe Premiere Pro
 - Adobe Photoshop
+- Adobe Premiere Pro
 - Adobe Illustrator
 - Microsoft Office
 - Microsoft Edge
-- Malwarebytes
+- Spotify (W-STORE)
+~~- Malwarebytes~~
 - Blender
 - Steam
 - Stremio
 - Notion
-
-## Windows store
-
-- Nvidia Control Panel
-- Quick look
-- TranslucentTB
-- SpeedTest
-- Spotify
 - Sketchable
+
+## Windows themes and look
+
+- Powertoys (W-STORE)
+- StartAllBack
+- [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone)
+- [SecureUXTheme (Themetool)](https://github.com/namazso/SecureUxTheme)
+- [7TSP GUI 2019 Edition](https://www.deviantart.com/devillnside/art/7TSP-GUI-2019-Edition-804769422)
+- TranslucentTB
+~~- Quick look (W-STORE)~~ *already in Powertoys*
 - Modern Flyouts
+- Notepads App (W-STORE)
 
 | Navigation                     |
 | ------------------------------ |
@@ -60,13 +63,15 @@
 
 ## Other tools
 
-- Snap Camera
+- Nvidia Control Panel (W-STORE)
+- Realtek Audio Console (W-STORE)
 - [Deemix](https://deemix.app/gui)
 - NVIDIA RTX Voice
-- Realtek Audio Console
+- ~~Snap Camera~~
 - Grammarly
 - Voicemeter
 - X-mouse
+- SpeedTest
 
 | Navigation                     |
 | ------------------------------ |
@@ -96,8 +101,8 @@
 | Video Card   | Sheli 51RISC | RTX 3060Ti   | 8GB                                                   |         |
 | Power Supply | NZXT         | C550 - 550W  | 80 Plus Bronze - PFC Ativo, Semi Modular, PA-5B1BB-US |         |
 | Memory       | Asgard       | Valkyrie V5  | 8GBx2 3600Mhz DDR4                                    |         |
-| Storage 1    | Reletech     | 1TB Mod:2280 | controlador phison independente - ssd m.2 pcie        |         |
-| Storage 2    | Z-suit       | 1TB Mod:2280 | 1600MBs/2000MBs                                       |         |
+| Storage 1    | Reletech     | 1TB ty:2280  | controlador phison independente - ssd m.2 pcie        |         |
+| Storage 2    | Z-suit       | 1TB ty:2280  | 1600MBs/2000MBs                                       |         |
 | Case         | Montech      | x3 MESH      | Mid Tower, White, ATX,  x6 Fans RGB                   |         |
 | Monitor      | LG           | 26WQ500-B    | 26" IPS Full HD UltraWide™ - 21:9 com AMD FreeSync™   |         |
 
