@@ -68,6 +68,12 @@
 - [Deemix](https://deemix.app/gui)
   - [Novo link alternativo](https://semenrolacao.com.br/novo-link-deemix-2023/)
   - [Nova configuração para integrar spotify](https://semenrolacao.com.br/configuracao-para-integrar-deemix-com-spotify/)
+  - How to login via Deezer ARL
+    1. Go to Deezer player [deezer.com](https://deezer.com/)
+    2. Log in to your account
+    3. Press F12 and go to the tab Application
+    4. In the Cookie Filter click `www.deezer.com` and search for ARL
+    5. The Cookie value will be your Deezer ARL
 - NVIDIA RTX Voice
 - ~~Snap Camera~~
 - Grammarly
