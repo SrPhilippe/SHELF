@@ -1,13 +1,13 @@
 # Windows Programs
 
-| Menu                                            |
-| :---------------------------------------------: |
-| [Standard](#standard)                           |
-| [Windows store](#windows-store)                 |
-| [Subscription](#subscription)                   |
-| [Other tools](#other-tools)                     |
-| [Hardware](#hardware)                           |
-| [Current PC](#current-computer)                 |
+| Menu                                       |
+| :----------------------------------------: |
+| [Standard](#standard)                      |
+| [Windows Themes](#windows-themes-and-look) |
+| [Subscription](#subscription)              |
+| [Other tools](#other-tools)                |
+| [Hardware](#hardware)                      |
+| [Current PC](#current-computer)            |
 
 ---
 
@@ -66,6 +66,8 @@
 - Nvidia Control Panel (W-STORE)
 - Realtek Audio Console (W-STORE)
 - [Deemix](https://deemix.app/gui)
+  - [Novo link alternativo](https://semenrolacao.com.br/novo-link-deemix-2023/)
+  - [Nova configuração para integrar spotify](https://semenrolacao.com.br/configuracao-para-integrar-deemix-com-spotify/)
 - NVIDIA RTX Voice
 - ~~Snap Camera~~
 - Grammarly

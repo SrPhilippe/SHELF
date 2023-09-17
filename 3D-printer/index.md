@@ -2,7 +2,9 @@
 
 ## Things to know before the purchase
 
-- Glass bed: Durable, easy to use, clean, and sleek
+- ~~Glass bed: Durable, easy to use, clean, and sleek~~
+- Search for Garolite bed sheet
+- Calibrate E-steps/mm (Extruder steps)
 - The top of the z-axis (threaded rod) is meant to be free-floating, so don't make any upgrades to make it steady
 - Good to use silicon spacers for the bed
 - Buy good Bed clips
