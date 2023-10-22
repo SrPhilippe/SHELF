@@ -1,5 +1,20 @@
 # Windows solutions
 
+## Windows shortcuts
+
+### Run <kbd>Windows</kbd> **+** <kbd>R</kbd>
+
+- `shell:system`: Windows sytem32 folder
+- `shell:common startup`: Startup programs
+- `shell:common programs`: Programs shortcuts
+- `shell:control panel folder`: Control Panel
+- `shell:fonts`: Windows font manager
+- `shell:local appadta`: Local app data
+- `shell:screenshots`: Screenshots folder
+- `powercfg.cpl`: Power config plan
+
+---
+
 ## Autorun file
 
 The name must be `autorun.inf`
