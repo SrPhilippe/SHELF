@@ -91,7 +91,8 @@
 - CPU-Z
 - AIDA 64
 - HWiNFO64
-- Ventoy
+- Ventoy (Multiboot with iso manager)
+- BalenaEtcher
 - CristalDiskMark
 - Drive booster
 

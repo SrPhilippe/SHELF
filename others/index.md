@@ -36,10 +36,6 @@ Segue abaixo os mais comuns.
 | ------ | ------------------------------- |
 | Locker | <kbd>alt</kbd> + <kbd>F9</kbd>  |
 | Heart  | <kbd>sift</kbd> + <kbd>\\</kbd> |
-|        |                                 |
-
-
-
 
 ---
 
