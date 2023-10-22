@@ -1,8 +1,8 @@
 # Git
 
-| Navigation                 |
-| -------------------------- |
-| [🠜 go back](../readme.md) |
+| Navigation                |
+| ------------------------- |
+| [🠜 go back](./readme.md) |
 
 ## Commands
 
@@ -148,7 +148,7 @@ git --global editor.core <editor-here> -w
 git --global editor.core "code" -w
 ```
 
-| Navigation                 |
-| -------------------------- |
-| [🠝 go top](#git-commands) |
-| [🠜 go back](../readme.md) |
+| Navigation                |
+| ------------------------- |
+| [🠝 go top](#commands)    |
+| [🠜 go back](./readme.md) |

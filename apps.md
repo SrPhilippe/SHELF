@@ -11,9 +11,9 @@
 
 ---
 
-| Navigation                 |
-| -------------------------- |
-| [🠜 go back](../readme.md) |
+| Navigation                |
+| ------------------------- |
+| [🠜 go back](./readme.md) |
 
 ## Standard
 
@@ -46,7 +46,7 @@
 | Navigation                     |
 | ------------------------------ |
 | [🠝 go top](#windows-programs) |
-| [🠜 go back](../readme.md)     |
+| [🠜 go back](./readme.md)      |
 
 ## Subscription
 
@@ -59,7 +59,7 @@
 | Navigation                     |
 | ------------------------------ |
 | [🠝 go top](#windows-programs) |
-| [🠜 go back](../readme.md)     |
+| [🠜 go back](./readme.md)      |
 
 ## Other tools
 
@@ -84,7 +84,7 @@
 | Navigation                     |
 | ------------------------------ |
 | [🠝 go top](#windows-programs) |
-| [🠜 go back](../readme.md)     |
+| [🠜 go back](./readme.md)      |
 
 ## Hardware
 
@@ -99,7 +99,7 @@
 | Navigation                     |
 | ------------------------------ |
 | [🠝 go top](#windows-programs) |
-| [🠜 go back](../readme.md)     |
+| [🠜 go back](./readme.md)      |
 
 ## Current Computer
 
@@ -135,4 +135,4 @@
 | Navigation                     |
 | ------------------------------ |
 | [🠝 go top](#windows-programs) |
-| [🠜 go back](../readme.md)     |
+| [🠜 go back](./readme.md)      |

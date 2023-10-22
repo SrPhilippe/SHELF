@@ -4,28 +4,28 @@ This repository is meant for personal use purposes. But in some cases, it might 
 
 ## Directories list
 
-| Terminal                               |
-| :------------------------------------: |
-| [Git commands and tips](git-commands/) |
-| [CMD and Bash commands](cmd-commands/) |
+| Terminal                                 |
+| :--------------------------------------: |
+| [Git commands and tips](git-commands.md) |
+| [CMD and Bash commands](cmd-commands.md) |
 
-| Programming                         |
-| :---------------------------------: |
-| [Web development](web-development/) |
+| Programming                           |
+| :-----------------------------------: |
+| [Web development](web-development.md) |
 
-| Windows                             |
-| :---------------------------------: |
-| [Windows issues](windows-issues/)   |
-| [Programs issues](programs-issues/) |
+| Windows                               |
+| :-----------------------------------: |
+| [Windows issues](windows-issues.md)   |
+| [Programs issues](programs-issues.md) |
 
-| Configs                             |
-| :---------------------------------: |
-| [Applications](apps/)               |
-| [Games](games/)                     |
+| Configs                 |
+| :---------------------: |
+| [Applications](apps.md) |
+| [Games](games.md)       |
 
-| 3D World                    |
-| :-------------------------: |
-| [3D Modeling](3D-modeling/) |
-| [3D Printer](3D-printer/)   |
+| 3D World                      |
+| :---------------------------: |
+| [3D Modeling](3D-modeling.md) |
+| [3D Printer](3D-printer.md)   |
 
-- [Others](others/)
+- [Others](others.md)

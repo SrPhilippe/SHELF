@@ -75,7 +75,7 @@ Just simply disable these options below:
 1. Go into the tab **Bandwidth**
 2. Set the option **Global maximum number of connections** to `400`
 
-| Navigation                 |
-| -------------------------- |
-| [🠝 go top](#adobe) |
-| [🠜 go back](../readme.md) |
+| Navigation                    |
+| ----------------------------- |
+| [🠝 go top](#adobe-softwares) |
+| [🠜 go back](./readme.md)     |

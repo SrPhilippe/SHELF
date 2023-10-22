@@ -10,9 +10,9 @@
 | [Apache](#apache)         |
 | [Vs Code](#vs-code)       |
 
-| Navigation                 |
-| -------------------------- |
-| [🠜 go back](../readme.md) |
+| Navigation                |
+| ------------------------- |
+| [🠜 go back](./readme.md) |
 
 ## Javascript
 
@@ -231,7 +231,7 @@ lastTimestamp = localStorage.lastTimestamp = currentSec()
 | Navigation                                   |
 | -------------------------------------------- |
 | [🠝 go top](#my-web-development-memory-book) |
-| [🠜 go back](../readme.md)                   |
+| [🠜 go back](./readme.md)                    |
 
 ---
 
@@ -338,7 +338,7 @@ Set the variables in the **_:root_** using the usual method `--name-of-the-var`.
 | Navigation                                   |
 | -------------------------------------------- |
 | [🠝 go top](#my-web-development-memory-book) |
-| [🠜 go back](../readme.md)                   |
+| [🠜 go back](./readme.md)                    |
 
 ---
 
@@ -347,7 +347,7 @@ Set the variables in the **_:root_** using the usual method `--name-of-the-var`.
 | Navigation                                   |
 | -------------------------------------------- |
 | [🠝 go top](#my-web-development-memory-book) |
-| [🠜 go back](../readme.md)                   |
+| [🠜 go back](./readme.md)                    |
 
 ---
 
@@ -373,7 +373,7 @@ php_value post_max_size 500M
 | Navigation                                   |
 | -------------------------------------------- |
 | [🠝 go top](#my-web-development-memory-book) |
-| [🠜 go back](../readme.md)                   |
+| [🠜 go back](./readme.md)                    |
 
 ## Vs code
 
@@ -403,4 +403,4 @@ Vs code configs not in use
 | Navigation                                   |
 | -------------------------------------------- |
 | [🠝 go top](#my-web-development-memory-book) |
-| [🠜 go back](../readme.md)                   |
+| [🠜 go back](./readme.md)                    |

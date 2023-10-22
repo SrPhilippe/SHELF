@@ -59,4 +59,4 @@ path/exiftool.exe -all= path/image.png
 
 | [🠝 go top](#uncategorized) |
 | --------------------------- |
-| [🠜 go back](../readme.md)  |
+| [🠜 go back](./readme.md)   |

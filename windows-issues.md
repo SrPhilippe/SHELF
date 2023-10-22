@@ -231,7 +231,7 @@ InjectionDelayTriggers=IGO64.dll,IGO32.dll,d3dcompiler_47.dll,DiscordHook.dll,Di
 8. Overwrite the `splash.bmp` image in this folder
 9.  Close paint and then the cmd terminal
 
-| Navigation                 |
-| -------------------------- |
+| Navigation                      |
+| ------------------------------- |
 | [🠝 go top](#windows-solutions) |
-| [🠜 go back](../readme.md) |
+| [🠜 go back](./readme.md)       |
