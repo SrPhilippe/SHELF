@@ -148,6 +148,8 @@ git --global editor.core <editor-here> -w
 git --global editor.core "code" -w
 ```
 
+---
+
 | Navigation                |
 | ------------------------- |
 | [🠝 go top](#commands)    |

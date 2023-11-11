@@ -34,7 +34,9 @@
 ## Windows themes and look
 
 - Powertoys (W-STORE)
-- StartAllBack
+- <details><summary>StartAllBack</summary>
+  2DC92F4B-43A5-AE29-7395-00006EF1BF4E
+  </details>
 - [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone)
 - [SecureUXTheme (Themetool)](https://github.com/namazso/SecureUxTheme)
 - [7TSP GUI 2019 Edition](https://www.deviantart.com/devillnside/art/7TSP-GUI-2019-Edition-804769422)
@@ -53,6 +55,7 @@
 - Action
 - Afinity Photo
 - StartIsBack
+  - 2DC92F4B-43A5-AE29-7395-00006EF1BF4E
 - IVCam (Android)
 - Simulados Detran by Aplicativo Legais (Android, iOS)
 

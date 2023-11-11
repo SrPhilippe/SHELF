@@ -42,3 +42,51 @@
 | \-0.10  | Recommended                                                          |
 | \-0.05  | Usable but it fits a little tight                                    |
 | default | it fits tight and will damage the inner thread, should never be used |
+
+
+## Materials settings
+
+| Material  | Brand   | Temperature | Color        |
+| --------- | ------- | :---------: | ------------ |
+| Basic PLA | 3D Fila | 220         | Branco Gesso |
+
+## Slicer settings
+
+### Orca
+
+| Parameter            | Value  |
+| -------------------- | :----: |
+| Retraction (length)  | 0.4    |
+| Z hop when retracted | 0.4    |
+| Retraction speed     | 30mm/s |
+| Deretraction speed   | 30mm/s |
+
+| Parameter   | Value |
+| ----------- | :---: |
+| Skirt loops | 2     |
+|             |       |
+
+#### Speed
+
+| Parameter             | Value    |
+| --------------------- | :------: |
+| Initial layer         | 50 mm/s  |
+| Intial layer infill   | 100 mm/s |
+| Outer wall            | 120 mm/s |
+| Inner wall            | 250 mm/s |
+| Sparse infill         | 250 mm/s |
+| Internal solid infill | 100 mm/s |
+| Gap infill            | 100 mm/s |
+| Support               | 150 mm/s |
+
+### Flow Rate formula
+
+( flowRatio_old * (100 + modifier) / 100)
+
+Default 0.98  
+Last calibration 1.078 - Modifier: 10
+
+### Max Volumetric Speed
+
+start + (height-measured * step)
+
