@@ -1,16 +1,16 @@
 # 3D Printer
 
-## Things to know before the purchase
+## Calibration
 
-- ~~Glass bed: Durable, easy to use, clean, and sleek~~
-- Garolite (G10) bed sheet
-- Calibrate E-steps/mm (Extruder steps) or rotation distance in klipper
-- The top of the z-axis (threaded rod) is meant to be free-floating, so don't make any upgrades to make it steady
-- Good to use silicon spacers for the bed
-- Buy good Bed clips
-- Reducing the outer shell wall speed in low-cost printers
-- Replace the nozzle when it gets worn out
-- Add a belt tensioner if it doesn't come stock with them
+### Flow Rate formula
+
+`( flowRatio_old * (100 + modifier) / 100)`
+
+Default `0.98`
+
+### Max Volumetric Speed
+
+`start + (height-measured * step)`
 
 ## Fusion 360
 
@@ -25,7 +25,7 @@
 
 ### Configs
 
-| Tab                        | Name                           | vALUE       |
+| Tab                        | Name                           | Value       |
 | :------------------------: | ------------------------------ | :---------: |
 | General                    | Reverse Zoom Direction         | TRUE        |
 | Material                   | Material Theme                 | Steel Satin |
@@ -43,30 +43,79 @@
 | \-0.05  | Usable but it fits a little tight                                    |
 | default | it fits tight and will damage the inner thread, should never be used |
 
-
 ## Materials settings
 
-| Material  | Brand   | Temperature | Color        |
-| --------- | ------- | :---------: | ------------ |
-| Basic PLA | 3D Fila | 220         | Branco Gesso |
+| Material  | Brand   | Temperature | Color        | Flow Ratio | PA    | Max VA |
+| --------- | ------- | :---------: | ------------ | :--------: | :---: | :----: |
+| Basic PLA | 3D Fila | 220         | Branco Gesso | 0,957      | 0,033 | 17     |
 
 ## Slicer settings
 
 ### Orca
 
+#### G-code start/end
+
+```gcode
+; START G-CODE
+;M413 S0 ; disable Power Loss Recovery
+G90 ; use absolute coordinates
+M83 ; extruder relative mode
+M104 S120 ; set temporary nozzle temp to prevent oozing during homing and auto bed leveling
+M140 S[bed_temperature_initial_layer_single] ; set final bed temp
+G4 S10 ; allow partial nozzle warmup
+BED_MESH_CLEAR
+BED_MESH_PROFILE LOAD=11
+G28 ; home all axis
+;G29 ; run abl mesh
+;M420 S1 ; load mesh
+G1 Z50 F240
+G1 X2 Y10 F3000
+M104 S[nozzle_temperature_initial_layer] ; set final nozzle temp
+M190 S[bed_temperature_initial_layer_single] ; wait for bed temp to stabilize
+M109 S[nozzle_temperature_initial_layer] ; wait for nozzle temp to stabilize
+G1 Z0.28 F240
+G92 E0
+G1 Y140 E10 F1500 ; prime the nozzle
+G1 X2.3 F5000
+G92 E0
+G1 Y10 E10 F1200 ; prime the nozzle
+G92 E0
+
+; END G-CODE
+{if max_layer_z < printable_height}G1 Z{z_offset+min(max_layer_z+2, printable_height)} F600 ; Move print head up{endif}
+G1 X5 Y{print_bed_max[1]*0.8} F{travel_speed*60} ; present print
+{if max_layer_z < printable_height-10}G1 Z{z_offset+min(max_layer_z+70, printable_height-10)} F600 ; Move print head further up{endif}
+{if max_layer_z < printable_height*0.6}G1 Z{printable_height*0.6} F600 ; Move print head further up{endif}
+M140 S0 ; turn off heatbed
+M104 S0 ; turn off temperature
+M107 ; turn off fan
+M84 X Y E ; disable motors
+```
+
+#### Extruder
+
 | Parameter            | Value  |
 | -------------------- | :----: |
-| Retraction (length)  | 0.4    |
+| Retraction (length)  | 0.3    |
 | Z hop when retracted | 0.4    |
 | Retraction speed     | 30mm/s |
 | Deretraction speed   | 30mm/s |
+
+#### Filament PLA
+
+Pressure advance: 0,033
+Flow ratio: 0,957
+Nozzle temp: 220
+Bed temp: 60
+
+#### Global Process
 
 | Parameter   | Value |
 | ----------- | :---: |
 | Skirt loops | 2     |
 |             |       |
 
-#### Speed
+##### High speed
 
 | Parameter             | Value    |
 | --------------------- | :------: |
@@ -79,14 +128,68 @@
 | Gap infill            | 100 mm/s |
 | Support               | 150 mm/s |
 
-### Flow Rate formula
+##### Filename format
 
-( flowRatio_old * (100 + modifier) / 100)
+```json
+{input_filename_base}-{print_time}-{layer_height}mm-{filament_type[0]}.gcode
+```
 
-Default 0.98  
-Last calibration 1.078 - Modifier: 10
+---
 
-### Max Volumetric Speed
+### SSH Login
 
-start + (height-measured * step)
+```batch
+user: mks
+password: makerbase
+```
 
+1. INTALL PSCP from Putty download files
+2. Place the file in your user folder `%userprofile%`
+3. Open CMD and get inside the user profile folder cd %userprofile%
+4. execute this command `pscp -P 22 root@10.0.0.133:/home/mks/klipper_config/printer.cfg newfilename.cfg`
+
+### Fixing moonraker paths
+
+1. `cd ./moonraker`
+2. `git pull`
+3. `./scripts/data-path-fix.sh`
+
+### SSH Through Vscode
+
+1. Install *Remote - SSH* extension
+2. <kbd>Ctrl</kbd> **+** <kbd>Shift</kbd> **+** <kbd>P</kbd> > *Add a new SSH HOST*
+3. Type: `ssh mks@10.0.0.133`
+
+`<username>@<host_or_printer_ip_address>`
+
+It's going to popup a screen asking for password and the connection will be made.
+
+### Klipper Flash MCU
+
+- In this case, there's no `STM32F402` inside MCU, so use `STM32F401` instead.
+
+```txt
+####################################################################################
+# This product (Neptune 4/4pro/4plus/4max) adopts Klipper firmware 
+# and does not support users to update the official klipper/fluidd
+# /moonraker by themselves, otherwise the machine will not work properly.
+# If you want to DIY and are an expert or interested in this field, 
+# we recommend that you prepare your own tools for burning images so 
+# that you can restore them if problems arise. Please contact after-sales 
+# support team for tutorials on burning images. Thank you for your cooperation!
+####################################################################################
+# This file contains common pin mappings for ZNP-K1-V1.0 
+# boards. To use this config, the firmware should be compiled for the
+# STM32F402. When running "make menuconfig", enable "extra low-level
+# configuration setup", select the 32KiB bootloader, and serial (on
+# USART1 PA10/PA9) communication.
+
+# The "make flash" command does not work on the ZN-K1-V1.0. Instead,
+# after running "make", copy the generated "out/klipper.bin" file to a
+# file named "elegoo_k1.bin" on an SD card and then restart the ZNP-K1-V1.0
+# with that SD card.
+```
+
+### Elegoo compress files to install
+
+`tar -cvf extra_update etc/ home/`

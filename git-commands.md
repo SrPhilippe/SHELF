@@ -43,6 +43,24 @@ git push
 :: Pushes all the commits to the [HEAD](#head) branch
 ```
 
+### clone
+
+```batch
+git clone <repo url>
+:: Clones the repository to the current folder
+```
+
+```batch
+git clone -b [tag_name] [repository_url]
+:: Clones the repository linked to the specified tag
+
+git clone -b v1.2 https://github.com/bosko-pnap/git-project.git
+:: Example
+
+:: To download only the latest commit in the branch and reduce the download size, add the --depth 1 flag to the command.
+git clone --depth 1 --branch <tag_name> <repo_url>
+```
+
 ### branch
 
 ```batch
