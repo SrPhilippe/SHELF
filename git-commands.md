@@ -113,6 +113,14 @@ git remote rm <name>
 :: Remove the connection to the remote repository called ＜name＞
 ```
 
+### Tags
+
+```batch
+git describe --tags --abbrev=0
+:: Shows the current tag you're checked out
+
+```
+
 ---
 
 ## Understanding the names

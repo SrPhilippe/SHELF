@@ -1,5 +1,13 @@
 # 3D Printer
 
+## Power supply / Sizes
+
+Input supply: 115-230 V 50-60 Hz (bivolt)
+Output supply: 24 V 15 A (360 W)
+Dimensions: 475x445x515mm
+Weight: 8,3 kg
+Machine power: 360 W
+
 ## Calibration
 
 ### Flow Rate formula
@@ -55,9 +63,10 @@ Default `0.98`
 
 #### G-code start/end
 
+##### START G-CODE
+
 ```gcode
-; START G-CODE
-;M413 S0 ; disable Power Loss Recovery
+;M413 S0 ; disable Power Loss Recovery;M413 S0 ; disable Power Loss Recovery
 G90 ; use absolute coordinates
 M83 ; extruder relative mode
 M104 S120 ; set temporary nozzle temp to prevent oozing during homing and auto bed leveling
@@ -66,22 +75,26 @@ G4 S10 ; allow partial nozzle warmup
 BED_MESH_CLEAR
 BED_MESH_PROFILE LOAD=11
 G28 ; home all axis
-;G29 ; run abl mesh
-;M420 S1 ; load mesh
 G1 Z50 F240
 G1 X2 Y10 F3000
+
 M104 S[nozzle_temperature_initial_layer] ; set final nozzle temp
 M190 S[bed_temperature_initial_layer_single] ; wait for bed temp to stabilize
 M109 S[nozzle_temperature_initial_layer] ; wait for nozzle temp to stabilize
 G1 Z0.28 F240
 G92 E0
+
+; PRIME
 G1 Y140 E10 F1500 ; prime the nozzle
 G1 X2.3 F5000
 G92 E0
 G1 Y10 E10 F1200 ; prime the nozzle
 G92 E0
+```
 
-; END G-CODE
+##### END G-CODE
+
+```gcode
 {if max_layer_z < printable_height}G1 Z{z_offset+min(max_layer_z+2, printable_height)} F600 ; Move print head up{endif}
 G1 X5 Y{print_bed_max[1]*0.8} F{travel_speed*60} ; present print
 {if max_layer_z < printable_height-10}G1 Z{z_offset+min(max_layer_z+70, printable_height-10)} F600 ; Move print head further up{endif}
@@ -193,3 +206,14 @@ It's going to popup a screen asking for password and the connection will be made
 ### Elegoo compress files to install
 
 `tar -cvf extra_update etc/ home/`
+
+### Klipper Adaptive Meshing Purging
+
+1. You will need `[exclude_object]` defined in *printer.cfg*.
+
+2. You will also need to make sure the following is defined in *moonraker.conf*:
+
+```json
+[file_manager]
+enable_object_processing: True
+```
