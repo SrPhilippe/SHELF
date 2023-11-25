@@ -2,11 +2,11 @@
 
 ## Power supply / Sizes
 
-Input supply: 115-230 V 50-60 Hz (bivolt)
-Output supply: 24 V 15 A (360 W)
-Dimensions: 475x445x515mm
-Weight: 8,3 kg
-Machine power: 360 W
+- Input supply: 115-230 V 50-60 Hz (bivolt)
+- Output supply: 24 V 15 A (360 W)
+- Dimensions: 475x445x515mm
+- Weight: 8,3 kg
+- Machine power: 360 W
 
 ## Calibration
 
@@ -53,9 +53,10 @@ Default `0.98`
 
 ## Materials settings
 
-| Material  | Brand   | Temperature | Color        | Flow Ratio | PA    | Max VA |
-| --------- | ------- | :---------: | ------------ | :--------: | :---: | :----: |
-| Basic PLA | 3D Fila | 220         | Branco Gesso | 0,957      | 0,033 | 17     |
+| Material     | Brand   | Temperature | Color        | Flow Ratio | PA    | Max VA |
+| ------------ | ------- | :---------: | ------------ | :--------: | :---: | :----: |
+| Basic PLA    | 3D Fila | 220         | Branco Gesso | 0,957      | 0,033 | 17     |
+| PLA EasyFill | 3D Fila | 205         | Blue         | 0.995      | 0.028 | -      |
 
 ## Slicer settings
 
@@ -66,7 +67,7 @@ Default `0.98`
 ##### START G-CODE
 
 ```gcode
-;M413 S0 ; disable Power Loss Recovery;M413 S0 ; disable Power Loss Recovery
+;M413 S0 ; disable Power Loss Recovery;
 G90 ; use absolute coordinates
 M83 ; extruder relative mode
 M104 S120 ; set temporary nozzle temp to prevent oozing during homing and auto bed leveling
@@ -109,37 +110,43 @@ M84 X Y E ; disable motors
 
 | Parameter            | Value  |
 | -------------------- | :----: |
-| Retraction (length)  | 0.3    |
+| Retraction (length)  | 0.5    |
 | Z hop when retracted | 0.4    |
 | Retraction speed     | 30mm/s |
 | Deretraction speed   | 30mm/s |
 
-#### Filament PLA
-
-Pressure advance: 0,033
-Flow ratio: 0,957
-Nozzle temp: 220
-Bed temp: 60
-
-#### Global Process
+#### Global Processes
 
 | Parameter   | Value |
 | ----------- | :---: |
-| Skirt loops | 2     |
+| Skirt loops | 1     |
 |             |       |
 
 ##### High speed
 
 | Parameter             | Value    |
 | --------------------- | :------: |
-| Initial layer         | 50 mm/s  |
-| Intial layer infill   | 100 mm/s |
-| Outer wall            | 120 mm/s |
+| First layer           | 50 mm/s  |
+| First layer infill    | 100 mm/s |
+| Outer wall            | 130 mm/s |
 | Inner wall            | 250 mm/s |
 | Sparse infill         | 250 mm/s |
 | Internal solid infill | 100 mm/s |
 | Gap infill            | 100 mm/s |
 | Support               | 150 mm/s |
+
+##### Elegoo default speed
+
+| Parameter             | Value    |
+| --------------------- | :------: |
+| First layer           | 60 mm/s  |
+| First layer infill    | 80 mm/s  |
+| Outer wall            | 130 mm/s |
+| Inner wall            | 150 mm/s |
+| Sparse infill         | 200 mm/s |
+| Internal solid infill | 150 mm/s |
+| Gap infill            | 80 mm/s  |
+| Support               | 60 mm/s  |
 
 ##### Filename format
 
@@ -201,6 +208,17 @@ It's going to popup a screen asking for password and the connection will be made
 # after running "make", copy the generated "out/klipper.bin" file to a
 # file named "elegoo_k1.bin" on an SD card and then restart the ZNP-K1-V1.0
 # with that SD card.
+```
+
+### (Fixing Error upload to print host)
+
+If the gcode is too big and `object_processing` is enabled, the request can take more than 1 minute which is the default timeout for nginx. To change it, edit `/etc/nginx/nginx.conf` and at the end of http section, add:
+
+```conf
+proxy_send_timeout 500s;
+proxy_read_timeout 500s;
+fastcgi_send_timeout 500s;
+fastcgi_read_timeout 500s;
 ```
 
 ### Elegoo compress files to install
