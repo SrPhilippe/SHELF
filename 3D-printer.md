@@ -64,21 +64,14 @@ Default `0.98`
 
 ### Orca
 
-#### Bridging with ABS my configs
-
-| Parameter             | Value   |
-| --------------------- | :-----: |
-| External Bridge speed | 15 mm/s |
-| Internal Bridge speed | 15 mm/s |
-| Bridge flow           | 0.78    |
-| Thick bridges         | Enabled |
-
 #### G-code start/end
 
 ##### START G-CODE
 
 ```gcode
-; Turn the lights on
+RESPOND TYPE=command MSG="Slicer start G-code"
+
+;############| Turn the lights on |############
 FLASHLIGHT_ON
 MODLELIGHT_ON
 
@@ -87,24 +80,38 @@ M83 ; extruder relative mode
 M104 S120 ; set temporary nozzle temp to prevent oozing during homing and auto bed leveling
 M140 S[bed_temperature_initial_layer] ; set final bed temp
 G4 S10 ; allow partial nozzle warmup
+
 BED_MESH_CLEAR
 BED_MESH_PROFILE LOAD=11
-G28 ; home all axis
-G1 Z50 F240
+RESPOND TYPE=command MSG="[BED_MESH] LOADED"
+
+;############| Origin position |############
+G1 Z50 F300
 G1 X2 Y10 F3000
 
-M104 S[nozzle_temperature_initial_layer] ; set final nozzle temp
 M190 S[bed_temperature_initial_layer_single] ; wait for bed temp to stabilize
+
+G28 ; home axis
+
+M104 S[nozzle_temperature_initial_layer] ; set final nozzle temp
+
+;############| Origin position |############
+G1 Z50 F300
+G1 X2 Y10 F3000
+
 M109 S[nozzle_temperature_initial_layer] ; wait for nozzle temp to stabilize
-G1 Z0.28 F240
-G92 E0
 
 ; PRIME
+RESPOND TYPE=command MSG="Priming the Nozzle"
+G1 Z0.28 F240
+G92 E0
 G1 Y140 E10 F1500 ; prime the nozzle
 G1 X2.3 F5000
 G92 E0
 G1 Y10 E10 F1200 ; prime the nozzle
 G92 E0
+
+RESPOND TYPE=command MSG="Printing"
 ```
 
 ##### END G-CODE
@@ -119,6 +126,42 @@ M104 S0 ; turn off temperature
 M107 ; turn off fan
 M84 X Y E ; disable motors
 ```
+
+#### Global Processes
+
+##### Elegoo default speed
+
+| Parameter             | Value    |
+| --------------------- | :------: |
+| First layer           | 60 mm/s  |
+| First layer infill    | 80 mm/s  |
+| Outer wall            | 130 mm/s |
+| Inner wall            | 150 mm/s |
+| Sparse infill         | 200 mm/s |
+| Internal solid infill | 150 mm/s |
+| Gap infill            | 80 mm/s  |
+| Support               | 60 mm/s  |
+
+#### Bridging with ABS my configs
+
+| Parameter             | Value   |
+| --------------------- | :-----: |
+| External Bridge speed | 15 mm/s |
+| Internal Bridge speed | 15 mm/s |
+| Bridge flow           | 0.78    |
+| Thick bridges         | Enabled |
+
+##### Filename format
+
+```json
+{input_filename_base}-{print_time}-{layer_height}mm-{filament_type[0]}.gcode
+// OR
+{input_filename_base}-{print_time}-{total_weight}g-{layer_height}mm-{filament_type[0]}
+```
+
+---
+
+## Printer config (printer.cfg)
 
 ### Screw Tilt Adjust
 
@@ -155,58 +198,7 @@ horizontal_move_z: 10.0
 speed: 150.0
 ```
 
-
-#### Extruder
-
-| Parameter            | Value  |
-| -------------------- | :----: |
-| Retraction (length)  | 0.5    |
-| Z hop when retracted | 0.4    |
-| Retraction speed     | 30mm/s |
-| Deretraction speed   | 30mm/s |
-
-#### Global Processes
-
-| Parameter   | Value |
-| ----------- | :---: |
-| Skirt loops | 1     |
-|             |       |
-
-##### High speed
-
-| Parameter             | Value    |
-| --------------------- | :------: |
-| First layer           | 50 mm/s  |
-| First layer infill    | 100 mm/s |
-| Outer wall            | 130 mm/s |
-| Inner wall            | 250 mm/s |
-| Sparse infill         | 250 mm/s |
-| Internal solid infill | 100 mm/s |
-| Gap infill            | 100 mm/s |
-| Support               | 150 mm/s |
-
-##### Elegoo default speed
-
-| Parameter             | Value    |
-| --------------------- | :------: |
-| First layer           | 60 mm/s  |
-| First layer infill    | 80 mm/s  |
-| Outer wall            | 130 mm/s |
-| Inner wall            | 150 mm/s |
-| Sparse infill         | 200 mm/s |
-| Internal solid infill | 150 mm/s |
-| Gap infill            | 80 mm/s  |
-| Support               | 60 mm/s  |
-
-##### Filename format
-
-```json
-{input_filename_base}-{print_time}-{layer_height}mm-{filament_type[0]}.gcode
-// OR
-{input_filename_base}-{print_time}-{total_weight}g-{layer_height}mm-{filament_type[0]}
-```
-
----
+## Others
 
 ### SSH Login
 
@@ -220,11 +212,17 @@ password: makerbase
 3. Open CMD and get inside the user profile folder cd %userprofile%
 4. execute this command `pscp -P 22 root@10.0.0.133:/home/mks/klipper_config/printer.cfg newfilename.cfg`
 
+Another great software is WINSCP.
+
+---
+
 ### Fixing moonraker paths
 
 1. `cd ./moonraker`
 2. `git pull`
 3. `./scripts/data-path-fix.sh`
+
+---
 
 ### SSH Through Vscode
 
@@ -235,6 +233,8 @@ password: makerbase
 `<username>@<host_or_printer_ip_address>`
 
 It's going to popup a screen asking for password and the connection will be made.
+
+---
 
 ### Klipper Flash MCU
 
@@ -262,16 +262,26 @@ It's going to popup a screen asking for password and the connection will be made
 # with that SD card.
 ```
 
+---
+
 ### (Fixing Error upload to print host)
 
-If the gcode is too big and `object_processing` is enabled, the request can take more than 1 minute which is the default timeout for nginx. To change it, edit `/etc/nginx/nginx.conf` and at the end of http section, add:
+If the gcode is too big and `object_processing` is enabled, the request can take more than 1 minute which is the default timeout for nginx. To change it, edit `/etc/nginx/nginx.conf` and add the following code inside http section but place it at the end:
 
 ```conf
-proxy_send_timeout 500s;
-proxy_read_timeout 500s;
-fastcgi_send_timeout 500s;
-fastcgi_read_timeout 500s;
+http {
+  ...
+  ...
+  ...
+
+  proxy_send_timeout 500s;
+  proxy_read_timeout 500s;
+  fastcgi_send_timeout 500s;
+  fastcgi_read_timeout 500s;
+}
 ```
+
+---
 
 ### Change timezone
 
@@ -285,10 +295,13 @@ sudo armbian-config
 2. Select your timezone
 3. exit
 
+---
 
 ### Elegoo compress files to install
 
 `tar -cvf extra_update etc/ home/`
+
+---
 
 ### Klipper Adaptive Meshing Purging
 
@@ -300,6 +313,7 @@ sudo armbian-config
 [file_manager]
 enable_object_processing: True
 ```
+---
 
 ### Backup EMMC files
 
