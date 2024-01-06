@@ -1,5 +1,7 @@
 # 3D Printer
 
+Add Anti-backlash Nut - This is meant for the lead screw z axis
+
 ## Power supply / Sizes
 
 - Input supply: 115-230 V 50-60 Hz (bivolt)
@@ -62,16 +64,28 @@ Default `0.98`
 
 ### Orca
 
+#### Bridging with ABS my configs
+
+| Parameter             | Value   |
+| --------------------- | :-----: |
+| External Bridge speed | 15 mm/s |
+| Internal Bridge speed | 15 mm/s |
+| Bridge flow           | 0.78    |
+| Thick bridges         | Enabled |
+
 #### G-code start/end
 
 ##### START G-CODE
 
 ```gcode
-;M413 S0 ; disable Power Loss Recovery;
+; Turn the lights on
+FLASHLIGHT_ON
+MODLELIGHT_ON
+
 G90 ; use absolute coordinates
 M83 ; extruder relative mode
 M104 S120 ; set temporary nozzle temp to prevent oozing during homing and auto bed leveling
-M140 S[bed_temperature_initial_layer_single] ; set final bed temp
+M140 S[bed_temperature_initial_layer] ; set final bed temp
 G4 S10 ; allow partial nozzle warmup
 BED_MESH_CLEAR
 BED_MESH_PROFILE LOAD=11
@@ -105,6 +119,42 @@ M104 S0 ; turn off temperature
 M107 ; turn off fan
 M84 X Y E ; disable motors
 ```
+
+### Screw Tilt Adjust
+
+```gcode
+#####################################################################
+# Screw tilt adjust / Bed screws
+#####################################################################
+
+[screws_tilt_adjust]
+# Gives the palpation values on the bed and indicates the changes to be made           
+screw1: 54.00, 10.50
+screw1_name: front left screw
+screw2: 223.50, 10.50
+screw2_name: front right screw
+screw3: 223.50, 180.50
+screw3_name: rear right screw
+screw4: 54.00, 180.50
+screw4_name: rear left screw
+horizontal_move_z: 10.0
+speed: 150.0
+screw_thread: CW-M4
+
+[bed_screws]
+# Place the nozzle at the screws to make manual adjustments
+screw1: 32.5, 32.5
+screw1_name: front left screw
+screw2: 202.5, 32.5
+screw2_name: front right screw
+screw3: 202.5, 202.5
+screw3_name: rear right screw
+screw4: 32.5, 202.5
+screw4_name: rear left screw
+horizontal_move_z: 10.0
+speed: 150.0
+```
+
 
 #### Extruder
 
@@ -152,6 +202,8 @@ M84 X Y E ; disable motors
 
 ```json
 {input_filename_base}-{print_time}-{layer_height}mm-{filament_type[0]}.gcode
+// OR
+{input_filename_base}-{print_time}-{total_weight}g-{layer_height}mm-{filament_type[0]}
 ```
 
 ---
@@ -221,6 +273,19 @@ fastcgi_send_timeout 500s;
 fastcgi_read_timeout 500s;
 ```
 
+### Change timezone
+
+Login into armbian using SCP and Mks user
+
+```bash
+sudo armbian-config
+```
+
+1. Go to `personal > Timezone`
+2. Select your timezone
+3. exit
+
+
 ### Elegoo compress files to install
 
 `tar -cvf extra_update etc/ home/`
@@ -235,3 +300,9 @@ fastcgi_read_timeout 500s;
 [file_manager]
 enable_object_processing: True
 ```
+
+### Backup EMMC files
+
+You can backup using an EMMC adapter connected to your computer and [Win32 Disk Imager](https://win32diskimager.org/).
+
+> This program can have starting issues when the computer has a mounted drive on the system like Google Drive. So in order to fix you can simply close GDrive application.
