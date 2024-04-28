@@ -24,8 +24,9 @@
 - Microsoft Office
 - Microsoft Edge
 - Spotify (W-STORE)
-~~- Malwarebytes~~
-- Blender
+- Malwarebytes
+- ~~Blender~~
+- Fusion 360
 - Steam
 - Stremio
 - Notion
@@ -68,15 +69,7 @@
 
 - Nvidia Control Panel (W-STORE)
 - Realtek Audio Console (W-STORE)
-- [Deemix](https://deemix.app/gui)
-  - [Novo link alternativo](https://semenrolacao.com.br/novo-link-deemix-2023/)
-  - [Nova configuração para integrar spotify](https://semenrolacao.com.br/configuracao-para-integrar-deemix-com-spotify/)
-  - How to login via Deezer ARL
-    1. Go to Deezer player [deezer.com](https://deezer.com/)
-    2. Log in to your account
-    3. Press F12 and go to the tab Application
-    4. In the Cookie Filter click `www.deezer.com` and search for ARL
-    5. The Cookie value will be your Deezer ARL
+- [Deemix](#deemix-tutorial)
 - NVIDIA RTX Voice
 - ~~Snap Camera~~
 - Grammarly
@@ -95,9 +88,11 @@
 - AIDA 64
 - HWiNFO64
 - Ventoy (Multiboot with iso manager)
-- BalenaEtcher
 - CristalDiskMark
+- BalenaEtcher
 - Drive booster
+- WinSCP
+- Win32DiskImage (google drive must be closed)
 
 | Navigation                     |
 | ------------------------------ |
@@ -127,6 +122,19 @@
 [Nvidia drivers](https://www.nvidia.com/download/index.aspx)
 
 ---
+
+### Deemix tutorial
+
+[Download](https://deemix.app/gui)
+
+- [Novo link alternativo](https://semenrolacao.com.br/novo-link-deemix-2023/)
+- [Nova configuração para integrar spotify](https://semenrolacao.com.br/configuracao-para-integrar-deemix-com-spotify/)
+- How to login via Deezer ARL
+    1. Go to Deezer player [deezer.com](https://deezer.com/)
+    2. Log in to your account
+    3. Press F12 and go to the tab Application
+    4. In the Cookie Filter click `www.deezer.com` and search for ARL
+    5. The Cookie value will be your Deezer ARL
 
 <details>
 <summary>Hello  World</summary>
