@@ -69,39 +69,47 @@ Default `0.98`
 ##### START G-CODE
 
 ```gcode
-RESPOND TYPE=command MSG="Slicer start G-code"
+RESPOND TYPE=command MSG="ORCA START G-CODE"
 
-;############| Turn the lights on |############
+; -- Turn the lights on
 FLASHLIGHT_ON
 MODLELIGHT_ON
 
 G90 ; use absolute coordinates
+RESPOND MSG="ABSOLUTE CORDINATES"
 M83 ; extruder relative mode
+RESPOND MSG="EXTRUDE RELATIVE MODE"
+
+; -- Origin position
+G1 X2 Y10 Z50 F3000
+RESPOND MSG="ORIGIN POSITION"
+
 M104 S120 ; set temporary nozzle temp to prevent oozing during homing and auto bed leveling
 M140 S[bed_temperature_initial_layer] ; set final bed temp
 G4 S10 ; allow partial nozzle warmup
+RESPOND MSG="WARM-UP THINGS"
 
 BED_MESH_CLEAR
-BED_MESH_PROFILE LOAD=11
-RESPOND TYPE=command MSG="[BED_MESH] LOADED"
-
-;############| Origin position |############
-G1 Z50 F300
-G1 X2 Y10 F3000
+BED_MESH_PROFILE LOAD=6
+RESPOND TYPE=command MSG="BED_MESH LOADED"
 
 M190 S[bed_temperature_initial_layer_single] ; wait for bed temp to stabilize
 
 G28 ; home axis
+RESPOND MSG="HOMING"
 
 M104 S[nozzle_temperature_initial_layer] ; set final nozzle temp
 
-;############| Origin position |############
-G1 Z50 F300
+; -- Origin position
+G1 Z5 F300
 G1 X2 Y10 F3000
+G1 Z50 F300
+
+RESPOND MSG="Origin Pos"
 
 M109 S[nozzle_temperature_initial_layer] ; wait for nozzle temp to stabilize
 
-; PRIME
+; -- Prime filament
 RESPOND TYPE=command MSG="Priming the Nozzle"
 G1 Z0.28 F240
 G92 E0

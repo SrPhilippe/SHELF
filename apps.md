@@ -25,12 +25,11 @@
 - Microsoft Edge
 - Spotify (W-STORE)
 - Malwarebytes
-- ~~Blender~~
-- Fusion 360
 - Steam
 - Stremio
 - Notion
 - Sketchable
+- Grammarly
 
 ## Windows themes and look
 
@@ -76,6 +75,10 @@
 - Voicemeter
 - X-mouse
 - SpeedTest
+- X-mouse Button
+- Blitz
+- Moises
+- Free Download Manager
 
 | Navigation                     |
 | ------------------------------ |
@@ -93,6 +96,19 @@
 - Drive booster
 - WinSCP
 - Win32DiskImage (google drive must be closed)
+
+| Navigation                     |
+| ------------------------------ |
+| [🠝 go top](#windows-programs) |
+| [🠜 go back](./readme.md)      |
+
+## 3D Printer
+
+- Orca Slicer
+- ~~Blender~~
+- Fusion 360
+- BalenaEtcher (flash)
+- Putty
 
 | Navigation                     |
 | ------------------------------ |
