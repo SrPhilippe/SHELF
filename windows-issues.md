@@ -17,19 +17,24 @@
 
 ## Windows 10/11 Blurred apps fix
 
-1. Method 1: Change Nvidia settings (may solve for all apps)
-   - In **Nvidia Control Panel** set `Antialising - FXAA` to **Off** and hit apply.
-   - If the option above didn't work, you can also try to change the scalling mode to `No Scaling` inside **Adjust desktop size and position** and `perform scaling on` **GPU**. (make sure to mark the checkbox _Override the scalling mode set by games and programs_).
-2. Method 2: Registry method (may solve for all apps)
-   - Inside Windows Registry Editor navigate to `Computer\HKEY_CURRENT_USER\Control Panel\Desktop`.
-   - Look for `Win8DpiScaling` and change it's value to **1**.
-   - Create a `DWORD32` named **LogPixels** (if it doesn't already exists) and set the `value` to `DECIMAL=120` DEFAULT `DECIMAL=125`.
-3. Method 3: Individual setting for apps
-   - Right click on the executable file from the application being blurred and go to **properties**.
-   - Navigate to tab **Compability**.
-   - In the Settings section, choose: Change high DPI settings.
-   - Check the box Override high DPI scalling behavior.
-   - Let the scalling be performed by the application.
+### Method 1: Change Nvidia settings (may solve for all apps)
+
+   1. In **Nvidia Control Panel** set `Antialising - FXAA` to **Off** and hit apply.
+   2. If the option above didn't work, you can also try to change the scalling mode to `No Scaling` inside **Adjust desktop size and position** and `perform scaling on` **GPU**. (make sure to mark the checkbox _Override the scalling mode set by games and programs_).
+
+### Method 2: Registry method (may solve for all apps)
+
+   1. Inside Windows Registry Editor navigate to `Computer\HKEY_CURRENT_USER\Control Panel\Desktop`.
+   2. Look for `Win8DpiScaling` and change it's value to **1**.
+   3.Create a `DWORD32` named **LogPixels** (if it doesn't already exists) and set the `value` to `DECIMAL=120` DEFAULT `DECIMAL=125`.
+
+### Method 3: Individual setting for apps
+
+   1. Right click on the executable file from the application being blurred and go to **properties**.
+   2. Navigate to tab **Compability**.
+   3. In the Settings section, choose: Change high DPI settings.
+   4. Check the box Override high DPI scalling behavior.
+   5. Let the scalling be performed by the application.
 
 ---
 
