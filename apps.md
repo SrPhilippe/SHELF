@@ -79,6 +79,7 @@
 - Blitz
 - Moises
 - Free Download Manager
+- G-hub
 
 | Navigation                     |
 | ------------------------------ |
