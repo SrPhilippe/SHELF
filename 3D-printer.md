@@ -321,10 +321,13 @@ sudo armbian-config
 [file_manager]
 enable_object_processing: True
 ```
+
 ---
 
 ### Backup EMMC files
 
 You can backup using an EMMC adapter connected to your computer and [Win32 Disk Imager](https://win32diskimager.org/).
 
-> This program can have starting issues when the computer has a mounted drive on the system like Google Drive. So in order to fix you can simply close GDrive application.
+1. > It won't launch if Google drive is opened
+
+> This software has a launching issue when the computer has a mounted drive on the system like Google Drive. So in order to fix you can simply close GDrive application.

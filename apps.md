@@ -109,6 +109,8 @@
 - Fusion 360
 - BalenaEtcher (flash)
 - Putty
+- Win32DiskImage
+- WinSCP
 
 | Navigation                     |
 | ------------------------------ |
