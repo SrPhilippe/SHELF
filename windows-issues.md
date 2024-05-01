@@ -111,7 +111,7 @@ To do this, follow these steps:
 
 Open an elevated command prompt. To do this, do the following as your appropriate:
 
-If you are running Windows 10, Windows 8.1 or Windows 8, first run the inbox Deployment Image Servicing and Management (DISM) tool prior to running the System File Checker.  (If you are running Windows 7 or Windows Vista, skip to Step 3.) 
+If you are running Windows 10, Windows 8.1 or Windows 8, first run the inbox Deployment Image Servicing and Management (DISM) tool prior to running the System File Checker.  (If you are running Windows 7 or Windows Vista, skip to Step 3).
 
 Type the following command, and then press Enter.  It may take several minutes for the command operation to be completed.
 
@@ -265,5 +265,5 @@ This is going to delete the user file
 
 | Navigation                      |
 | ------------------------------- |
-| [🠝 go top](#windows-solutions) |
+| [🠝 go top](#windows) |
 | [🠜 go back](./readme.md)       |
