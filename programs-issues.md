@@ -1,16 +1,27 @@
-# Windows programs annotations
+# Softwares issues/annotations
 
-## Adobe softwares
+## Fixing popup unlicensed software Adobe Photoshop
 
-### Fixing popup unlicensed software Adobe Photoshop
+Create an outbound rule that blocks all these IP addresses below:
 
-Create an inbound and outbound rule that blocks any connection with `photoshop.exe`.
+```txt
+18.207.85.246
+23.22.254.206
+34.193.227.236
+52.5.13.197
+52.202.204.11
+54.144.73.197
+54.227.187.23
+107.22.247.231
+108.157.78.78
+108.157.78.79
+108.157.78.98
+108.157.78.125
+```
 
-Location: Windows Defender Firewall.
+_Alternatively, use Adobe GenP to make it automatically._
 
-`%ProgramFiles%\Adobe\Adobe Photoshop 2023\Photoshop.exe`
-
-### Fixing INK pressure on Photoshop
+## Fixing INK pressure in Photoshop
 
 1. Go to your ink settings and enable `Windows INK` option.
 
@@ -22,7 +33,7 @@ Location: Windows Defender Firewall.
 
 5. Save the document and open photoshop again.
 
-### Changing the UI accent color on Photoshop
+## Changing the UI accent color on Photoshop
 
 1. Navigate through the directory `C:\Program Files\Adobe\Adobe Photoshop 2023\Required`
 2. Locate the file `UIColors.txt` and create a backup of this file `UIColors.bkp`
@@ -55,16 +66,14 @@ It's really simple.
 5. Save the file `UIColors.txt` and override it inside the folder shown in the steps above
 6. Restart Photoshop
 
-### Better response on Illustrator
+## Better response on Illustrator
 
 1. Press <kbd>ctrl</kbd>+<kbd>K</kbd> and go to the performance tab
 2. Enable the option **_Real-time Drawing and Editing_**
 
-## uTorrent
+### Hide ADS in uTorrent
 
-### Hide ADS
-
-Just simply disable these options below:
+Just simply disable these options listed below:
 
 - `gui.show_plus_upsell`
 - `offers.sponsored_torrent_offer_enabled`
@@ -77,5 +86,5 @@ Just simply disable these options below:
 
 | Navigation                    |
 | ----------------------------- |
-| [🠝 go top](#adobe-softwares) |
+| [🠝 go top](#softwares-issuesannotations) |
 | [🠜 go back](./readme.md)     |

@@ -98,13 +98,11 @@ All of the mods are available to download on [Modrinth](https://modrinth.com/).
 - [Faithfull](https://faithfulpack.net/downloads)
 - Stay True
 - [Legendary](https://legendaryrttextures.com/download/)
-- [Redstone Utilities V2](https://www.curseforge.com/minecraft/texture-packs/redstone-utilities)
-- [Another Restone Utilities](https://faithfulpack.net/addons/redstone-utilities)
+- [Redstone Utilities](https://faithfulpack.net/addons/redstone-utilities)
 
-### Shaders pack
+### Server
 
-- BSL Shaders V8.2.01
-- SEUS PTGI E12
+You may encounter issues when running a minecraft java server. If so, please consider to install [Java JDK Development Kit](https://www.oracle.com/java/technologies/downloads/).
 
 ___
 
