@@ -1,5 +1,37 @@
 # Windows
 
+## Issues with apps when using router WIFI
+
+1. Testing packets
+   - Open command prompt (cmd)
+   - send a ping to any server using the flags `-f` and `-l <size>`
+
+      ```batch
+      ping google.com.br -f -l 1480
+      :: where 1480 is the value in bytes
+
+      :: RESPONSE
+      Pinging google.com.br [142.250.79.3] with 1480 bytes of data:
+      Packet needs to be fragmented but DF set.
+      Packet needs to be fragmented but DF set.
+      Packet needs to be fragmented but DF set.
+      Packet needs to be fragmented but DF set.
+
+      ::Verify interfaces MTU values
+      netsh interface ipv4 show subinterfaces
+      ::Change the MTU from the interfaces
+      netsh interface ipv4 set subinterface <interface_index> mtu=<new_MTU_size> store=persistent
+      ```
+
+   - make this test decreasing the bytes size until the replies return TTL.
+   - Take the value found and add + `28 bytes` to it (8 from ICMP packets and 20 used by the IP).
+2. Change the MTU value (maximum transmission unit)
+   - Access your router admin panel.
+   - Find the location of MTU configuration - in my case was inside port config.
+   - Change the value in bytes accordingdly to the result obtained in the test.
+
+
+
 ## Windows shortcuts
 
 1. Run **<kbd>WIN</kbd> + <kbd>R</kbd>**
