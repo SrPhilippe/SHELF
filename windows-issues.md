@@ -16,11 +16,6 @@
       Packet needs to be fragmented but DF set.
       Packet needs to be fragmented but DF set.
       Packet needs to be fragmented but DF set.
-
-      ::Verify interfaces MTU values
-      netsh interface ipv4 show subinterfaces
-      ::Change the MTU from the interfaces
-      netsh interface ipv4 set subinterface <interface_index> mtu=<new_MTU_size> store=persistent
       ```
 
    - make this test decreasing the bytes size until the replies return TTL.
@@ -30,7 +25,14 @@
    - Find the location of MTU configuration - in my case was inside port config.
    - Change the value in bytes accordingdly to the result obtained in the test.
 
+```batch
+::Verify interfaces MTU values
+netsh interface ipv4 show subinterfaces
+::Change the MTU from the interfaces
+netsh interface ipv4 set subinterface <interface_indexmtu=<new_MTU_size> store=persistent
+```
 
+---
 
 ## Windows shortcuts
 
