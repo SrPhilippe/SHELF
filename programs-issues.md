@@ -1,4 +1,16 @@
-# Softwares issues/annotations
+# Softwares notes
+
+## Edge/Chrome custom shortcut profile
+
+1. Switch to the profile you want to create the shortcut
+2. Open the url `edge://version/` or `chrome://version/`
+3. Check the profile name in `Profile path:` at the end of the directory and make note of it
+4. Create a shortcut of the browser and inside **properties** (alt + enter) add the following argunment:
+   - > `--profile-directory="Default"`
+   - > e.g. `"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --profile-directory="Profile 1"`
+5. You're all done
+
+> by the way, those "arguments" are called _command line switches_. [Click here](https://peter.sh/experiments/chromium-command-line-switches/) to see more.
 
 ## Fixing popup unlicensed software Adobe Photoshop
 

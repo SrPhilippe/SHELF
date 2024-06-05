@@ -7,8 +7,10 @@ Add Anti-backlash Nut - This is meant for the lead screw z axis
 - Input supply: 115-230 V 50-60 Hz (bivolt)
 - Output supply: 24 V 15 A (360 W)
 - Dimensions: 475x445x515mm
-- Weight: 8,3 kg
+- Weight: 8,3 Kg
 - Machine power: 360 W
+- SN: NEP 4 23710.A0197
+- 1.2A current version
 
 ## Calibration
 
@@ -211,7 +213,12 @@ speed: 150.0
 ### SSH Login
 
 ```batch
+:: Default user
 user: mks
+password: makerbase
+
+:: User with admin priviledges
+user: root
 password: makerbase
 ```
 
