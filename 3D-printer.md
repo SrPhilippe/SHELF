@@ -338,3 +338,60 @@ You can backup using an EMMC adapter connected to your computer and [Win32 Disk 
 1. > It won't launch if Google drive is opened
 
 > This software has a launching issue when the computer has a mounted drive on the system like Google Drive. So in order to fix you can simply close GDrive application.
+
+---
+
+### How to flash Updated Klipper MCU Firmware
+
+1. Go to `~/klipper` folder
+2. type: `make clean` and then `make menuconfig`
+3. set the configs [here](#configs-makemenu)
+4. then exit (Q)
+5. run the command `make`
+6. copy the file klipper.bin to the sdcard and rename it to `elegoo_k1.bin`
+7. turn off the printer, plug the sdcard in the slot and power on
+
+#### configs makemenu
+
+```txt
+STM32
+STM32F401
+32KiB Bootloader
+8 MHz Crystal
+USART1 PA10/PA9
+250000 Baud rate
+```
+
+---
+
+## Mcu 'rpi': Unable to connect/open port
+
+```bash
+sudo sysctl -w kernel.sched_rt_runtime_us=-1
+echo "kernel.sched_rt_runtime_us = -1" | sudo tee /etc/sysctl.d/10-disable-rt-group-limit.conf
+```
+
+```bash
+sudo service klipper restart
+```
+
+also, comment both parts in `printer.cfg`:
+
+```txt
+# [adxl345]
+# cs_pin: rpi:None
+# spi_bus: spidev0.2
+
+# [resonance_tester]
+# accel_chip: adxl345
+# probe_points:
+#    100, 100, 20
+```
+
+---
+
+## Fix heater bed PID led flickering
+
+```js
+pwm_cycle_time: 0.0167 # to reduce led flicker
+```

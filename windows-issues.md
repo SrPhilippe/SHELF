@@ -1,5 +1,10 @@
 # Windows
 
+## Custom edge/chrome shortcut
+
+1. Create a shortcut link from the browser application
+2. open properties and paste this flag in the target area after the directory followed by <kbd>space</kbd> `--profile-directory="Profile 1"`
+
 ## Issues with apps when using router WIFI
 
 1. Testing packets
@@ -27,10 +32,19 @@
 
 ```batch
 ::Verify interfaces MTU values
-netsh interface ipv4 show subinterfaces
+netsh int ipv4 show subinterfaces
 ::Change the MTU from the interfaces
-netsh interface ipv4 set subinterface <interface_indexmtu=<new_MTU_size> store=persistent
+netsh int ipv4 set subinterface <interface_name> mtu=<new_MTU_size> store=persistent
 ```
+
+E.g.
+
+```batch
+netsh int ipv4 set subinterface "Wi-fi" mtu=1495 store=persistent
+netsh int ipv4 set subinterface Wi-fi mtu=1495 store=persistent
+```
+
+![alt text](image.png)
 
 ---
 
