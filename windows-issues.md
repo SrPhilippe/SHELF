@@ -2,8 +2,12 @@
 
 ## Custom edge/chrome shortcut
 
-1. Create a shortcut link from the browser application
-2. open properties and paste this flag in the target area after the directory followed by <kbd>space</kbd> `--profile-directory="Profile 1"`
+1. Open the profile that you want to set a shortcut
+2. go to the link `edge://version/`
+3. Locate **profile path**
+4. make note of the profile number
+5. Create a shortcut link from the browser application
+6. open properties and paste this flag in the target area after the directory followed by <kbd>space</kbd> `--profile-directory="Profile 1"`
 
 ## Issues with apps when using router WIFI
 
