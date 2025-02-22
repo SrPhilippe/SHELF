@@ -9,6 +9,14 @@
 5. Create a shortcut link from the browser application
 6. open properties and paste this flag in the target area after the directory followed by <kbd>space</kbd> `--profile-directory="Profile 1"`
 
+## Windows can't sync clock to the internet
+
+1. Go to date and time in the `control panel > set time and date`
+2. In internet time tab <kbd>change settings</kbd> set the file server:
+`time.nist.gov`
+
+3. Click in <kbd>update now</kbd>
+
 ## Issues with apps when using router WIFI
 
 1. Testing packets
