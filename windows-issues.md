@@ -1,5 +1,18 @@
 # Windows
 
+## Can't open Shared folder W11
+
+1. Open **Turn Windows Features On or Off**
+2. Enable `SMB 1.0/CIFS Client` and `SMB 1.0/CIFS Server`
+3. Open `gpedit.msc` or *Group policies editor*
+4. Navigete through `Administrative templates > Network > Lanman Workstation`
+5. Make the setting **enable insecure guests logons** <kbd>enabled</kbd>
+
+### Other solutions
+
+1. Inside `gpedit.msc` navigate through `Windows Settings > Security Settings > Local Policies > Security Options`
+2. Locate the policy **Microsoft network server: Digitally sign communications (always)** and make sure it's <kbd>disabled</kbd>
+
 ## Custom edge/chrome shortcut
 
 1. Open the profile that you want to set a shortcut
