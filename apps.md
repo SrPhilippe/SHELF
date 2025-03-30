@@ -113,6 +113,10 @@
 - Win32DiskImage
 - WinSCP
 
+## MacOS
+
+- [iTerm2](https://iterm2.com/downloads.html)
+
 | Navigation                     |
 | ------------------------------ |
 | [🠝 go top](#windows-programs) |
