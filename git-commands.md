@@ -160,14 +160,14 @@ git config --global user.name <"username">
 :: This command sets a global username
 ```
 
-> If you made a mistake just use `unset` in order to remove the entry
+> If you commit a mistake just use `unset` in order to remove the entry
 
 ```batch
 git config --global --unset user.mail
 :: The correct entry should've been user.email, so I deleted the user.mail
 ```
 
-After this, if you try to publish a repository with Vscode, an authentication window will appear so that the user can log in.
+After this, if you try to publish a repository with Vscode, an authentication window will appear so that the user can login.
 
 ```batch
 git config --global --list
