@@ -8,6 +8,7 @@
 | [Other tools](#other-tools)                |
 | [Hardware](#hardware)                      |
 | [Current PC](#current-computer)            |
+| [MacOS](#macos)                            |
 
 ---
 
