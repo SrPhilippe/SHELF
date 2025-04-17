@@ -20,6 +20,7 @@
 | 12/04/25 | Legislação 4         |       |
 | 14/04/25 | Legislação 10        |       |
 | 15/04/25 | Legislação 12        | 11/18 |
+| 16/04/25 | Legislação           | 12/18 |
 | 02/04/25 | Direção 15           |       |
 | 07/04/25 | Direção 2            |       |
 | 08/04/25 | Direção 5            |       |
@@ -30,8 +31,9 @@
 | 10/04/25 | Mecânica 2           |       |
 | 12/04/25 | Mecânica 1           | 2/3   |
 | 12/04/25 | Meio Ambiente        | 1/4   |
-| 16/04/25 | Legislação           | x     |
-| 16/04/25 | Meio Ambiente        | x     |
+| 16/04/25 | Meio Ambiente        | 2/4   |
+| 17/04/25 | Legislação 18        | x     |
+| 17/04/25 | Primeiros Socorros 3 | x     |
 
 > CURSO TEÓRICO-TÉCNICO
 
