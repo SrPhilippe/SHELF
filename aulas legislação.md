@@ -30,6 +30,8 @@
 | 10/04/25 | Mecânica 2           |       |
 | 12/04/25 | Mecânica 1           | 2/3   |
 | 12/04/25 | Meio Ambiente        | 1/4   |
+| 16/04/25 | Legislação           |       |
+| 16/04/25 | Meio Ambiente        |       |
 
 > CURSO TEÓRICO-TÉCNICO
 
