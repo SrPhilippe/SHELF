@@ -35,9 +35,8 @@
 | 12/04/25 | Meio Ambiente        | 1/4   |
 | 16/04/25 | Meio Ambiente        | 2/4   |
 
-> CURSO TEÓRICO-TÉCNICO
-
-> Carga horária: 45h aulas
+CURSO TEÓRICO-TÉCNICO
+Carga horária: 45h aulas
 
 | Matéria                   | hora |
 | ------------------------- | :--: |
