@@ -8,7 +8,6 @@
 - ~~[anulada] 15/04/25 -  Legislação 11~~
 - ~~[anulada] 15/04/25 -  Legislação 12~~
 
-  
 | Data     | Matéria              | Hora  |
 | -------- | -------------------- | :---: |
 | 25/03/25 | Legislação           |       |
