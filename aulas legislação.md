@@ -6,6 +6,7 @@
 - ~~[anulada] 02/04/25 - Legislação 18~~
 - ~~[anulada] 14/04/25 - Meio ambiente 2~~
 - ~~[anulada] 15/04/25 -  Legislação 11~~
+- ~~[anulada] 15/04/25 -  Legislação 12~~
 
   
 | Data     | Matéria              | Hora  |
@@ -19,9 +20,8 @@
 | 10/04/25 | Legislação 3         |       |
 | 12/04/25 | Legislação 4         |       |
 | 14/04/25 | Legislação 10        |       |
-| 15/04/25 | Legislação 12        |       |
 | 16/04/25 | Legislação           |       |
-| 17/04/25 | Legislação 18        | 13/18 |
+| 17/04/25 | Legislação 18        | 12/18 |
 | 02/04/25 | Direção 15           |       |
 | 07/04/25 | Direção 2            |       |
 | 08/04/25 | Direção 5            |       |
