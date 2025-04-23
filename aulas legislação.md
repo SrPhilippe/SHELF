@@ -33,6 +33,7 @@
 | 12/04/25 | Mecânica 1           | 2/3   |
 | 12/04/25 | Meio Ambiente        | 1/4   |
 | 16/04/25 | Meio Ambiente        | 2/4   |
+| 22/04/25 | Legislação 16        | 13/18 |
 
 CURSO TEÓRICO-TÉCNICO
 Carga horária: 45h aulas

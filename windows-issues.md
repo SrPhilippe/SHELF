@@ -1,5 +1,31 @@
 # Windows
 
+| Link                                                                                                 |
+| :--------------------------------------------------------------------------------------------------: |
+| [Can't open Shared folder W11](#cant-open-shared-folder-w11)                                         |
+| [Custom edge/chrome shortcut](#custom-edgechrome-shortcut)                                           |
+| [Windows can't sync clock to the internet](#windows-cant-sync-clock-to-the-internet)                 |
+| [Issues with apps when using router WIFI](#issues-with-apps-when-using-router-wifi)                  |
+| [Windows shortcuts](#windows-shortcuts)                                                              |
+| [Windows 10/11 Blurred apps fix](#windows-1011-blurred-apps-fix)                                     |
+| [Windows Activation](#windows-activation)                                                            |
+| [Get full ownership on windows](#get-full-ownership-on-windows)                                      |
+| [Issue with hard disk windows in 100%](#issue-with-hard-disk-windows-in-100)                         |
+| [Temporary folders](#temporary-folders)                                                              |
+| [Shutdown windows](#shutdown-windows)                                                                |
+| [Run the System File Checker tool (SFC.exe)](#run-the-system-file-checker-tool-sfcexe)               |
+| [How to disable Windows Defender on Windows 10/11](#how-to-disable-windows-defender-on-windows-1011) |
+| [Enabling Ultimate performance in power mode](#enabling-ultimate-performance-in-power-mode)          |
+| [Missing open/close laptop lid in power options](#missing-openclose-laptop-lid-in-power-options)     |
+| [MSI AFTERBURNER CONFIG](#msi-afterburner-config)                                                    |
+| [Solve issue with Discord overlay](#solve-issue-with-discord-overlay)                                |
+| [How to Change Windows boot logo](#how-to-change-windows-boot-logo)                                  |
+| [Activating memory cache L2 and L3](#activating-memory-cache-l2-and-l3)                              |
+| [Disable hibernate file](#disable-hibernate-file)                                                    |
+| [Autorun file](#autorun-file)                                                                        |
+
+---
+
 ## Can't open Shared folder W11
 
 1. Open **Turn Windows Features On or Off**
@@ -316,7 +342,7 @@ InjectionDelayTriggers=IGO64.dll,IGO32.dll,d3dcompiler_47.dll,DiscordHook.dll,Di
 
 ---
 
-## How to  Change Windows boot logo
+## How to Change Windows boot logo
 
 1. Download this [HackerBGRT](https://github.com/Metabolix/HackBGRT)
 2. Create an image with 250x250 resolution and BMP format with a full black background color
