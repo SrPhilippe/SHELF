@@ -8,34 +8,36 @@
 - ~~[anulada] 15/04/25 -  Legislação 11~~
 - ~~[anulada] 15/04/25 -  Legislação 12~~
 
-| Data     | Matéria              | Hora  |
-| -------- | -------------------- | :---: |
-| 25/03/25 | Legislação           |       |
-| 26/03/25 | Legislação 14        |       |
-| 27/03/25 | Legislação 18        |       |
-| 31/03/25 | Legislação           |       |
-| 03/04/25 | Legislação 17        |       |
-| 08/04/25 | Legislação 7         |       |
-| 10/04/25 | Legislação 3         |       |
-| 12/04/25 | Legislação 4         |       |
-| 14/04/25 | Legislação 10        |       |
-| 16/04/25 | Legislação           |       |
-| 17/04/25 | Legislação 18        |       |
-| 22/04/25 | Legislação 16        | 13/18 |
-| 23/04/25 | Legislação 18        |       |
-| 23/04/25 | Legislação 8         | 15/18 |
-| 02/04/25 | Direção 15           |       |
-| 07/04/25 | Direção 2            |       |
-| 08/04/25 | Direção 5            |       |
-| 15/04/25 | Direção 10           | 4/16  |
-| 09/04/25 | Primeiros Socorros 2 |       |
-| 10/04/25 | Primeiros Socorros 3 |       |
-| 12/04/25 | Primeiros Socorros 3 |       |
-| 17/04/25 | Primeiros Socorros 3 | 4/4   |
-| 10/04/25 | Mecânica 2           |       |
-| 12/04/25 | Mecânica 1           | 2/3   |
-| 12/04/25 | Meio Ambiente        |       |
-| 16/04/25 | Meio Ambiente        | 2/4   |
+| Data     | Matéria                        | Hora  |
+| -------- | ------------------------------ | :---: |
+| 25/03/25 | Legislação                     |       |
+| 26/03/25 | Legislação 14                  |       |
+| 27/03/25 | Legislação 18                  |       |
+| 31/03/25 | Legislação                     |       |
+| 03/04/25 | Legislação 17                  |       |
+| 08/04/25 | Legislação 7                   |       |
+| 10/04/25 | Legislação 3                   |       |
+| 12/04/25 | Legislação 4                   |       |
+| 14/04/25 | Legislação 10                  |       |
+| 16/04/25 | Legislação                     |       |
+| 17/04/25 | Legislação 18                  |       |
+| 22/04/25 | Legislação 16                  | 13/18 |
+| 23/04/25 | Legislação 18                  |       |
+| 23/04/25 | Legislação 8                   | 15/18 |
+| 02/04/25 | Direção 15                     |       |
+| 07/04/25 | Direção 2                      |       |
+| 08/04/25 | Direção 5                      |       |
+| 15/04/25 | Direção 10                     | 4/16  |
+| 26/04/25 | :warning: Direção Defensiva 12 | 5/16  |
+| 09/04/25 | Primeiros Socorros 2           |       |
+| 10/04/25 | Primeiros Socorros 3           |       |
+| 12/04/25 | Primeiros Socorros 3           |       |
+| 17/04/25 | Primeiros Socorros 3           | 4/4   |
+| 10/04/25 | Mecânica 2                     |       |
+| 12/04/25 | Mecânica 1                     | 2/3   |
+| 12/04/25 | Meio Ambiente                  |       |
+| 16/04/25 | Meio Ambiente                  | 2/4   |
+| 26/04/25 | :warning: Meio Ambiente        | 3/4   |
 
 CURSO TEÓRICO-TÉCNICO
 Carga horária: 45h aulas
