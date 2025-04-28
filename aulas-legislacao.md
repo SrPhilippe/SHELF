@@ -14,19 +14,19 @@
 
 | Data     | Matéria                       | Hora  |
 | -------- | ----------------------------- | :---: |
-| 25/03/25 | Legislação                    |       |
-| 26/03/25 | Legislação 14                 |       |
-| 27/03/25 | Legislação 18                 |       |
-| 31/03/25 | Legislação                    |       |
-| 03/04/25 | Legislação 17                 |       |
-| 08/04/25 | Legislação 7                  |       |
-| 10/04/25 | Legislação 3                  |       |
-| 12/04/25 | Legislação 4                  |       |
-| 14/04/25 | Legislação 10                 |       |
-| 16/04/25 | Legislação                    |       |
-| 17/04/25 | Legislação 18                 |       |
+| 25/03/25 | Legislação                    | -     |
+| 26/03/25 | Legislação 14                 | -     |
+| 27/03/25 | Legislação 18                 | -     |
+| 31/03/25 | Legislação                    | -     |
+| 03/04/25 | Legislação 17                 | -     |
+| 08/04/25 | Legislação 7                  | -     |
+| 10/04/25 | Legislação 3                  | -     |
+| 12/04/25 | Legislação 4                  | -     |
+| 14/04/25 | Legislação 10                 | -     |
+| 16/04/25 | Legislação                    | -     |
+| 17/04/25 | Legislação 18                 | -     |
 | 22/04/25 | Legislação 16                 | 13/18 |
-| 23/04/25 | Legislação 18                 |       |
+| 23/04/25 | Legislação 18                 | -     |
 | 23/04/25 | Legislação 8                  | 15/18 |
 | 28/04/25 | Legislação 9 :warning:        | 16/18 |
 | 02/04/25 | Direção 15                    | -     |
