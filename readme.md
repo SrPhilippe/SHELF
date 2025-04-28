@@ -12,4 +12,4 @@ This repository is meant for personal use purposes. But in some cases, it might 
 | Configs                 | 3D World                      | Others                            |
 | ----------------------- | ----------------------------- | --------------------------------- |
 | [Applications](apps.md) | [3D Modeling](3D-modeling.md) | [Others](others.md)               |
-| [Games](games.md)       | [3D Printer](3D-printer.md)   | [Legislação](aulas%20legislação.md) |
+| [Games](games.md)       | [3D Printer](3D-printer.md)   | [Legislação](aulas-legislacao.md) |
