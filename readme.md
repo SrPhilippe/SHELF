@@ -33,7 +33,8 @@ This repository is meant for personal use purposes. But in some cases, it might 
 | [3D Printer](3D-printer.md)   |
 | <img width=200 alt=""/>       |
 
-| Others         <img width=200 alt=""/> |
-| :------------------------------------: |
-| [Others](others.md)                    |
-| [Legislação](aulas-legislacao.md)      |
+| Others                            |
+| :-------------------------------: |
+| [Others](others.md)               |
+| [Legislação](aulas-legislacao.md) |
+| <img width=200 alt=""/>           |
