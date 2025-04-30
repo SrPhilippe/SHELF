@@ -19,18 +19,21 @@ This repository is meant for personal use purposes. But in some cases, it might 
 | :-----------------------------------: |
 | [Windows issues](windows-issues.md)   |
 | [Programs issues](programs-issues.md) |
+| <img width=200 alt=""/>               |
 
 | Configs                 |
 | :---------------------: |
 | [Applications](apps.md) |
 | [Games](games.md)       |
+| <img width=200 alt=""/> |
 
 | 3D World                      |
 | :---------------------------: |
 | [3D Modeling](3D-modeling.md) |
 | [3D Printer](3D-printer.md)   |
+| <img width=200 alt=""/>       |
 
-| Others                            |
-| :-------------------------------: |
-| [Others](others.md)               |
-| [Legislação](aulas-legislacao.md) |
+| Others         <img width=200 alt=""/> |
+| :------------------------------------: |
+| [Others](others.md)                    |
+| [Legislação](aulas-legislacao.md)      |
