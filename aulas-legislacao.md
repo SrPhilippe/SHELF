@@ -27,14 +27,16 @@
 | 17/04/25 | Legislação 18                 | -     |
 | 22/04/25 | Legislação 16                 | 13/18 |
 | 23/04/25 | Legislação 18                 | -     |
-| 23/04/25 | Legislação 8                  | 15/18 |
-| 28/04/25 | Legislação 9 :warning:        | 16/18 |
+| 23/04/25 | Legislação 8                  | -     |
+| 28/04/25 | Legislação 9                  | -     |
+| 29/04/25 | Legislação 7 :warning:        | 17/18 |
 | 02/04/25 | Direção 15                    | -     |
 | 07/04/25 | Direção 2                     | -     |
 | 08/04/25 | Direção 5                     | -     |
 | 15/04/25 | Direção 10                    | -     |
 | 26/04/25 | Direção Defensiva 12          | -     |
-| 28/04/25 | Direção Defensiva 2 :warning: | 6/16  |
+| 28/04/25 | Direção Defensiva 2           | -     |
+| 28/04/25 | Direção Defensiva 5 :warning: | 7/16  |
 | 09/04/25 | Primeiros Socorros 2          | -     |
 | 10/04/25 | Primeiros Socorros 3          | -     |
 | 12/04/25 | Primeiros Socorros 3          | -     |
@@ -44,7 +46,7 @@
 | 12/04/25 | Meio Ambiente                 | -     |
 | 16/04/25 | Meio Ambiente                 | -     |
 | 26/04/25 | Meio Ambiente                 | -     |
-| 28/04/25 | Meio Ambiente 4 :warning:     | 4/4   |
+| 28/04/25 | Meio Ambiente 4               | 4/4   |
 
 CURSO TEÓRICO-TÉCNICO
 Carga horária: 45h aulas
