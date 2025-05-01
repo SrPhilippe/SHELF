@@ -25,18 +25,19 @@
 | 14/04/25 | Legislação 10                 | -     |
 | 16/04/25 | Legislação                    | -     |
 | 17/04/25 | Legislação 18                 | -     |
-| 22/04/25 | Legislação 16                 | 13/18 |
+| 22/04/25 | Legislação 16                 | -     |
 | 23/04/25 | Legislação 18                 | -     |
 | 23/04/25 | Legislação 8                  | -     |
 | 28/04/25 | Legislação 9                  | -     |
-| 29/04/25 | Legislação 7 :warning:        | 17/18 |
+| 29/04/25 | Legislação 7                  | 17/18 |
 | 02/04/25 | Direção 15                    | -     |
 | 07/04/25 | Direção 2                     | -     |
 | 08/04/25 | Direção 5                     | -     |
 | 15/04/25 | Direção 10                    | -     |
 | 26/04/25 | Direção Defensiva 12          | -     |
 | 28/04/25 | Direção Defensiva 2           | -     |
-| 28/04/25 | Direção Defensiva 5 :warning: | 7/16  |
+| 28/04/25 | Direção Defensiva 5           | 7/16  |
+| 28/04/25 | Direção Defensiva 9 :warning: | 8/16  |
 | 09/04/25 | Primeiros Socorros 2          | -     |
 | 10/04/25 | Primeiros Socorros 3          | -     |
 | 12/04/25 | Primeiros Socorros 3          | -     |
