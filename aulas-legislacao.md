@@ -4,13 +4,14 @@
 | ------------------------- |
 | [🠜 go back](./readme.md) |
 
-- ~~[anulada] 01/04/25 - Direção defensiva 3~~
-- ~~[anulada] 01/04/25 - Legislação 16~~
-- ~~[anulada] 02/04/25 - Legislação 18~~
-- ~~[anulada] 02/04/25 - Legislação 18~~
-- ~~[anulada] 14/04/25 - Meio ambiente 2~~
-- ~~[anulada] 15/04/25 -  Legislação 11~~
-- ~~[anulada] 15/04/25 -  Legislação 12~~
+- ~~[anulada] 01/04/25 Direção defensiva 3~~
+- ~~[anulada] 01/04/25 Legislação 16~~
+- ~~[anulada] 02/04/25 Legislação 18~~
+- ~~[anulada] 02/04/25 Legislação 18~~
+- ~~[anulada] 14/04/25 Meio ambiente 2~~
+- ~~[anulada] 15/04/25 Legislação 11~~
+- ~~[anulada] 15/04/25 Legislação 12~~
+- ~~[anulada] 05/05/25 Direçao defensiva 12~~
 
 | Data     | Matéria                       | Hora  |
 | -------- | ----------------------------- | :---: |
@@ -40,7 +41,8 @@
 | 28/04/25 | Direção Defensiva 5           | -     |
 | 30/04/25 | Direção Defensiva 9           | -     |
 | 02/05/25 | Direção Defensiva             | 9/16  |
-| 02/05/25 | Direção Defensiva 6 :warning: | 10/16 |
+| 03/05/25 | Direção Defensiva 6:          | 10/16 |
+| 05/05/25 | Direção Defensiva 7 :warning: | 11/16 |
 | 09/04/25 | Primeiros Socorros 2          | -     |
 | 10/04/25 | Primeiros Socorros 3          | -     |
 | 12/04/25 | Primeiros Socorros 3          | -     |
