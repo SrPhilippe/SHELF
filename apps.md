@@ -74,13 +74,14 @@
 - ~~Snap Camera~~
 - Grammarly
 - Voicemeter
-- X-mouse
+- X-mouse 2.20.5
 - SpeedTest
 - X-mouse Button
 - Blitz
 - Moises
 - Free Download Manager
 - G-hub
+- Guitar Rig
 
 | Navigation                     |
 | ------------------------------ |
@@ -98,6 +99,7 @@
 - Drive booster
 - WinSCP
 - Win32DiskImage (google drive must be closed)
+- Cinebench
 
 | Navigation                     |
 | ------------------------------ |
