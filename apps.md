@@ -100,6 +100,7 @@
 - WinSCP
 - Win32DiskImage (google drive must be closed)
 - Cinebench
+- Logitech Onboard Memory Manager
 
 | Navigation                     |
 | ------------------------------ |
