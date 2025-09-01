@@ -23,6 +23,7 @@
 | [Activating memory cache L2 and L3](#activating-memory-cache-l2-and-l3)                              |
 | [Disable hibernate file](#disable-hibernate-file)                                                    |
 | [Autorun file](#autorun-file)                                                                        |
+| [Restore old right-click context menu in w11](#restore-old-right-click-context-menu-in-w11)          |
 
 ---
 
@@ -384,6 +385,23 @@ powercfg.exe /hibernate off
 This is going to delete the user file
 
 ---
+
+## Restore old right-click context menu in W11
+
+1. Right-click the Start button and choose Windows Terminal.
+2. Copy the command from below, paste it into the Windows Terminal Window, and press <kbd>Enter</kbd>.
+
+```bash
+reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+```
+
+> Restart File Explorer or your computer for the changes to take effect. You would see the Legacy Right Click Context menu by default.
+
+If you want to restore the modern context menu just do the following command:
+
+```bash
+reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
+```
 
 | Navigation                      |
 | ------------------------------- |
