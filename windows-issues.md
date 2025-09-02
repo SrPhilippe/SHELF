@@ -8,6 +8,7 @@
 | [Issues with apps when using router WIFI](#issues-with-apps-when-using-router-wifi)                  |
 | [Windows shortcuts](#windows-shortcuts)                                                              |
 | [Windows 10/11 Blurred apps fix](#windows-1011-blurred-apps-fix)                                     |
+| [Autorun file](#autorun-file)                                                                        |
 | [Windows Activation](#windows-activation)                                                            |
 | [Get full ownership on windows](#get-full-ownership-on-windows)                                      |
 | [Issue with hard disk windows in 100%](#issue-with-hard-disk-windows-in-100)                         |
@@ -22,7 +23,6 @@
 | [How to Change Windows boot logo](#how-to-change-windows-boot-logo)                                  |
 | [Activating memory cache L2 and L3](#activating-memory-cache-l2-and-l3)                              |
 | [Disable hibernate file](#disable-hibernate-file)                                                    |
-| [Autorun file](#autorun-file)                                                                        |
 | [Restore old right-click context menu in w11](#restore-old-right-click-context-menu-in-w11)          |
 
 ---
@@ -403,7 +403,7 @@ If you want to restore the modern context menu just do the following command:
 reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
 ```
 
-| Navigation                      |
-| ------------------------------- |
-| [🠝 go top](#windows) |
-| [🠜 go back](./readme.md)       |
+| Navigation                |
+| ------------------------- |
+| [🠝 go top](#windows)     |
+| [🠜 go back](./readme.md) |

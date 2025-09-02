@@ -1,5 +1,18 @@
 # Softwares notes
 
+| Link                                                                                                 |
+| :--------------------------------------------------------------------------------------------------: |
+| [Edge/Chrome custom shortcut profile](#edgechrome-custom-shortcut-profile)                           |
+| [Fixing popup unlicensed software Adobe Photoshop](#fixing-popup-unlicensed-software-adobe-photoshop)|
+| [Fixing INK pressure in Photoshop](#fixing-ink-pressure-in-photoshop)                                |
+| [Changing the UI accent color on Photoshop](#changing-the-ui-accent-color-on-photoshop)              |
+| [Better response on Illustrator](#better-response-on-illustrator)                                    |
+| [Hide ADS uTorrent](#hide-ads-utorrent)                                                              |
+| [Improve download speed uTorrent](#improve-download-speed-utorrent)                                  |
+| [Riot games doesn't launch](#riot-games-doesnt-launch)                                               |
+
+---
+
 ## Edge/Chrome custom shortcut profile
 
 1. Switch to the profile you want to create the shortcut
@@ -83,7 +96,7 @@ It's really simple.
 1. Press <kbd>ctrl</kbd>+<kbd>K</kbd> and go to the performance tab
 2. Enable the option **_Real-time Drawing and Editing_**
 
-### Hide ADS in uTorrent
+## Hide ADS uTorrent
 
 Just simply disable these options listed below:
 
@@ -91,12 +104,23 @@ Just simply disable these options listed below:
 - `offers.sponsored_torrent_offer_enabled`
 - `offers.left_rail_offer_enabled`
 
-### Improve download speed
+## Improve download speed uTorrent
 
 1. Go into the tab **Bandwidth**
 2. Set the option **Global maximum number of connections** to `400`
 
+## Riot games doesn't launch
+
+This issue can happen after cracking a software.
+
+1. Lauch <kbd>Regedit</kbd>
+2. Locate the directory `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options`
+3. Under the option `DevOverrideEnable` change the value <kbd>1</kbd> to <kbd>0</kbd>
+4. Restart the computer and you can open the riot game that was not launching
+
+---
+
 | Navigation                    |
 | ----------------------------- |
-| [🠝 go top](#softwares-issuesannotations) |
+| [🠝 go top](#softwares-notes) |
 | [🠜 go back](./readme.md)     |
