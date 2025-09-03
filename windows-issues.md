@@ -116,7 +116,7 @@ netsh int ipv4 set subinterface Wi-fi mtu=1495 store=persistent
 ### Method 1: Change Nvidia settings (may solve for all apps)
 
    1. In **Nvidia Control Panel** set `Antialising - FXAA` to **Off** and hit apply.
-   2. If the option above didn't work, you can also try to change the scalling mode to `No Scaling` inside **Adjust desktop size and position** and `perform scaling on` **GPU**. (make sure to mark the checkbox _Override the scalling mode set by games and programs_).
+   2. If the option above didn't work, you can also try to change the scalling mode to `No Scaling` inside **Adjust desktop size and position** and `perform scaling on` **GPU**. (make sure to mark the checkbox *Override the scalling mode set by games and programs*).
 
 ### Method 2: Registry method (may solve for all apps)
 

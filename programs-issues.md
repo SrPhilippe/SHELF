@@ -23,7 +23,7 @@
    - > e.g. `"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --profile-directory="Profile 1"`
 5. You're all done
 
-> by the way, those "arguments" are called _command line switches_. [Click here](https://peter.sh/experiments/chromium-command-line-switches/) to see more.
+> By the way, those "arguments" are called _command line switches_. [Learn more about them here.](https://peter.sh/experiments/chromium-command-line-switches/)
 
 ## Fixing popup unlicensed software Adobe Photoshop
 
@@ -142,7 +142,6 @@ InjectionDelayTriggers=IGO64.dll,IGO32.dll,d3dcompiler_47.dll,DiscordHook.dll,Di
 2. under the directory `ProfileTemplates` open the file `CONFIG`
 3. Open this file as Administrator using VSCode and then change the parameter <kbd>Silent</kbd> to `1`
 4. Save the file and it should be done
-
 
 ## MSI AFTERBURNER CONFIG
 
