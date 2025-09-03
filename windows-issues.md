@@ -21,9 +21,7 @@
 | [MSI AFTERBURNER CONFIG](#msi-afterburner-config)                                                    |
 | [Solve issue with Discord overlay](#solve-issue-with-discord-overlay)                                |
 | [How to Change Windows boot logo](#how-to-change-windows-boot-logo)                                  |
-| [Activating memory cache L2 and L3](#activating-memory-cache-l2-and-l3)                              |
-| [Disable hibernate file](#disable-hibernate-file)                                                    |
-| [Restore old right-click context menu in w11](#restore-old-right-click-context-menu-in-w11)          |
+| [Restore old right-click context menu in W11](#restore-old-right-click-context-menu-in-w11)          |
 
 ---
 
@@ -197,14 +195,6 @@ takeown /F C: /R
 4. Execute the following command `Dism /Online /Cleanup-Image /RestoreHealth`
 5. Wait until the process is completed and restart the computer
 
-### Disable superfetch service
-
-1. Press **<kbd>WIN</kbd> + <kbd>R</kbd>** and type `services.msc`
-2. Locate the `Superfetch` service
-3. **right click** and stop it
-4. **right click** then **properties**
-5. In the dropdown **startup type** select the option: **disabled**
-
 ---
 
 ## Temporary folders
@@ -355,34 +345,6 @@ InjectionDelayTriggers=IGO64.dll,IGO32.dll,d3dcompiler_47.dll,DiscordHook.dll,Di
 7. Click `File > Save as > Select A:/EFI/HackBGRT/`
 8. Overwrite the `splash.bmp` image in this folder
 9. Close paint and then the cmd terminal
-
----
-
-### ~~Activating memory cache L2 and L3~~
-
-1. Open CPU-Z and check in the cache tab if you have these 2 sort of memory available
-
-2. open the **regedit** with **<kbd>WIN</kbd> + <kbd>R</kbd>** and type `regedit`
-
-3. locate `Computador\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management`
-
-4. There is a file `SecondLevelDataCache` which by default is disabled. You Can enable it putting your **memory cache L2** value of bytes on it.
-
-5. To activate the **memory cache L3** it needs to create a **DWORD 32** with the name `ThirdLevelDataCache`
-
-[◀◀ Return](readme.md#menu)
-
----
-
-## ~~Disable hibernate file~~
-
-Not recommended - maybe only when using a good SSD
-
-```bash
-powercfg.exe /hibernate off
-```
-
-This is going to delete the user file
 
 ---
 
