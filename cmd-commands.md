@@ -1,8 +1,6 @@
-# Commands
+# CMD commands
 
-## CMD commands
-
-### Close and open explorer
+## Close and open explorer
 
 ```batch
 :: Opening
@@ -16,10 +14,28 @@
 
 ## Bash commands
 
+| Description                           |
+| :-----------------------------------: |
+| [Open file](#open-file)               |
+| [Remove directory](#remove-directory) |
+| [Move directory](#move-directory)     |
+| [Rename](#rename)                     |
+| [Copy](#copy)                         |
+| [Create file](#create-file)           |
+| [Delete file](#delete-file)           |
+| [Create folder/s](#create-folders)    |
+| [Clear console](#clear-console)       |
+
 ### Open file
 
 ```batch
 explorer index.html
+```
+
+### Remove directory
+
+```batch
+rm /s ./folder-to-be-deleted/
 ```
 
 ### Move directory

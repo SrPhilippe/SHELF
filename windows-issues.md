@@ -18,8 +18,6 @@
 | [How to disable Windows Defender on Windows 10/11](#how-to-disable-windows-defender-on-windows-1011) |
 | [Enabling Ultimate performance in power mode](#enabling-ultimate-performance-in-power-mode)          |
 | [Missing open/close laptop lid in power options](#missing-openclose-laptop-lid-in-power-options)     |
-| [MSI AFTERBURNER CONFIG](#msi-afterburner-config)                                                    |
-| [Solve issue with Discord overlay](#solve-issue-with-discord-overlay)                                |
 | [How to Change Windows boot logo](#how-to-change-windows-boot-logo)                                  |
 | [Restore old right-click context menu in W11](#restore-old-right-click-context-menu-in-w11)          |
 
@@ -94,7 +92,7 @@ netsh int ipv4 set subinterface "Wi-fi" mtu=1495 store=persistent
 netsh int ipv4 set subinterface Wi-fi mtu=1495 store=persistent
 ```
 
-![alt text](image.png)
+![alt text](assets/tcp-size.png)
 
 ---
 
@@ -291,45 +289,6 @@ powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
    ```
 
 Otherwise, if you want to remove it you can change the parameter at the end of the code to `+ ATTRIB_HIDE`
-
----
-
-## MSI AFTERBURNER CONFIG
-
-| Colors Library | R   | G   | B   |
-| -------------- | :-: | :-: | :-: |
-| Color 0        | 185 | 231 | 0   |
-| Color 1        | 224 | 0   | 49  |
-| Color 2        | 17  | 175 | 242 |
-| Color 3        | 255 | 255 | 255 |
-| System Color   | 255 | 255 | 255 |
-
-| Separatos  | Value                                          |
-| ---------- | ---------------------------------------------- |
-| Prolog     | `<C3><B=0,0>\b`                                |
-| Text       | `\n`                                           |
-| Group name | `\t`                                           |
-| Group data | Separator that you want - In my case **space** |
-| Epilog     | `\n<S=100><C4>%Time%     <S=200><FR>FPS`       |
-
-| Group Separator | Value |
-| --------------- | ----- |
-| Framerate       | `\n`  |
-| CPU usage       | `\n`  |
-
----
-
-## Solve issue with Discord overlay
-
-There is an issue where MSI Afterburner don't let the discord overlay show up inside any game.
-
-1. To solve this, navigate to `C:\Program Files (x86)\RivaTuner Statistics Server\ProfileTemplates`
-2. Open the file `GLOBAL`
-3. Add the following code under the line that contains `InjectionDelay=15000`
-
-```js
-InjectionDelayTriggers=IGO64.dll,IGO32.dll,d3dcompiler_47.dll,DiscordHook.dll,DiscordHook64.dll,GameOverlayRenderer.dll,GameOverlayRenderer64.dll,steam_api64.dll,steam_api.dll,d3d9.dll,dxgi.dll,d3d9_smaa.dll,d3d11.dll,DiscordOverlay.dll,DiscordOverlay64.dll
-```
 
 ---
 

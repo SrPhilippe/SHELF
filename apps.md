@@ -55,8 +55,9 @@
 
 - Action
 - Afinity Photo
-- StartIsBack
-  - 2DC92F4B-43A5-AE29-7395-00006EF1BF4E
+- <details><summary>StartIsBack</summary>
+  2DC92F4B-43A5-AE29-7395-00006EF1BF4E
+  </details>
 - IVCam (Android)
 - Simulados Detran by Aplicativo Legais (Android, iOS)
 

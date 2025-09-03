@@ -120,6 +120,55 @@ This issue can happen after cracking a software.
 
 ---
 
+## Solve issue with Discord overlay
+
+There is an issue where MSI Afterburner don't let the discord overlay show up inside any game.
+
+1. To solve this, navigate to `C:\Program Files (x86)\RivaTuner Statistics Server\ProfileTemplates`
+2. Open the file `GLOBAL`
+3. Add the following code under the line that contains `InjectionDelay=15000`
+
+```js
+InjectionDelayTriggers=IGO64.dll,IGO32.dll,d3dcompiler_47.dll,DiscordHook.dll,DiscordHook64.dll,GameOverlayRenderer.dll,GameOverlayRenderer64.dll,steam_api64.dll,steam_api.dll,d3d9.dll,dxgi.dll,d3d9_smaa.dll,d3d11.dll,DiscordOverlay.dll,DiscordOverlay64.dll
+```
+
+---
+
+## RivaTuner Statistics Sever Direct3D9 Cannot be hooked
+
+![alt text](assets/Direct3D9.png)
+
+1. Go inside RivaTuner folder
+2. under the directory `ProfileTemplates` open the file `CONFIG`
+3. Open this file as Administrator using VSCode and then change the parameter <kbd>Silent</kbd> to `1`
+4. Save the file and it should be done
+
+
+## MSI AFTERBURNER CONFIG
+
+| Colors Library | R   | G   | B   |
+| -------------- | :-: | :-: | :-: |
+| Color 0        | 185 | 231 | 0   |
+| Color 1        | 224 | 0   | 49  |
+| Color 2        | 17  | 175 | 242 |
+| Color 3        | 255 | 255 | 255 |
+| System Color   | 255 | 255 | 255 |
+
+| Separatos  | Value                                          |
+| ---------- | ---------------------------------------------- |
+| Prolog     | `<C3><B=0,0>\b`                                |
+| Text       | `\n`                                           |
+| Group name | `\t`                                           |
+| Group data | Separator that you want - In my case **space** |
+| Epilog     | `\n<S=100><C4>%Time%     <S=200><FR>FPS`       |
+
+| Group Separator | Value |
+| --------------- | ----- |
+| Framerate       | `\n`  |
+| CPU usage       | `\n`  |
+
+---
+
 | Navigation                    |
 | ----------------------------- |
 | [🠝 go top](#softwares-notes) |
