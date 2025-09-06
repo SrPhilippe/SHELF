@@ -14,28 +14,21 @@
 
 ## Bash commands
 
-| Description                           |
-| :-----------------------------------: |
-| [Open file](#open-file)               |
-| [Remove directory](#remove-directory) |
-| [Move directory](#move-directory)     |
-| [Rename](#rename)                     |
-| [Copy](#copy)                         |
-| [Create file](#create-file)           |
-| [Delete file](#delete-file)           |
-| [Create folder/s](#create-folders)    |
-| [Clear console](#clear-console)       |
+| Description                        |
+| :--------------------------------: |
+| [Open file](#open-file)            |
+| [Move directory](#move-directory)  |
+| [Rename](#rename)                  |
+| [Copy](#copy)                      |
+| [Create file](#create-file)        |
+| [Create folder/s](#create-folders) |
+| [Remove folder/s](#remove-folders) |
+| [Clear console](#clear-console)    |
 
 ### Open file
 
 ```batch
 explorer index.html
-```
-
-### Remove directory
-
-```batch
-rm /s ./folder-to-be-deleted/
 ```
 
 ### Move directory
@@ -94,6 +87,15 @@ mkdir foldername
 ```
 
 > Use <kbd>-p</kbd> argument to create nested directories.
+
+### Remove folder/s
+
+```batch
+rm -rf ./folder-to-be-deleted/
+```
+
+> <kbd>-f</kbd> argument to forcefully delete a file.
+> <kbd>-r</kbd> argument to recursively delete along with its content.
 
 ### clear console
 
