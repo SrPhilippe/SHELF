@@ -129,17 +129,17 @@
 
 ## Current Computer
 
-| Type         | Brand        | Model        | Additional infos                                      | Support |
-| ------------ | :----------: | :----------: | ----------------------------------------------------- | ------- |
-| Motherboard  | Gigabyte     | GA B550M     | Aorus Elite                                           |         |
-| Processor    | AMD          | Ryzen 5 3600 | 3.6MHz (turbo 4.2MHz)                                 |         |
-| Video Card   | Sheli 51RISC | RTX 3060Ti   | 8GB                                                   |         |
-| Power Supply | NZXT         | C550 - 550W  | 80 Plus Bronze - PFC Ativo, Semi Modular, PA-5B1BB-US |         |
-| Memory       | Asgard       | Valkyrie V5  | 8GBx2 3600Mhz DDR4                                    |         |
-| Storage 1    | Reletech     | 1TB ty:2280  | controlador phison independente - ssd m.2 pcie        |         |
-| Storage 2    | Z-suit       | 1TB ty:2280  | 1600MBs/2000MBs                                       |         |
-| Case         | Montech      | x3 MESH      | Mid Tower, White, ATX,  x6 Fans RGB                   |         |
-| Monitor      | LG           | 26WQ500-B    | 26" IPS Full HD UltraWide™ - 21:9 com AMD FreeSync™   |         |
+| Type         | Brand        | Model         | Additional infos                                      |
+| ------------ | :----------: | :-----------: | ----------------------------------------------------- |
+| Motherboard  | Gigabyte     | GA B550M      | Aorus Elite                                           |
+| Processor    | AMD          | Ryzen 5 5600x | 3.7MHz (turbo 4.6MHz)                                 |
+| Video Card   | Sheli 51RISC | RTX 3060Ti    | 8GB                                                   |
+| Power Supply | NZXT         | C550 - 550W   | 80 Plus Bronze - PFC Ativo, Semi Modular, PA-5B1BB-US |
+| Memory       | Asgard       | Valkyrie V5   | 8GBx4 3600Mhz DDR4                                    |
+| Storage 1    | Reletech     | 1TB ty:2280   | controlador phison independente - ssd m.2 pcie        |
+| Storage 2    | Z-suit       | 1TB ty:2280   | 1600MBs/2000MBs                                       |
+| Case         | Montech      | x3 MESH       | Mid Tower, White, ATX,  x6 Fans RGB                   |
+| Monitor      | LG           | 26WQ500-B     | 26" IPS Full HD UltraWide™ - 21:9 com AMD FreeSync™   |
 
 ### Downloads
 
