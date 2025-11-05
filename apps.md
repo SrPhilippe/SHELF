@@ -44,7 +44,7 @@
 - TranslucentTB
 ~~- Quick look (W-STORE)~~ *already in Powertoys*
 - Modern Flyouts
-- Notepads App (W-STORE)
+- Notepads App (W-STORE)-
 
 | Navigation                     |
 | ------------------------------ |
