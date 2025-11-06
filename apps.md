@@ -44,7 +44,6 @@
 - TranslucentTB
 ~~- Quick look (W-STORE)~~ *already in Powertoys*
 - Modern Flyouts
-- Notepads App (W-STORE)
 
 | Navigation                     |
 | ------------------------------ |
@@ -165,7 +164,12 @@
     5. The Cookie value will be your Deezer ARL
 
 <details>
-<summary>Hello  World</summary>
+<summary><kbd>My last ARL</kbd></summary>
+<i>45bbb60e0bf3176930689a0877d3ada0721a885ba970c60a8722301966bb0c8b6797779208aa2bbf05ffd4a465258a8e2fe4dca2e066760cb5e30c06dfa771f157f715e67893ccd52f71202708eecd6479a8d2690269ec18682346a05902b9b8</i>
+</details>
+
+<details>
+<summary><kbd>Hello  World</kbd></summary>
 <i>Fem Er Rep Bicy Clerk Recy Can Dign Reli Enlis Oxy Wild</i>
 </details>
 

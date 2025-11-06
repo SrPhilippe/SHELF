@@ -9,6 +9,7 @@
 | [Windows shortcuts](#windows-shortcuts)                                                              |
 | [Windows 10/11 Blurred apps fix](#windows-1011-blurred-apps-fix)                                     |
 | [Autorun file](#autorun-file)                                                                        |
+| [Disable Memory Compression on Windows](#disable-memory-compression-on-windows)                       |
 | [Windows Activation](#windows-activation)                                                            |
 | [Get full ownership on windows](#get-full-ownership-on-windows)                                      |
 | [Issue with hard disk windows in 100%](#issue-with-hard-disk-windows-in-100)                         |
@@ -323,6 +324,19 @@ If you want to restore the modern context menu just do the following command:
 ```bash
 reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
 ```
+
+---
+
+## Disable Memory Compression on Windows
+
+1. Press <kbd>WIN</kbd> + <kbd>R</kbd> and type `resmon`
+2. Go to the tab "memory" and check what's using more memory on your computer, if it's the memory compression then you can continue with this tutorial
+3. Open Windows PowerShell as administrator
+4. type `Get-MMAgent` to check if "memory compression" is enabled
+5. type `Disable-MMAgent -MemoryCompression`
+6. type `Get-MMAgent` to check if it's now disabled
+
+---
 
 | Navigation                |
 | ------------------------- |
