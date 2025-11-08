@@ -297,14 +297,16 @@ Otherwise, if you want to remove it you can change the parameter at the end of t
 
 1. Download this [HackerBGRT](https://github.com/Metabolix/HackBGRT)
 2. Create an image with 250x250 resolution and BMP format with a full black background color
-   - The image must be 24-bit format named `boot_image.bpm`
-3. Execute the `setup` file and press `I` to install
-4. A txt file will pop-up, let it open
-5. Execute paint with administrator priviledges
-6. Open the `.bmp` image you created
-7. Click `File > Save as > Select A:/EFI/HackBGRT/`
-8. Overwrite the `splash.bmp` image in this folder
-9. Close paint and then the cmd terminal
+   - The image must be 24-bit format named ~~`boot_image.bmp`~~ `splash.bmp`
+3. Inside HackerBGRT folder you downloaded, replace the original BGRT `splash.bmp` with your `splash` file
+4. Execute the `setup` file as administrator and press `I` to install
+5. Paint will open showing your `splash` file
+6. Click `File > Save as > Select A:/EFI/HackBGRT/`
+7. Overwrite the `splash.bmp` image in this folder
+8. Close Paint
+9. Wait for the CMD to finish the proccess
+10. Press any key to close CMD
+11. Restart the computer to test your new `boot_image` logo
 
 ---
 
