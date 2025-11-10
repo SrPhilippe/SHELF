@@ -9,7 +9,7 @@
 | [Windows shortcuts](#windows-shortcuts)                                                              |
 | [Windows 10/11 Blurred apps fix](#windows-1011-blurred-apps-fix)                                     |
 | [Autorun file](#autorun-file)                                                                        |
-| [Disable Memory Compression on Windows](#disable-memory-compression-on-windows)                       |
+| [Disable Memory Compression on Windows](#disable-memory-compression-on-windows)                      |
 | [Windows Activation](#windows-activation)                                                            |
 | [Get full ownership on windows](#get-full-ownership-on-windows)                                      |
 | [Issue with hard disk windows in 100%](#issue-with-hard-disk-windows-in-100)                         |
@@ -21,6 +21,7 @@
 | [Missing open/close laptop lid in power options](#missing-openclose-laptop-lid-in-power-options)     |
 | [How to Change Windows boot logo](#how-to-change-windows-boot-logo)                                  |
 | [Restore old right-click context menu in W11](#restore-old-right-click-context-menu-in-w11)          |
+| [Disable clock in the lock screen](#disable-clock-in-the-lock-screen)                                |
 
 ---
 
@@ -339,6 +340,16 @@ reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a
 6. type `Get-MMAgent` to check if it's now disabled
 
 ---
+
+## Disable "clock" in the lock screen
+
+Windows doesn't have an option to disable the clock from lockscreen. So instead we disable the lockscreen itself.
+
+1. On the windows search bar type `gepedit` click Edit Group Policy
+2. Go to <kbd>Administrative Templates > Control Panel > Personalization</kbd>
+3. Enable the setting "Do not display the lock screen"
+4. Restart the computer
+
 
 | Navigation                |
 | ------------------------- |

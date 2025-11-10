@@ -17,7 +17,7 @@ This repository is meant for personal use purposes. But in some cases, it might 
 
 | Windows                               |
 | :-----------------------------------: |
-| [Windows issues](windows-issues.md)   |
+| [Windows](windows.md)   |
 | [Programs issues](programs-issues.md) |
 | <img width=200 alt=""/>               |
 
