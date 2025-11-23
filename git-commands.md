@@ -177,7 +177,7 @@ git config --global --list
 ## How to set the default editor to open with git
 
 ```batch
-git --global editor.core <editor-here> -w
+git config --global editor.core <editor-here> -w
 ```
 
 - _E.g._ Setting vscode as the default editor

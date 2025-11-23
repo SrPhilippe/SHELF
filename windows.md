@@ -9,6 +9,7 @@
 | [Windows shortcuts](#windows-shortcuts)                                                              |
 | [Windows 10/11 Blurred apps fix](#windows-1011-blurred-apps-fix)                                     |
 | [Autorun file](#autorun-file)                                                                        |
+| [Disable Memory Compression on Windows](#disable-memory-compression-on-windows)                      |
 | [Windows Activation](#windows-activation)                                                            |
 | [Get full ownership on windows](#get-full-ownership-on-windows)                                      |
 | [Issue with hard disk windows in 100%](#issue-with-hard-disk-windows-in-100)                         |
@@ -20,6 +21,7 @@
 | [Missing open/close laptop lid in power options](#missing-openclose-laptop-lid-in-power-options)     |
 | [How to Change Windows boot logo](#how-to-change-windows-boot-logo)                                  |
 | [Restore old right-click context menu in W11](#restore-old-right-click-context-menu-in-w11)          |
+| [Disable clock in the lock screen](#disable-clock-in-the-lock-screen)                                |
 
 ---
 
@@ -296,14 +298,16 @@ Otherwise, if you want to remove it you can change the parameter at the end of t
 
 1. Download this [HackerBGRT](https://github.com/Metabolix/HackBGRT)
 2. Create an image with 250x250 resolution and BMP format with a full black background color
-   - The image must be 24-bit format named `boot_image.bpm`
-3. Execute the `setup` file and press `I` to install
-4. A txt file will pop-up, let it open
-5. Execute paint with administrator priviledges
-6. Open the `.bmp` image you created
-7. Click `File > Save as > Select A:/EFI/HackBGRT/`
-8. Overwrite the `splash.bmp` image in this folder
-9. Close paint and then the cmd terminal
+   - The image must be 24-bit format named ~~`boot_image.bmp`~~ `splash.bmp`
+3. Inside HackerBGRT folder you downloaded, replace the original BGRT `splash.bmp` with your `splash` file
+4. Execute the `setup` file as administrator and press `I` to install
+5. Paint will open showing your `splash` file
+6. Click `File > Save as > Select A:/EFI/HackBGRT/`
+7. Overwrite the `splash.bmp` image in this folder
+8. Close Paint
+9. Wait for the CMD to finish the proccess
+10. Press any key to close CMD
+11. Restart the computer to test your new `boot_image` logo
 
 ---
 
@@ -323,6 +327,29 @@ If you want to restore the modern context menu just do the following command:
 ```bash
 reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
 ```
+
+---
+
+## Disable Memory Compression on Windows
+
+1. Press <kbd>WIN</kbd> + <kbd>R</kbd> and type `resmon`
+2. Go to the tab "memory" and check what's using more memory on your computer, if it's the memory compression then you can continue with this tutorial
+3. Open Windows PowerShell as administrator
+4. type `Get-MMAgent` to check if "memory compression" is enabled
+5. type `Disable-MMAgent -MemoryCompression`
+6. type `Get-MMAgent` to check if it's now disabled
+
+---
+
+## Disable "clock" in the lock screen
+
+Windows doesn't have an option to disable the clock from lockscreen. So instead we disable the lockscreen itself.
+
+1. On the windows search bar type `gepedit` click Edit Group Policy
+2. Go to <kbd>Administrative Templates > Control Panel > Personalization</kbd>
+3. Enable the setting "Do not display the lock screen"
+4. Restart the computer
+
 
 | Navigation                |
 | ------------------------- |
