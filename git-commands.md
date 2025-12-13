@@ -68,7 +68,13 @@ git branch development
 :: Creates a new branch named developed
 ```
 
-> Tip: When creating a branch _e.g._ `git branch development`, you can publish this branch with the following command: `git push --set-upstream origin development`
+**Tip:** When creating a branch _e.g._ `git branch development`, you can publish this branch with the following command:
+
+```batch
+git push --set-upstream origin development
+```
+
+---
 
 ```batch
 git checkout
