@@ -84,10 +84,12 @@
 
 ## Voice Dictation APPS
 
-- Voicy (PAID - It has a lifetime plan) GOOD
-- Wispr Flow (PAID - Expensive) BEST EXPERIENCE
-- Aqua Voice (PAID - Expensive) GOOD OPTION
-- Amical (100% free)
+- [Voicy](https://usevoicy.com/) (PAID - BUT HAS A LIFETIME PLAN) GOOD
+- [Wispr Flow](https://wisprflow.ai/) (PAID - Expensive) BEST EXPERIENCE
+- [Aqua Voice](https://app.aquavoice.com/) (PAID - Expensive) GOOD OPTION
+- [Amical](https://amical.ai/) (100% free) - BEST OPTION, STABLE, ACCURATE
+- [Whispering](https://epicenter.so/whispering/) (100% free) NOT TOO GOOD YET
+- [Handy](https://handy.computer/) **(100% free) - BEST OPTION, STABLE, ACCURATE, POST PROCESSING AI**
 
 | Navigation                     |
 | ------------------------------ |
