@@ -2,11 +2,13 @@
 
 | Menu                                       |
 | :----------------------------------------: |
-| [Standard](#standard)                      |
+| [Main Apps](#main-apps)                    |
 | [Windows Themes](#windows-themes-and-look) |
 | [Subscription](#subscription)              |
 | [Other tools](#other-tools)                |
+| [Dictation APPS](#voice-dictation-apps)       |
 | [Hardware](#hardware)                      |
+| [3D Printer](#3d-printer)                  |
 | [Current PC](#current-computer)            |
 | [MacOS](#macos)                            |
 
@@ -16,17 +18,9 @@
 | ------------------------- |
 | [🠜 go back](./readme.md) |
 
-## Standard
+## Main Apps
 
 - Adobe Acrobat
-- Adobe Photoshop
-- Adobe Premiere Pro
-- Adobe Illustrator
-- Microsoft Office
-- Microsoft Edge
-- Spotify (W-STORE)
-- Malwarebytes
-- Steam
 - Stremio
 - Notion
 - Sketchable
@@ -82,6 +76,18 @@
 - Free Download Manager
 - G-hub
 - Guitar Rig
+
+| Navigation                     |
+| ------------------------------ |
+| [🠝 go top](#windows-programs) |
+| [🠜 go back](./readme.md)      |
+
+## Voice Dictation APPS
+
+- Voicy (PAID - It has a lifetime plan) GOOD
+- Wispr Flow (PAID - Expensive) BEST EXPERIENCE
+- Aqua Voice (PAID - Expensive) GOOD OPTION
+- Amical (100% free)
 
 | Navigation                     |
 | ------------------------------ |
