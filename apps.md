@@ -91,6 +91,8 @@
 - [Whispering](https://epicenter.so/whispering/) (100% free) NOT TOO GOOD YET
 - [Handy](https://handy.computer/) **(100% free) - BEST OPTION, STABLE, ACCURATE, POST PROCESSING AI**
 
+https://generativelanguage.googleapis.com/v1beta/openai/
+
 | Navigation                     |
 | ------------------------------ |
 | [🠝 go top](#windows-programs) |
