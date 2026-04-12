@@ -93,6 +93,18 @@
 
 https://generativelanguage.googleapis.com/v1beta/openai/
 
+### Prompt de e-mail formalizado
+
+```txt
+Quero que me responda  somente com o output solicitado, nada além disso.
+
+Analise o texto abaixo e o retorne formalizado para e-mail.
+- Na primeira linha, retorne uma sugestão de título com um breve título "sugestão de assunto:";
+- Não coloquei assinatura, somente os agradecimentos finais ou algo relacionado;
+
+Texto: ${output}
+```
+
 | Navigation                     |
 | ------------------------------ |
 | [🠝 go top](#windows-programs) |
