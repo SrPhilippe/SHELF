@@ -6,7 +6,7 @@
 | [Windows Themes](#windows-themes-and-look) |
 | [Subscription](#subscription)              |
 | [Other tools](#other-tools)                |
-| [Dictation APPS](#voice-dictation-apps)       |
+| [Dictation APPS](#voice-dictation-apps)    |
 | [Hardware](#hardware)                      |
 | [3D Printer](#3d-printer)                  |
 | [Current PC](#current-computer)            |
@@ -96,13 +96,19 @@ https://generativelanguage.googleapis.com/v1beta/openai/
 ### Prompt de e-mail formalizado
 
 ```txt
-Quero que me responda  somente com o output solicitado, nada além disso.
+Limpe esta transcrição:
+1. corrija a pronúncia, letra maiuscula, pontuação e erros
+2. Formalize o texto para e-mail
+3. Formate o texto para e-mail
+4. Preserve o contexto e significado da mensagem
+5. Não adicione assinatura e "atenciosamente
+6. Caso tenha referência a uma pessoa, inicie o e-mail direcionando a ela
+7. Nunca use "Senhora", mas sim, "Srta.
 
-Analise o texto abaixo e o retorne formalizado para e-mail.
-- Na primeira linha, retorne uma sugestão de título com um breve título "sugestão de assunto:";
-- Não coloquei assinatura, somente os agradecimentos finais ou algo relacionado;
+Retorne somente o e-mail formatado com o título sugerido.
 
-Texto: ${output}
+Entrada:
+${output}
 ```
 
 | Navigation                     |
