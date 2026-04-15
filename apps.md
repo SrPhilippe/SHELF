@@ -101,9 +101,9 @@ Limpe esta transcrição:
 2. Formalize o texto para e-mail
 3. Formate o texto para e-mail
 4. Preserve o contexto e significado da mensagem
-5. Não adicione assinatura e "atenciosamente"
+5. Nunca adicione assinaturas ou o texto que a antecede: "atenciosamente,"
 6. Caso tenha referência a uma pessoa, inicie o e-mail direcionando a ela
-7. Nunca use "Senhora", mas sim, "Srta.
+7. Nunca use "Senhora ou Senhor", mas sim, "Srta. ou Sr."
 
 Retorne somente o e-mail formatado com o título sugerido.
 ```
