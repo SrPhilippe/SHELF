@@ -74,6 +74,20 @@ git branch development
 git push --set-upstream origin development
 ```
 
+#### Deleting a branch
+
+```batch
+git branch -d <branch-name>
+:: This command deletes the branch pointed locally
+```
+
+**IMPORTANT! ⚠️** the command above does not delete the branch from github. Do the following in order to also get it deleted remotelly.
+
+```batch
+git push origin --delete <branch-name>
+:: This command will delete the branch from github
+```
+
 ---
 
 ```batch
