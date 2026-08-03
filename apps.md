@@ -7,7 +7,7 @@
 | [Subscription](#subscription)              |
 | [Other tools](#other-tools)                |
 | [Dictation APPS](#voice-dictation-apps)    |
-| [Hardware](#hardware)                      |
+| [Hardware](#hardware-windows)              |
 | [3D Printer](#3d-printer)                  |
 | [Current PC](#current-computer)            |
 | [MacOS](#macos)                            |
