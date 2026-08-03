@@ -85,14 +85,10 @@
 ## Voice Dictation APPS
 
 - [Voicy](https://usevoicy.com/) - PAID but has a lifetime version
-- [SuperWhisper](https://superwhisper.com/) - PAID but has a lot of features in the basic version
 - [Wispr Flow](https://wisprflow.ai/) (PAID - Expensive) BEST EXPERIENCE
-- [Aqua Voice](https://app.aquavoice.com/) (PAID - Expensive) GOOD OPTION
-- [Amical](https://amical.ai/) (100% free) - BEST OPTION, STABLE, ACCURATE
-- [Whispering](https://epicenter.so/whispering/) (100% free) NOT TOO GOOD YET
 - [Handy](https://handy.computer/) **(100% free) - BEST OPTION, STABLE, ACCURATE, POST PROCESSING AI**
 
-https://generativelanguage.googleapis.com/v1beta/openai/
+<https://generativelanguage.googleapis.com/v1beta/openai/>
 
 ### Prompt de e-mail formalizado
 
@@ -107,6 +103,8 @@ Limpe esta transcrição:
 7. Nunca use "Senhora ou Senhor", mas sim, "Srta. ou Sr."
 
 Retorne somente o e-mail formatado com o título sugerido.
+
+Transcrição: ${output}
 ```
 
 | Navigation                     |
@@ -114,7 +112,7 @@ Retorne somente o e-mail formatado com o título sugerido.
 | [🠝 go top](#windows-programs) |
 | [🠜 go back](./readme.md)      |
 
-## Hardware
+## Hardware Windows
 
 - CPU-Z
 - AIDA 64
