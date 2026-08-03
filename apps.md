@@ -84,7 +84,8 @@
 
 ## Voice Dictation APPS
 
-- [Voicy](https://usevoicy.com/) (PAID - BUT HAS A LIFETIME PLAN) GOOD
+- [Voicy](https://usevoicy.com/) - PAID but has a lifetime version
+- [SuperWhisper](https://superwhisper.com/) - PAID but has a lot of features in the basic version
 - [Wispr Flow](https://wisprflow.ai/) (PAID - Expensive) BEST EXPERIENCE
 - [Aqua Voice](https://app.aquavoice.com/) (PAID - Expensive) GOOD OPTION
 - [Amical](https://amical.ai/) (100% free) - BEST OPTION, STABLE, ACCURATE
